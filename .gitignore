@@ -1,5 +1,19 @@
-node_modules/
+# Hexo 生成产物 & 缓存
 public/
 .deploy_git/
 db.json
 *.log
+
+# 依赖包
+node_modules/
+
+# 编辑器临时文件
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# 本地临时草稿（可选）
+source/_drafts/
