@@ -1,3 +1,9 @@
+---
+title: Hexo+Butterfly+GitHub 从零搭建个人博客（单仓库双分支+源码永久备份）
+date: 2026-07-18
+tags: []
+categories: []
+---
 # Hexo\+Butterfly\+GitHub 从零搭建个人博客（单仓库双分支\+源码永久备份）
 
 ## 前言
