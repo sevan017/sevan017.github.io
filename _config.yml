@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: 林间笔记
+subtitle: '林间笔记'
+description: '安静的记录人'
 keywords:
 author: 十七
-language: en
+language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://github.com/sevan017
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:

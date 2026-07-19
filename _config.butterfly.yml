@@ -25,6 +25,10 @@ menu:
   首页: / || fas fa-home
   归档: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
+  # 页面||fas fa-list:
+  #   Music: /music/ || fas fa-music
+  #   Movie: /movies/ || fas fa-video
+  # Link: /link/ || fas fa-link
   分类: /categories/ || fas fa-folder-open
   关于: /about/ || fas fa-heart
 
@@ -62,13 +66,13 @@ favicon: /img/favicon.png
 
 avatar:
   img: /img/avatar.png
-  effect: false
+  effect: true
 
 # Disable all banner images
 disable_top_img: false
 
 # If the banner of page not setting, it will show the default_top_img
-default_top_img:
+default_top_img: /img/background.jpg
 
 # The banner image of index page
 index_img: /img/background.jpg
@@ -77,20 +81,20 @@ index_img: /img/background.jpg
 archive_img: /img/background.jpg
 
 # Note: tag page, not tags page
-tags_img: /img/background.jpg
+tag_img: /img/background.jpg
 
 # The banner image of tag page, you can set the banner image for each tag
 # Format:
 #  - tag name: xxxxx
-tags_per_img: /img/background.jpg
+tag_per_img: /img/background.jpg
 
 # Note: category page, not categories page
-categories_img: /img/background.jpg
+category_img: /img/background.jpg
 
 # The banner image of category page, you can set the banner image for each category
 # Format:
 #  - category name: xxxxx
-categories_per_img: /img/background.jpg
+category_per_img: /img/background.jpg
 
 
 # Note: 关于我页面
@@ -98,12 +102,12 @@ about_img: /img/background.jpg
 about_per_img: /img/background.jpg
 
 # The background image of footer
-footer_img: false
+footer_img: true
 
 # Website Background
 # Can set it to color, image URL or an array containing colors and/or image URLs
 # If an array is provided, a random background will be selected from the array on each load
-background:
+background: /img/background.jpg
 
 cover:
   # Disable the cover or not
@@ -121,7 +125,7 @@ error_img:
 
 # A simple 404 page
 error_404:
-  enable: false
+  enable: true
   subtitle: 'Page Not Found'
   background: /img/error-page.png
 
@@ -157,9 +161,11 @@ index_site_info_top:
 # The height of top_img, eg: 300px/300em/300rem
 index_top_img_height:
 
+title: 林间笔记
+
 # The subtitle on homepage
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect
   effect: true
   # Customize typed.js
@@ -174,7 +180,12 @@ subtitle:
   # 3 - jinrishici.com
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
+  text: 林间笔记
   sub:
+    # - 今日事&#44;今日畢
+    # - Never put off till tomorrow what you can do today
+    - 上善若水
+    - 勇敢是处于逆境时的光芒
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
@@ -269,12 +280,16 @@ footer:
   nav:
   owner:
     enable: true
-    since: 2025
+    since: 2019
   # Copyright of theme and framework
   copyright:
     enable: true
     version: true
-  custom_text:
+  custom_text: 
+    - 嗨, 欢迎来到我的<a href="https://sevan017.github.io/">博客</a>!
+    # - <a href="icp链接"><img class="icp-icon" src="icp图片"><span>备案号：xxxxxx</span></a>
+
+
 
 # --------------------------------------
 # Aside Settings
