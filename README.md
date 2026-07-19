@@ -4,7 +4,7 @@ README.md
 
 ### 📊 仓库状态
 
-<img src="https:/img.shields.io/github/repo-size/sevan017sevan017.github.io?color=95e1d3&amp;style=flat-square" alt="Repo Size"/>
+<img src="https://img.shields.io/github/repo-size/sevan017/sevan017.github.io?color=95e1d3&style=flat-square" alt="Repo Size"/>
 
 
 
