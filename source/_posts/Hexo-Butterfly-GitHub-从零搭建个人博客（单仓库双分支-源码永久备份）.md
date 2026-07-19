@@ -4,6 +4,7 @@ date: 2026-07-18
 tags: [Hexo,Butterfly,GitHub]
 categories: [博客搭建]
 permalink: hexo-butterfly-github-build-blog/
+copyright_url: https://sevan017.github.io/hexo-butterfly-github-build-blog/
 ---
 
 ## 前言
