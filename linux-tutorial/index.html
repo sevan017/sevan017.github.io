@@ -1,0 +1,262 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>linux教程 | 林间笔记</title><meta name="author" content="十七"><meta name="copyright" content="十七"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="狂神说Linux笔记 在需要时可以快速恢复。如果是直接关闭虚拟机的话，每次启动虚拟机都会耗费很多时间。 2、硬件参数的设置建议：先关闭虚拟机，再修改配置 image-20210811201840311image-20210811201840311 3、快照和系统恢复当系统出现严重错误怎么办？ 1、重装系统 优点：操作简单 缺点：Ubuntu系统的重装会比较耗时。原来系统的配置，文件以及数据没了。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="linux教程">
+<meta property="og:url" content="https://github.com/linux-tutorial/index.html">
+<meta property="og:site_name" content="林间笔记">
+<meta property="og:description" content="狂神说Linux笔记 在需要时可以快速恢复。如果是直接关闭虚拟机的话，每次启动虚拟机都会耗费很多时间。 2、硬件参数的设置建议：先关闭虚拟机，再修改配置 image-20210811201840311image-20210811201840311 3、快照和系统恢复当系统出现严重错误怎么办？ 1、重装系统 优点：操作简单 缺点：Ubuntu系统的重装会比较耗时。原来系统的配置，文件以及数据没了。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://github.com/img/avatar.png">
+<meta property="article:published_time" content="2021-10-13T00:11:39.000Z">
+<meta property="article:modified_time" content="2026-07-20T02:13:04.067Z">
+<meta property="article:author" content="十七">
+<meta property="article:tag" content="Linux">
+<meta property="article:tag" content="运维">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://github.com/img/avatar.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "linux教程",
+  "url": "https://github.com/linux-tutorial/",
+  "image": "https://github.com/img/avatar.png",
+  "datePublished": "2021-10-13T00:11:39.000Z",
+  "dateModified": "2026-07-20T02:13:04.067Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "十七",
+      "url": "https://github.com"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://github.com/linux-tutorial/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.6.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.1/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        const data = { value }
+
+        if (ttl != null) {
+          data.expiry = Date.now() + ttl * 86400000
+        }
+
+        localStorage.setItem(key, JSON.stringify(data))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return
+
+        try {
+          const data = JSON.parse(itemStr)
+
+          if (data.expiry && Date.now() > data.expiry) {
+            localStorage.removeItem(key)
+            return
+          }
+
+          return data.value
+        } catch {
+          localStorage.removeItem(key)
+        }
+      }
+    }
+
+    const scriptCache = new Map()
+    const cssCache = new Map()
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => {
+        if (scriptCache.has(url)) {
+          return scriptCache.get(url)
+        }
+
+        const promise = new Promise((resolve, reject) => {
+          const script = document.createElement('script')
+
+          script.src = url
+          script.async = true
+
+          for (const key in attr) {
+            script.setAttribute(key, attr[key])
+          }
+
+          script.onload = resolve
+          script.onerror = reject
+
+          document.head.appendChild(script)
+        })
+
+        scriptCache.set(url, promise)
+
+        return promise
+      },
+      getCSS: (url, id) => {
+        if (cssCache.has(url)) {
+          return cssCache.get(url)
+        }
+
+        const promise = new Promise((resolve, reject) => {
+          const link = document.createElement('link')
+
+          link.rel = 'stylesheet'
+          link.href = url
+
+          if (id) {
+            link.id = id
+          }
+
+          link.onload = resolve
+          link.onerror = reject
+
+          document.head.appendChild(link)
+        })
+
+        cssCache.set(url, promise)
+
+        return promise
+      },
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const metaThemeColor = document.querySelector('meta[name="theme-color"]')
+      const activateDarkMode = () => {
+        document.documentElement.dataset.theme = 'dark'
+        if (metaThemeColor !== null) {
+          metaThemeColor.setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.dataset.theme = 'light'
+        if (metaThemeColor !== null) {
+          metaThemeColor.setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'linux教程',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'post'
+}</script><meta name="generator" content="Hexo 7.3.0"></head><body><div class="bg-animation" id="web_bg" style="background-image: url(/img/background.jpg);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">40</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">10</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(/img/background.jpg);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">林间笔记</span></a><a class="nav-page-title" href="/"><span class="site-name">linux教程</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">linux教程</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-10-13T00:11:39.000Z" title="发表于 2021-10-13 08:11:39">2021-10-13</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2026-07-20T02:13:04.067Z" title="更新于 2026-07-20 10:13:04">2026-07-20</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Linux%E7%AC%94%E8%AE%B0/">Linux笔记</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><p><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s?__biz=Mzg2NTAzMTExNg==&mid=2247483879&idx=1&sn=96181b566c35679e48db6bd26fb59a2c&scene=19#wechat_redirect">狂神说Linux笔记</a></p>
+<p>在需要时可以快速恢复。如果是直接关闭虚拟机的话，每次启动虚拟机都会耗费很多时间。</p>
+<p>2、硬件参数的设置<br>建议：先关闭虚拟机，再修改配置</p>
+<p>image-20210811201840311<br>image-20210811201840311</p>
+<p>3、快照和系统恢复<br>当系统出现严重错误怎么办？</p>
+<p>1、重装系统</p>
+<p>优点：操作简单</p>
+<p>缺点：Ubuntu系统的重装会比较耗时。原来系统的配置，文件以及数据没了。</p>
+<p>2、系统快照：VMware提供的系统功能</p>
+<p>当系统出现问题的时候可以使用最近一次的快照进行恢复。</p>
+<p>Linux系统操作<br>​ Linux可以用作个人桌面（办公，看视频，听音乐…),但其主要还是用于服务器环境。常用应用：文件管理器、命令行终端、文本编辑器</p>
+<p>1、文件系统<br>对windows来说，每个分区有一个盘符。每一个盘符实际上是一个分区partition。</p>
+<p>在Linux下没有C:等盘符概念。Linux使用统一的目录树结构。</p>
+<p>none<br>&#x2F;<br>&#x2F;home&#x2F;w #用户目录<br>&#x2F;root<br>&#x2F;bin<br>&#x2F;mnt<br>&#x2F;user<br>&#x2F;etc<br>1.1、用户目录<br>用户目录，即用户自己的目录。如用户w用户目录为&#x2F;home&#x2F;w 。Linux系统上可以支持多个用户，每个用户有一个目录。特例：超级用户root，其用户目录为&#x2F;root。</p>
+<p>权限机制：对普通用户来说，他能操作的目录只有用户目录。root用户没有限制可以操作任何文件和目录。</p>
+<p>2、Linux常用命令<br>none<br>ls&#x2F;cd&#x2F;pwd #目录切换和查看<br>mkdir&#x2F;rmdir #目录的创建和删除<br>cp&#x2F;rm&#x2F;mv #复制 删除 移动<br>tar&#x2F;zip&#x2F;unzip #压缩 解压<br>ln…<br>查看目录ls<br>ls,即list,列出目录下的所有项：如 查看当前目录 ls, 查看&#x2F;home&#x2F;w目录ls &#x2F;home&#x2F;w</p>
+<p>详细模式查看 ls -l &#x2F;home&#x2F;w<br>其中 -l 为参数 参数一般义 -开头</p>
+<p>none<br>w@ubuntu21:~$ ls -l &#x2F;home&#x2F;w<br>总用量 36<br>drwxr-xr-x 2 w w 4096  8月 11 11:43 公共的<br>drwxr-xr-x 2 w w 4096  8月 11 11:43 模板<br>drwxr-xr-x 2 w w 4096  8月 11 11:43 视频<br>drwxr-xr-x 2 w w 4096  8月 11 11:43 图片<br>drwxr-xr-x 2 w w 4096  8月 11 11:43 文档<br>drwxr-xr-x 2 w w 4096  8月 11 11:43 下载<br>drwxr-xr-x 2 w w 4096  8月 11 11:43 音乐<br>drwxr-xr-x 2 w w 4096  8月 11 11:43 桌面<br>drwxr-xr-x 3 w w 4096  8月 11 11:44 snap<br>在输入命令和路径时，按tab建可以自动补全。如 ls &#x2F;ho -&gt; ls &#x2F;home</p>
+<p>按上下键可以翻阅输入历史的历史命令</p>
+<p>显示当前位置pwd<br>pwd,即print working directory 显示当前工作目录</p>
+<p>切换目录cd<br>cd，change directory 切换目录</p>
+<p>切换到用户主目录：直接cd</p>
+<p>切换到某个目录：cd &#x2F;home&#x2F;w&#x2F;snap</p>
+<p>none<br>几个特殊目录<br>~ 代表当前用户的主目录<br>. 代表当前目录<br>.. 代表上一节目录<br>cd ~ 切换到用户主目录,和cd一样<br>cd ~&#x2F;snap 切换到主目录下的snap目录<br>cd ..&#x2F;www 切换到上级目录，再到www子目录</p>
+<p>在ls命令中,也可以使用~ …表示路径<br>ls ~<br>ls .&#x2F;www<br>还有更复杂的 .&#x2F;hello&#x2F;abc&#x2F;…&#x2F;123&#x2F;.&#x2F;other&#x2F;test.xml<br>目录操作<br>mkdir，即make directory创建目录</p>
+<p>mkdir abc</p>
+<p>mkdir -p abc&#x2F;123&#x2F;test</p>
+<p>使用-p参数，可以将路径的层次目录全部创建</p>
+<p>rmdir，即remove directory删除目录</p>
+<p>rmdir abc 如果目录非空，则删除失败</p>
+<p>rm ,即 remove 删除文件或目录</p>
+<p>rm -rf abc 删除abc,和子项一起删除</p>
+<p>其中,r表示recursion(递归删除)，f表示force (强制删除)</p>
+<p>rm<br>rm -rf &#x2F;* 删除根目录下的所有东西（慎用)<br>cp,即copy复制文件或者目录</p>
+<p>cp -rf snap snap2</p>
+<p>强制递归复制snap，如果snap2不存在则会创建snap2,如果snap2存在则会将sanp的内容复制到snap2下。</p>
+<p>mv,即move ,移动文件或者目录（重命名)</p>
+<p>move hello helloworld</p>
+<p>rm&#x2F;cp&#x2F;mv这三个命令对文件同样适用</p>
+<p>归档：备份<br>在Linux系统重要的程序或者文件需要备份，首先将其打包为一个文件（tar包），让后在将tar文件备份到某个位置。</p>
+<p>tar,即tape(磁带) archive(档案) 档案打包</p>
+<p>创建档案包</p>
+<p>none<br>tar -cvf example.tar example<br>其中c,表示create创建档案</p>
+<p>v,表示verbose显示详情</p>
+<p>f,表示file</p>
+<p>也可以将多个目录打包 tar -cvf xxx.tar file1 file2 file3</p>
+<p>还原档案包（解压压缩包)</p>
+<p>none<br>tar -xvf example.tar<br>tar -xvf example.tar -C outdir<br>其中,-C参数指定目标目录(C大写表示切换一个目录)，默认解压到当前目录下<br>上面的tar格式并没有压缩，体积较大。所以可以通过归档并压缩</p>
+<p>归档并压缩<br>none<br>tar -czvf example.tar.gz example 参数z表示压缩 先归档在使用gz压<br>解压缩<br>tar -xzvf example.tar.gz<br>tar -xzvf example.tar.gz -C outdir<br>软链接，相当于Windows下的快捷方式<br>使用ln命令（link）来创建软链接</p>
+<p>ln -s source link 其中，-s表示soft软链接（默认为硬)，除了软链接还有硬链接。</p>
+<p>如：ln -s example example2</p>
+<p>删除软链接对原文件没有影响。</p>
+<p>删除原文件，则软链接失效。</p>
+<p>以ls -l查看文件详情时，可以看到文件目标路径,查看当前文件是否是软链接</p>
+<p>比如，ls -l &#x2F;</p>
+<p>可以发现，&#x2F;bin 实际指向&#x2F;user&#x2F;bin</p>
+<p>none<br>lrwxrwxrwx   1 root root          7  8月 11 10:41 bin -&gt; usr&#x2F;bin<br>宿主机和虚拟机之间的拷贝粘贴<br>一般情况下，文本和文件都可以拷贝</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://github.com">十七</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://github.com/linux-tutorial/">https://github.com/linux-tutorial/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://github.com" target="_blank">林间笔记</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Linux/">Linux</a><a class="post-meta__tags" href="/tags/%E8%BF%90%E7%BB%B4/">运维</a></div><div class="post-share"><div class="social-share" data-image="/img/avatar.png" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related full-width" href="/hexo-butterfly-github-build-blog/" title="Hexo+Butterfly+GitHub 从零搭建个人博客（单仓库双分支+源码永久备份）"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">Hexo+Butterfly+GitHub 从零搭建个人博客（单仓库双分支+源码永久备份）</div></div><div class="info-2"><div class="info-item-1">前言本文为全网最干净的 Windows 从零搭建 Hexo 博客实录，解决绝大多数新手踩坑问题：  ✅ 仅使用 一个 GitHub 仓库（无需多仓库）  ✅ master 分支：存放完整博客源码（永久备份）  ✅ gh-pages 分支：自动托管静态网页（对外访问博客）  ✅ Butterfly 主题采用 Git 子模块 安装（不嵌套仓库、可一键更新）  ✅ 彻底解决 Windows cp 命令报错、LF&#x2F;CRLF 换行警告、仓库嵌套冲突、推送被拒等问题   环境：Windows 10&#x2F;11 + Git + Node.js + Hexo + Butterfly 一、基础环境安装（必备）1. 安装 Git官网下载安装：https://git-scm.com&#x2F;downloads 安装全程默认下一步，安装完成后终端验证： 1git --version  2. 安装 Node.js安装 LTS 长期稳定版：https://nodejs.org&#x2F; 务必勾选自动配置环境变量，验证： 12node -vnpm -v  3. 配置 Git 全局账号替换为自...</div></div></div></a></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">十七</div><div class="author-info-description">安静的记录人</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">40</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">10</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><a id="card-info-btn" href="https://github.com/sevan017"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/07/20/langgraph/" title="langgraph">langgraph</a><time datetime="2026-07-20T02:39:05.000Z" title="发表于 2026-07-20 10:39:05">2026-07-20</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/07/20/%E9%A1%BA%E5%BA%8F%EF%BC%88%E7%BA%BF%E6%80%A7%EF%BC%89%E6%9F%A5%E6%89%BE/" title="顺序（线性）查找">顺序（线性）查找</a><time datetime="2026-07-20T02:26:03.000Z" title="发表于 2026-07-20 10:26:03">2026-07-20</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/07/20/%E6%95%B0%E8%BD%B4%E8%A6%86%E7%9B%96/" title="数轴覆盖">数轴覆盖</a><time datetime="2026-07-20T02:25:48.000Z" title="发表于 2026-07-20 10:25:48">2026-07-20</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/07/20/%E9%87%91%E5%B1%B1%E4%BA%91%E7%AC%94%E8%AF%95/" title="金山云笔试">金山云笔试</a><time datetime="2026-07-20T02:25:28.000Z" title="发表于 2026-07-20 10:25:28">2026-07-20</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/07/20/spring%E8%AF%A6%E8%A7%A3/" title="spring详解">spring详解</a><time datetime="2026-07-20T02:25:09.000Z" title="发表于 2026-07-20 10:25:09">2026-07-20</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url(/img/keyboard.png);"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2019 - 2026 By 十七</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 7.3.0</a><span class="footer-separator">|</span><span>主题 </span><a href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.6.0</a></span></div><div class="footer_custom_text">嗨, 欢迎来到我的<a target="_blank" rel="noopener" href="https://sevan017.github.io/">博客</a>!</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.6.0"></script><script src="/js/main.js?v=5.6.0"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
