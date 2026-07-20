@@ -102,7 +102,7 @@ about_img: /img/background.jpg
 about_per_img: /img/background.jpg
 
 # The background image of footer
-footer_img: true
+footer_img: /img/keyboard.png
 
 # Website Background
 # Can set it to color, image URL or an array containing colors and/or image URLs
@@ -186,6 +186,7 @@ subtitle:
     # - Never put off till tomorrow what you can do today
     - 上善若水
     - 勇敢是处于逆境时的光芒
+    - 弱小不是生存的障碍，傲慢才是
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
