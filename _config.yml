@@ -14,7 +14,8 @@ timezone: ''
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 # url: https://github.com/sevan017  是否配置项目名称需要和github 	root 取值匹配
-url: https://github.com
+url: https://welcomeme.cn
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -101,7 +102,11 @@ theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
+## 双部署配置：同时推送到 GitHub Pages 和腾讯云服务器
 deploy:
   type: git
-  repo: git@github.com:sevan017/sevan017.github.io.git
-  branch: gh-pages
+  repo:
+    # GitHub Pages仓库，分支 gh‑pages
+    github: git@github.com:sevan017/sevan017.github.io.git,gh-pages
+    # 腾讯云裸仓库，分支 master
+    cvm: ubuntu@124.220.133.56:/home/ubuntu/hexo.git,master

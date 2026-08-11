@@ -187,6 +187,7 @@ subtitle:
     - 上善若水
     - 勇敢是处于逆境时的光芒
     - 弱小不是生存的障碍，傲慢才是
+    - 应该有更好的方式开始新的一天，而不是千篇一律的在每个早上醒来
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
@@ -287,9 +288,8 @@ footer:
     enable: true
     version: true
   custom_text: 
-    - 嗨, 欢迎来到我的<a href="https://sevan017.github.io/">博客</a>!
-    # - <a href="icp链接"><img class="icp-icon" src="icp图片"><span>备案号：xxxxxx</span></a>
-
+# - 嗨, 欢迎来到我的<a href="https://sevan017.github.io/">博客</a>!
+    - <a href="https://beian.miit.gov.cn/" target="_blank"> ICP备案/许可证号：滇ICP备2026010061号</a>
 
 
 # --------------------------------------
