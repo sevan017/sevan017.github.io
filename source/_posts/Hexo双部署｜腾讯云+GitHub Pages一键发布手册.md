@@ -7,19 +7,17 @@ permalink: hexo-dual-deploy-cvm-githubpages/
 copyright_url: https://sevan017.github.io/hexo-dual-deploy-cvm-githubpages/
 ---
 
----
+## 前言
+- ✅ **功能目标**：本地写完笔记，执行一条命令，**同时自动发布到腾讯云独立域名博客 \+ GitHub Pages镜像博客**
 
-**功能目标**：本地写完笔记，执行一条命令，**同时自动发布到腾讯云独立域名博客 \+ GitHub Pages镜像博客**
+- ✅ **运行环境**：Windows本地Hexo \+ 腾讯云Ubuntu22\.04
 
-**运行环境**：Windows本地Hexo \+ 腾讯云Ubuntu22\.04
+- ✅ **编辑器规范**：全程使用vim，不使用nano
 
-**编辑器规范**：全程使用vim，不使用nano
+- ✅ **已有基础**：GitHub Pages已长期正常部署，仅新增腾讯云服务器双部署
 
-**已有基础**：GitHub Pages已长期正常部署，仅新增腾讯云服务器双部署
+- ✅ **密钥适配**：本地为RSA密钥 `id_rsa.pub`，无需重新生成密钥
 
-**密钥适配**：本地为RSA密钥 `id_rsa.pub`，无需重新生成密钥
-
----
 
 ## 一、腾讯云服务器一次性部署配置
 
@@ -234,7 +232,33 @@ cd /home/ubuntu/hexo.git
 GIT_WORK_TREE=/var/www/blog git checkout -f
 ```
 
-### 问题2：同步报错 `Permission denied` 无法删除/创建文件
+### 问题2：Git推送远程报错 unable to unlink old xxx / Permission denied（最新实测报错）
+
+**报错日志特征**：推送成功后远程自动同步阶段报错，无法删除旧文章页面文件
+
+```bash
+remote: error: unable to unlink old '2026/07/20/File相关类/index.html': Permission denied
+remote: error: unable to unlink old '2026/07/20/IO模式/index.html': Permission denied
+remote: error: unable to unlink old '2026/07/20/JVM/index.html': Permission denied
+```
+
+**根因**：此前网站静态文件归属 `www-data` 用户，Git钩子以 `ubuntu` 用户运行，仅拥有读权限、无删除/覆盖旧文件权限，导致更新失败、旧页面残留。
+
+**永久根治方案（服务器一键执行）**：彻底变更网站目录归属为钩子运行用户ubuntu，彻底解决读写删除权限问题
+
+```bash
+# 递归修改目录及所有文件归属、权限
+sudo chown -R ubuntu:ubuntu /var/www/blog
+sudo chmod -R 755 /var/www/blog
+
+# 强制同步一次最新代码，覆盖所有旧文件
+cd /home/ubuntu/hexo.git
+GIT_WORK_TREE=/var/www/blog git checkout -f
+```
+
+**验证修复成功**：无任何 Permission denied 报错，旧文件正常删除、新文章文件正常生成。
+
+**后续保障**：此后所有 `hexo clean && hexo g -d` 推送，均可自动删除旧文件、更新新内容，永久杜绝该权限报错，且不影响Nginx网页正常访问。
 
 **根因**：网站目录文件归属为www\-data，ubuntu用户无读写删除权限
 
@@ -287,5 +311,3 @@ scp -r D:\你的Hexo项目路径\public\* ubuntu@124.220.133.56:/var/www/blog
 |退出编辑模式|`Esc`|
 |保存并退出|`:wq`|
 |不保存强制退出|`:q!`|
-
-> （注：部分内容可能由 AI 生成）
