@@ -62,9 +62,9 @@ prismjs:
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
-  per_page: 10
-  order_by: -date
+  path: ''          # 文章列表页输出目录，''=网站根目录（首页）
+  per_page: 6       # 每页展示多少篇文章
+  order_by: -date   # 排序，-date 按日期倒序（最新在前）
 
 # Category & Tag
 default_category: uncategorized
