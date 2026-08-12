@@ -291,10 +291,10 @@ footer:
     <div class="footer-custom">
       <div>
         <a href="https://www.welcomeme.cn/" target="_blank">- 嗨, 欢迎来到我的博客</a>
-        （备用：<a href="https://sevan017.github.io/" target="_blank">Github镜像</a>）!\
+        （备用：<a href="https://sevan017.github.io/" target="_blank">Github镜像</a>）
       </div>
       <div style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center;align-items:center;">
-        <a href="https://beian.miit.gov.cn/" target="_blank">滇ICP备2026010061号</a>
+        <span>ICP备案/许可证号：<a href="https://beian.miit.gov.cn/" target="_blank">滇ICP备2026010061号</a></span>
         <a href="https://beian.mps.gov.cn/#/query/webSearch?code=53060202000318" rel="noreferrer" target="_blank">
           <img src="/img/beian.png" alt="公安备案" style="height:16px;vertical-align:middle;margin-right:4px;">滇公网安备53060202000318号
         </a>
