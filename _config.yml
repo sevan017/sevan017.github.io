@@ -110,3 +110,10 @@ deploy:
     github: git@github.com:sevan017/sevan017.github.io.git,gh-pages
     # 腾讯云裸仓库，分支 master
     cvm: ubuntu@124.220.133.56:/home/ubuntu/hexo.git,master
+
+# 本地搜索索引生成
+search:
+  path: search.xml
+  field: all
+  format: html
+  limit: 1000

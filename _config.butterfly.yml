@@ -518,27 +518,28 @@ math:
 search:
   # Choose: algolia_search / local_search / docsearch
   # leave it empty if you don't need search
-  use:
-  placeholder:
+  use: local_search
+  placeholder: 搜寻文章
 
-  # Algolia Search
+  # Algolia Search（暂不启用，保留结构即可）
   algolia_search:
     # Number of search results per page
     hitsPerPage: 6
 
-  # Local Search
+  # Local Search 核心配置（适配你的弹窗、提速优先）
   local_search:
     # Preload the search data when the page loads.
-    preload: false
+    preload: true
     # Show top n results per article, show all results by setting to -1
-    top_n_per_article: 1
+    top_n_per_article: 3
     # Unescape html strings to the readable one.
-    unescape: false
+    unescape: true
     # Enable pagination for search results
     pagination:
       enable: false
       # Number of search results per page
       hitsPerPage: 8
+    # CDN留空，优先读取本地生成的search.xml
     CDN:
 
   # Docsearch
