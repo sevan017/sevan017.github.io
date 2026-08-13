@@ -1,8 +1,8 @@
 ---
 title: 友情链接
 date: 2026-08-13 00:00:00
-type: links
-layout: links
+type: link
+layout: link
 comments: true
 ---
 
