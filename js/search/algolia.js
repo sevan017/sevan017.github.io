@@ -328,7 +328,7 @@ window.addEventListener('load', () => {
       parts.push(`<li class="ais-Pagination-item ais-Pagination-item--page"><a class="ais-Pagination-link" aria-label="Page ${nbPages}" href="#" data-page="${nbPages - 1}">${nbPages}</a></li>`)
     }
 
-    // Build prev/next link
+    // Build prev/next links
     const prevLink = isFirstPage
       ? '<span class="ais-Pagination-link ais-Pagination-link--disabled" aria-label="Previous Page"><i class="fas fa-angle-left"></i></span>'
       : `<a class="ais-Pagination-link" aria-label="Previous Page" href="#" data-page="${page - 1}"><i class="fas fa-angle-left"></i></a>`
@@ -400,7 +400,7 @@ window.addEventListener('load', () => {
       const hasResults = result.hits && result.hits.length > 0
       toggleResultsVisibility(hasResults)
 
-      // Refresh Pjax link
+      // Refresh Pjax links
       if (window.pjax) {
         window.pjax.refresh($hits)
       }
