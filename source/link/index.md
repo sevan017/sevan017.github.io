@@ -9,6 +9,8 @@ comments: true
 ## 🤝友链申请
 想要交换友链的朋友，可以在下方留言，格式参考：
 
+> ⚠️本页面未开启评论，请复制下方模板，前往👉**[留言板](/messageboard/)**提交友链申请。
+
 > 站点名称：xxx
 > 站点链接：https://xxx.com
 > 头像地址：https://xxx/avatar.png
