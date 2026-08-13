@@ -29,6 +29,7 @@ menu:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
   # Link: /link/ || fas fa-link
+  友情链接: /link/ || fas fa-link
   分类: /categories/ || fas fa-folder-open
   关于: /about/ || fas fa-heart
 

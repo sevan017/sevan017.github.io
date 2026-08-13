@@ -1,0 +1,16 @@
+- class_name: 友情链接
+  class_desc: 那些人，那些事
+  link_list:
+    # ↓新增这条
+    - name: 麦香鱼的无线电小屋
+      link: https://bi1mxy.github.io/
+      avatar: https://bi1mxy.github.io/img/logo.png
+      descr: bi1mxy的个人博客
+
+- class_name: 网站
+  class_desc: 值得推荐的网站
+  link_list:
+    - name: Hexo
+      link: https://hexo.io/zh-tw/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、简单且强大的网志框架
