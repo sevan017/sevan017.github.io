@@ -58,8 +58,15 @@ code_blocks:
 # Formal:
 #   icon: link || the description || color
 social:
-  # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
+  # === 新增 LeetCode ===
+  fa-brands fa-leetcode: https://leetcode.cn/u/seventeen-ten/ || LeetCode || "#FFA116"
+  # === 新增 牛客网（用代码图标替代，牛客主题蓝）===
+  fas fa-code: https://www.nowcoder.com/users/142039893 || 牛客网 || "#2E86FF"
+  fab fa-bilibili: https://space.bilibili.com/389311873 || B站 || "#FB7299"
+#  fab fa-tiktok: https://v.douyin.com/你的抖音主页链接 || 抖音 || "#000000"
+#  fab fa-weixin: javascript:; || 微信 || "#07C160"
+#  fab fa-zhihu: https://www.zhihu.com/people/你的知乎ID || 知乎 || "#0084FF"
+#  fas fa-rss: /atom.xml || RSS订阅 || "#FF8800"
 
 # --------------------------------------
 # Image Settings
