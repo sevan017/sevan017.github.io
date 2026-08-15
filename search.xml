@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>File相关类</title>
-    <url>/2026/07/20/File%E7%9B%B8%E5%85%B3%E7%B1%BB/</url>
+    <title>IO模式</title>
+    <url>/2026/07/20/IO%E6%A8%A1%E5%BC%8F/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>IO模式</title>
-    <url>/2026/07/20/IO%E6%A8%A1%E5%BC%8F/</url>
+    <title>File相关类</title>
+    <url>/2026/07/20/File%E7%9B%B8%E5%85%B3%E7%B1%BB/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -16,13 +16,13 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>Java异常机制</title>
-    <url>/2026/07/20/Java%E5%BC%82%E5%B8%B8%E6%9C%BA%E5%88%B6/</url>
+    <title>Lambda表达式</title>
+    <url>/2026/07/20/Lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>Lambda表达式</title>
-    <url>/2026/07/20/Lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F/</url>
+    <title>Java异常机制</title>
+    <url>/2026/07/20/Java%E5%BC%82%E5%B8%B8%E6%9C%BA%E5%88%B6/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -32,6 +32,11 @@
       <tags>
         <tag>AI</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>二进制</title>
+    <url>/2026/07/20/%E4%BA%8C%E8%BF%9B%E5%88%B6/</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>linux教程</title>
@@ -108,11 +113,6 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>二进制</title>
-    <url>/2026/07/20/%E4%BA%8C%E8%BF%9B%E5%88%B6/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>多线程详解</title>
     <url>/2026/07/20/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E8%AF%A6%E8%A7%A3/</url>
     <content><![CDATA[]]></content>
@@ -123,28 +123,13 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>序列化与反序列化</title>
-    <url>/2026/07/20/%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%8E%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>正则表达式</title>
-    <url>/2026/07/20/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>并发编程</title>
     <url>/2026/07/20/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>注解与反射</title>
-    <url>/2026/07/20/%E6%B3%A8%E8%A7%A3%E4%B8%8E%E5%8F%8D%E5%B0%84/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>网络编程</title>
-    <url>/2026/07/20/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/</url>
+    <title>序列化与反序列化</title>
+    <url>/2026/07/20/%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%8E%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -153,13 +138,23 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>连续子数组的最大和</title>
-    <url>/2026/07/20/%E8%BF%9E%E7%BB%AD%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C/</url>
+    <title>正则表达式</title>
+    <url>/2026/07/20/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>金山云笔试</title>
-    <url>/2026/07/20/%E9%87%91%E5%B1%B1%E4%BA%91%E7%AC%94%E8%AF%95/</url>
+    <title>网络编程</title>
+    <url>/2026/07/20/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>注解与反射</title>
+    <url>/2026/07/20/%E6%B3%A8%E8%A7%A3%E4%B8%8E%E5%8F%8D%E5%B0%84/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>连续子数组的最大和</title>
+    <url>/2026/07/20/%E8%BF%9E%E7%BB%AD%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -168,8 +163,229 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
+    <title>金山云笔试</title>
+    <url>/2026/07/20/%E9%87%91%E5%B1%B1%E4%BA%91%E7%AC%94%E8%AF%95/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>面向对象</title>
     <url>/2026/07/20/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>KMP算法</title>
+    <url>/2026/07/20/algorithm/KMP%E7%AE%97%E6%B3%95/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>二分查找</title>
+    <url>/2026/07/20/algorithm/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>二叉树的遍历</title>
+    <url>/2026/07/20/algorithm/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>二叉排序树</title>
+    <url>/2026/07/20/algorithm/%E4%BA%8C%E5%8F%89%E6%8E%92%E5%BA%8F%E6%A0%91/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>判断链表中是否有环</title>
+    <url>/2026/07/20/algorithm/%E5%88%A4%E6%96%AD%E9%93%BE%E8%A1%A8%E4%B8%AD%E6%98%AF%E5%90%A6%E6%9C%89%E7%8E%AF/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>合并两个排序的链表</title>
+    <url>/2026/07/20/algorithm/%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%8E%92%E5%BA%8F%E7%9A%84%E9%93%BE%E8%A1%A8/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>堆排序</title>
+    <url>/2026/07/20/algorithm/%E5%A0%86%E6%8E%92%E5%BA%8F/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>平衡二叉树（AVL）</title>
+    <url>/2026/07/20/algorithm/%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91%EF%BC%88AVL%EF%BC%89/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>合并两个有序数组</title>
+    <url>/2026/07/20/algorithm/%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>数轴覆盖</title>
+    <url>/2026/07/20/algorithm/%E6%95%B0%E8%BD%B4%E8%A6%86%E7%9B%96/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>数组中的重复数字</title>
+    <url>/2026/07/20/algorithm/%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E6%95%B0%E5%AD%97/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>旋转矩阵</title>
+    <url>/2026/07/20/algorithm/%E6%97%8B%E8%BD%AC%E7%9F%A9%E9%98%B5/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>赫夫曼树</title>
+    <url>/2026/07/20/algorithm/%E8%B5%AB%E5%A4%AB%E6%9B%BC%E6%A0%91/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>旋转词</title>
+    <url>/2026/07/20/algorithm/%E6%97%8B%E8%BD%AC%E8%AF%8D/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>青蛙跳台阶拓展问题</title>
+    <url>/2026/07/20/algorithm/%E9%9D%92%E8%9B%99%E8%B7%B3%E5%8F%B0%E9%98%B6%E6%8B%93%E5%B1%95%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Hexo+Butterfly+GitHub 从零搭建个人博客（单仓库双分支+源码永久备份）</title>
+    <url>//hexo-butterfly-github-build-blog/</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本文为<strong>全网最干净的 Windows 从零搭建 Hexo 博客实录</strong>，解决绝大多数新手踩坑问题：</p>
+<ul>
+<li><p>✅ 仅使用 <strong>一个 GitHub 仓库</strong>（无需多仓库）</p>
+</li>
+<li><p>✅ <strong>master 分支</strong>：存放完整博客源码（永久备份）</p>
+</li>
+<li><p>✅ <strong>gh-pages 分支</strong>：自动托管静态网页（对外访问博客）</p>
+</li>
+<li><p>✅ Butterfly 主题采用 <strong>Git 子模块</strong> 安装（不嵌套仓库、可一键更新）</p>
+</li>
+<li><p>✅ 彻底解决 Windows <code>cp</code> 命令报错、LF&#x2F;CRLF 换行警告、仓库嵌套冲突、推送被拒等问题</p>
+</li>
+</ul>
+<p>环境：Windows 10&#x2F;11 + Git + Node.js + Hexo + Butterfly</p>
+<h2 id="一、基础环境安装（必备）"><a href="#一、基础环境安装（必备）" class="headerlink" title="一、基础环境安装（必备）"></a>一、基础环境安装（必备）</h2><h3 id="1-安装-Git"><a href="#1-安装-Git" class="headerlink" title="1. 安装 Git"></a>1. 安装 Git</h3><p>官网下载安装：<a href="https://git-scm.com/downloads">https://git-scm.com&#x2F;downloads</a></p>
+<p>安装全程默认下一步，安装完成后终端验证：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git --version</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-安装-Node-js"><a href="#2-安装-Node-js" class="headerlink" title="2. 安装 Node.js"></a>2. 安装 Node.js</h3><p>安装 LTS 长期稳定版：<a href="https://nodejs.org/">https://nodejs.org&#x2F;</a></p>
+<p>务必勾选自动配置环境变量，验证：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-配置-Git-全局账号"><a href="#3-配置-Git-全局账号" class="headerlink" title="3. 配置 Git 全局账号"></a>3. 配置 Git 全局账号</h3><p>替换为自己的 GitHub 用户名和注册邮箱：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;你的GitHub用户名&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;你的GitHub注册邮箱&quot;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="4-配置-GitHub-SSH-密钥（核心）"><a href="#4-配置-GitHub-SSH-密钥（核心）" class="headerlink" title="4. 配置 GitHub SSH 密钥（核心）"></a>4. 配置 GitHub SSH 密钥（核心）</h3><p>生成密钥：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t ed25519 -C <span class="string">&quot;你的GitHub注册邮箱&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>连续三次回车（不设置密码），查看并复制公钥：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cat</span> ~/.ssh/id_ed25519.pub</span><br></pre></td></tr></table></figure>
+
+<p>GitHub 头像 → Settings → SSH and GPG keys → New SSH key，粘贴公钥保存。</p>
+<p>验证连通性：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+
+<p>出现欢迎字样即配置成功。</p>
+<h2 id="二、初始化本地-Hexo-博客"><a href="#二、初始化本地-Hexo-博客" class="headerlink" title="二、初始化本地 Hexo 博客"></a>二、初始化本地 Hexo 博客</h2><h3 id="1-创建博客目录并初始化"><a href="#1-创建博客目录并初始化" class="headerlink" title="1. 创建博客目录并初始化"></a>1. 创建博客目录并初始化</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 创建并进入博客文件夹</span></span><br><span class="line"><span class="built_in">mkdir</span> hexo-blog</span><br><span class="line"><span class="built_in">cd</span> hexo-blog</span><br><span class="line"></span><br><span class="line"><span class="comment"># 全局安装 Hexo 脚手架</span></span><br><span class="line">npm install -g hexo-cli</span><br><span class="line"></span><br><span class="line"><span class="comment"># 初始化 Hexo 项目</span></span><br><span class="line">hexo init</span><br><span class="line"></span><br><span class="line"><span class="comment"># 安装项目依赖</span></span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-本地测试博客"><a href="#2-本地测试博客" class="headerlink" title="2. 本地测试博客"></a>2. 本地测试博客</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+
+<p>浏览器访问 <code>http://localhost:4000</code>，正常打开默认页面即为成功，<code>Ctrl+C</code> 关闭服务。</p>
+<h2 id="三、SSH-方式安装-Butterfly-主题（子模块版）"><a href="#三、SSH-方式安装-Butterfly-主题（子模块版）" class="headerlink" title="三、SSH 方式安装 Butterfly 主题（子模块版）"></a>三、SSH 方式安装 Butterfly 主题（子模块版）</h2><p>重点：采用 <strong>Git 子模块</strong> 安装，彻底解决嵌套仓库报错，支持后续一键更新主题。</p>
+<h3 id="1-下载主题"><a href="#1-下载主题" class="headerlink" title="1. 下载主题"></a>1. 下载主题</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> themes</span><br><span class="line">git <span class="built_in">clone</span> git@github.com:jerryc127/hexo-theme-butterfly.git butterfly</span><br><span class="line"><span class="built_in">cd</span> ..</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-启用主题"><a href="#2-启用主题" class="headerlink" title="2. 启用主题"></a>2. 启用主题</h3><p>打开博客根目录 <code>_config.yml</code>，修改主题配置：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">butterfly</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="3-分离主题配置文件（关键）"><a href="#3-分离主题配置文件（关键）" class="headerlink" title="3. 分离主题配置文件（关键）"></a>3. 分离主题配置文件（关键）</h3><p>Windows 无 <code>cp</code> 命令，使用 PowerShell 命令复制：</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Copy-Item</span> themes/butterfly/_config.yml ./_config.butterfly.yml</span><br></pre></td></tr></table></figure>
+
+<p>后续所有主题美化配置，仅修改 <code>_config.butterfly.yml</code>，升级主题不覆盖自定义配置。</p>
+<h3 id="4-安装主题依赖"><a href="#4-安装主题依赖" class="headerlink" title="4. 安装主题依赖"></a>4. 安装主题依赖</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-renderer-pug hexo-renderer-stylus --save</span><br></pre></td></tr></table></figure>
+
+<h3 id="5-预览美化后页面"><a href="#5-预览美化后页面" class="headerlink" title="5. 预览美化后页面"></a>5. 预览美化后页面</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
+
+<h2 id="四、GitHub-仓库配置（单仓库双分支）"><a href="#四、GitHub-仓库配置（单仓库双分支）" class="headerlink" title="四、GitHub 仓库配置（单仓库双分支）"></a>四、GitHub 仓库配置（单仓库双分支）</h2><h3 id="1-创建专属仓库"><a href="#1-创建专属仓库" class="headerlink" title="1. 创建专属仓库"></a>1. 创建专属仓库</h3><p>新建仓库，命名必须严格为：<code>你的用户名.github.io</code></p>
+<p>选择 Public，<strong>不要勾选初始化 README</strong>，直接创建。</p>
+<h3 id="2-安装-Hexo-部署插件"><a href="#2-安装-Hexo-部署插件" class="headerlink" title="2. 安装 Hexo 部署插件"></a>2. 安装 Hexo 部署插件</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-修改部署配置"><a href="#3-修改部署配置" class="headerlink" title="3. 修改部署配置"></a>3. 修改部署配置</h3><p>根目录 <code>_config.yml</code> 底部修改部署信息（适配单仓库双分支）：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">git@github.com:你的用户名/你的用户名.github.io.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">gh-pages</span>  <span class="comment"># 网页静态文件部署到 gh-pages 分支</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="五、本地-Git-初始化-源码备份配置"><a href="#五、本地-Git-初始化-源码备份配置" class="headerlink" title="五、本地 Git 初始化 &amp; 源码备份配置"></a>五、本地 Git 初始化 &amp; 源码备份配置</h2><h3 id="1-初始化本地仓库"><a href="#1-初始化本地仓库" class="headerlink" title="1. 初始化本地仓库"></a>1. 初始化本地仓库</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git init</span><br><span class="line">git remote add origin git@github.com:你的用户名/你的用户名.github.io.git</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-配置-gitignore（过滤无用文件）"><a href="#2-配置-gitignore（过滤无用文件）" class="headerlink" title="2. 配置 .gitignore（过滤无用文件）"></a>2. 配置 .gitignore（过滤无用文件）</h3><p>根目录新建 <code>.gitignore</code>，粘贴完整规则：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Hexo 缓存与生成文件</span><br><span class="line">public/</span><br><span class="line">.deploy_git/</span><br><span class="line">db.json</span><br><span class="line">*.log</span><br><span class="line"></span><br><span class="line"># 项目依赖（体积巨大，无需备份）</span><br><span class="line">node_modules/</span><br><span class="line"></span><br><span class="line"># 编辑器临时文件</span><br><span class="line">.vscode/</span><br><span class="line">.idea/</span><br><span class="line">*.swp</span><br><span class="line">*.swo</span><br><span class="line">.DS_Store</span><br><span class="line">Thumbs.db</span><br><span class="line"></span><br><span class="line"># 本地草稿</span><br><span class="line">source/_drafts/</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="3-修复主题嵌套仓库问题（核心踩坑解决）"><a href="#3-修复主题嵌套仓库问题（核心踩坑解决）" class="headerlink" title="3. 修复主题嵌套仓库问题（核心踩坑解决）"></a>3. 修复主题嵌套仓库问题（核心踩坑解决）</h3><p>删除错误的主题缓存，改用标准子模块管理：</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 强制清除错误缓存</span></span><br><span class="line">git <span class="built_in">rm</span> <span class="literal">--cached</span> <span class="operator">-f</span> themes/butterfly</span><br><span class="line"><span class="comment"># 删除本地旧主题文件夹</span></span><br><span class="line"><span class="built_in">rmdir</span> /s /q themes\butterfly</span><br><span class="line"><span class="comment"># 新增 butterfly 子模块</span></span><br><span class="line">git submodule add git@github.com:jerryc127/hexo<span class="literal">-theme-butterfly</span>.git themes/butterfly</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="4-消除-Windows-换行符警告"><a href="#4-消除-Windows-换行符警告" class="headerlink" title="4. 消除 Windows 换行符警告"></a>4. 消除 Windows 换行符警告</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global core.autocrlf <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="5-首次提交源码并强制推送-master"><a href="#5-首次提交源码并强制推送-master" class="headerlink" title="5. 首次提交源码并强制推送 master"></a>5. 首次提交源码并强制推送 master</h3><p>远程仓库存在默认文件，需强制覆盖（仅首次执行）：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">&quot;初始化Hexo博客，Butterfly子模块配置完成&quot;</span></span><br><span class="line">git push -f origin master</span><br></pre></td></tr></table></figure>
+
+<p>✅ 此时 <strong>master 分支已完整备份所有博客源码</strong></p>
+<h2 id="六、部署博客网站（上线生效）"><a href="#六、部署博客网站（上线生效）" class="headerlink" title="六、部署博客网站（上线生效）"></a>六、部署博客网站（上线生效）</h2><h3 id="1-一键部署静态页面"><a href="#1-一键部署静态页面" class="headerlink" title="1. 一键部署静态页面"></a>1. 一键部署静态页面</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
+
+<p>执行完成后，静态网页自动推送至 <strong>gh-pages 分支</strong></p>
+<h3 id="2-开启-GitHub-Pages"><a href="#2-开启-GitHub-Pages" class="headerlink" title="2. 开启 GitHub Pages"></a>2. 开启 GitHub Pages</h3><p>仓库 → Settings → Pages：</p>
+<ul>
+<li><p>Source：Deploy from a branch</p>
+</li>
+<li><p>Branch：<strong>gh-pages</strong></p>
+</li>
+<li><p>Folder：&#x2F; (root)</p>
+</li>
+</ul>
+<p>保存等待1分钟，通过 <code>你的用户名.github.io</code> 访问博客。</p>
+<h2 id="七、日常写作-备份固定流程"><a href="#七、日常写作-备份固定流程" class="headerlink" title="七、日常写作 &amp; 备份固定流程"></a>七、日常写作 &amp; 备份固定流程</h2><h3 id="1-新建文章"><a href="#1-新建文章" class="headerlink" title="1. 新建文章"></a>1. 新建文章</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new <span class="string">&quot;文章标题&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>文章路径：<code>source/_posts/标题.md</code></p>
+<h3 id="2-写完更新全套流程"><a href="#2-写完更新全套流程" class="headerlink" title="2. 写完更新全套流程"></a>2. 写完更新全套流程</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 1. 本地预览检查</span></span><br><span class="line">hexo clean &amp;&amp; hexo s</span><br><span class="line"></span><br><span class="line"><span class="comment"># 2. 部署上线网站</span></span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br><span class="line"></span><br><span class="line"><span class="comment"># 3. 备份源码到 master 分支</span></span><br><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">&quot;更新：新增XX文章&quot;</span></span><br><span class="line">git push origin master</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="八、换电脑恢复完整博客（子模块专属）"><a href="#八、换电脑恢复完整博客（子模块专属）" class="headerlink" title="八、换电脑恢复完整博客（子模块专属）"></a>八、换电脑恢复完整博客（子模块专属）</h2><p>新电脑克隆完整博客（必须执行子模块初始化）：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> git@github.com:你的用户名/你的用户名.github.io.git</span><br><span class="line"><span class="built_in">cd</span> 你的用户名.github.io</span><br><span class="line">git submodule update --init --recursive</span><br><span class="line">npm install</span><br><span class="line">hexo s</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="九、Butterfly-主题更新方法"><a href="#九、Butterfly-主题更新方法" class="headerlink" title="九、Butterfly 主题更新方法"></a>九、Butterfly 主题更新方法</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> themes/butterfly</span><br><span class="line">git pull</span><br><span class="line"><span class="built_in">cd</span> ../../</span><br><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">&quot;更新Butterfly主题至最新版本&quot;</span></span><br><span class="line">git push origin master</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="十、常见问题汇总"><a href="#十、常见问题汇总" class="headerlink" title="十、常见问题汇总"></a>十、常见问题汇总</h2><ul>
+<li><p><strong>cp 命令不存在</strong>：Windows 改用 PowerShell <code>Copy-Item</code> 命令</p>
+</li>
+<li><p><strong>LF&#x2F;CRLF 警告</strong>：执行 <code>git config --global core.autocrlf true</code> 永久解决</p>
+</li>
+<li><p><strong>仓库嵌套报错</strong>：使用 git 子模块安装主题，不直接克隆嵌套仓库</p>
+</li>
+<li><p><strong>推送 master 被拒</strong>：首次使用 <code>git push -f origin master</code> 强制覆盖即可</p>
+</li>
+<li><p><strong>换电脑主题为空</strong>：克隆后必须执行子模块初始化命令</p>
+</li>
+</ul>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>最终实现完美闭环：<strong>单仓库双分支隔离</strong></p>
+<ul>
+<li><p><strong>master</strong>：源码备份、版本管理、主题配置、文章存储</p>
+</li>
+<li><p><strong>gh-pages</strong>：纯静态网页、对外访问、自动部署</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>博客搭建</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Butterfly</tag>
+        <tag>GitHub</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>顺序（线性）查找</title>
+    <url>/2026/07/20/algorithm/%E9%A1%BA%E5%BA%8F%EF%BC%88%E7%BA%BF%E6%80%A7%EF%BC%89%E6%9F%A5%E6%89%BE/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Mysql</title>
+    <url>/2026/07/20/database/Mysql/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -318,222 +534,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo+Butterfly+GitHub 从零搭建个人博客（单仓库双分支+源码永久备份）</title>
-    <url>//hexo-butterfly-github-build-blog/</url>
-    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本文为<strong>全网最干净的 Windows 从零搭建 Hexo 博客实录</strong>，解决绝大多数新手踩坑问题：</p>
-<ul>
-<li><p>✅ 仅使用 <strong>一个 GitHub 仓库</strong>（无需多仓库）</p>
-</li>
-<li><p>✅ <strong>master 分支</strong>：存放完整博客源码（永久备份）</p>
-</li>
-<li><p>✅ <strong>gh-pages 分支</strong>：自动托管静态网页（对外访问博客）</p>
-</li>
-<li><p>✅ Butterfly 主题采用 <strong>Git 子模块</strong> 安装（不嵌套仓库、可一键更新）</p>
-</li>
-<li><p>✅ 彻底解决 Windows <code>cp</code> 命令报错、LF&#x2F;CRLF 换行警告、仓库嵌套冲突、推送被拒等问题</p>
-</li>
-</ul>
-<p>环境：Windows 10&#x2F;11 + Git + Node.js + Hexo + Butterfly</p>
-<h2 id="一、基础环境安装（必备）"><a href="#一、基础环境安装（必备）" class="headerlink" title="一、基础环境安装（必备）"></a>一、基础环境安装（必备）</h2><h3 id="1-安装-Git"><a href="#1-安装-Git" class="headerlink" title="1. 安装 Git"></a>1. 安装 Git</h3><p>官网下载安装：<a href="https://git-scm.com/downloads">https://git-scm.com&#x2F;downloads</a></p>
-<p>安装全程默认下一步，安装完成后终端验证：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git --version</span><br></pre></td></tr></table></figure>
-
-<h3 id="2-安装-Node-js"><a href="#2-安装-Node-js" class="headerlink" title="2. 安装 Node.js"></a>2. 安装 Node.js</h3><p>安装 LTS 长期稳定版：<a href="https://nodejs.org/">https://nodejs.org&#x2F;</a></p>
-<p>务必勾选自动配置环境变量，验证：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
-
-<h3 id="3-配置-Git-全局账号"><a href="#3-配置-Git-全局账号" class="headerlink" title="3. 配置 Git 全局账号"></a>3. 配置 Git 全局账号</h3><p>替换为自己的 GitHub 用户名和注册邮箱：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;你的GitHub用户名&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;你的GitHub注册邮箱&quot;</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="4-配置-GitHub-SSH-密钥（核心）"><a href="#4-配置-GitHub-SSH-密钥（核心）" class="headerlink" title="4. 配置 GitHub SSH 密钥（核心）"></a>4. 配置 GitHub SSH 密钥（核心）</h3><p>生成密钥：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t ed25519 -C <span class="string">&quot;你的GitHub注册邮箱&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>连续三次回车（不设置密码），查看并复制公钥：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cat</span> ~/.ssh/id_ed25519.pub</span><br></pre></td></tr></table></figure>
-
-<p>GitHub 头像 → Settings → SSH and GPG keys → New SSH key，粘贴公钥保存。</p>
-<p>验证连通性：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
-
-<p>出现欢迎字样即配置成功。</p>
-<h2 id="二、初始化本地-Hexo-博客"><a href="#二、初始化本地-Hexo-博客" class="headerlink" title="二、初始化本地 Hexo 博客"></a>二、初始化本地 Hexo 博客</h2><h3 id="1-创建博客目录并初始化"><a href="#1-创建博客目录并初始化" class="headerlink" title="1. 创建博客目录并初始化"></a>1. 创建博客目录并初始化</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 创建并进入博客文件夹</span></span><br><span class="line"><span class="built_in">mkdir</span> hexo-blog</span><br><span class="line"><span class="built_in">cd</span> hexo-blog</span><br><span class="line"></span><br><span class="line"><span class="comment"># 全局安装 Hexo 脚手架</span></span><br><span class="line">npm install -g hexo-cli</span><br><span class="line"></span><br><span class="line"><span class="comment"># 初始化 Hexo 项目</span></span><br><span class="line">hexo init</span><br><span class="line"></span><br><span class="line"><span class="comment"># 安装项目依赖</span></span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
-
-<h3 id="2-本地测试博客"><a href="#2-本地测试博客" class="headerlink" title="2. 本地测试博客"></a>2. 本地测试博客</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-
-<p>浏览器访问 <code>http://localhost:4000</code>，正常打开默认页面即为成功，<code>Ctrl+C</code> 关闭服务。</p>
-<h2 id="三、SSH-方式安装-Butterfly-主题（子模块版）"><a href="#三、SSH-方式安装-Butterfly-主题（子模块版）" class="headerlink" title="三、SSH 方式安装 Butterfly 主题（子模块版）"></a>三、SSH 方式安装 Butterfly 主题（子模块版）</h2><p>重点：采用 <strong>Git 子模块</strong> 安装，彻底解决嵌套仓库报错，支持后续一键更新主题。</p>
-<h3 id="1-下载主题"><a href="#1-下载主题" class="headerlink" title="1. 下载主题"></a>1. 下载主题</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> themes</span><br><span class="line">git <span class="built_in">clone</span> git@github.com:jerryc127/hexo-theme-butterfly.git butterfly</span><br><span class="line"><span class="built_in">cd</span> ..</span><br></pre></td></tr></table></figure>
-
-<h3 id="2-启用主题"><a href="#2-启用主题" class="headerlink" title="2. 启用主题"></a>2. 启用主题</h3><p>打开博客根目录 <code>_config.yml</code>，修改主题配置：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">butterfly</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="3-分离主题配置文件（关键）"><a href="#3-分离主题配置文件（关键）" class="headerlink" title="3. 分离主题配置文件（关键）"></a>3. 分离主题配置文件（关键）</h3><p>Windows 无 <code>cp</code> 命令，使用 PowerShell 命令复制：</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Copy-Item</span> themes/butterfly/_config.yml ./_config.butterfly.yml</span><br></pre></td></tr></table></figure>
-
-<p>后续所有主题美化配置，仅修改 <code>_config.butterfly.yml</code>，升级主题不覆盖自定义配置。</p>
-<h3 id="4-安装主题依赖"><a href="#4-安装主题依赖" class="headerlink" title="4. 安装主题依赖"></a>4. 安装主题依赖</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-renderer-pug hexo-renderer-stylus --save</span><br></pre></td></tr></table></figure>
-
-<h3 id="5-预览美化后页面"><a href="#5-预览美化后页面" class="headerlink" title="5. 预览美化后页面"></a>5. 预览美化后页面</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
-
-<h2 id="四、GitHub-仓库配置（单仓库双分支）"><a href="#四、GitHub-仓库配置（单仓库双分支）" class="headerlink" title="四、GitHub 仓库配置（单仓库双分支）"></a>四、GitHub 仓库配置（单仓库双分支）</h2><h3 id="1-创建专属仓库"><a href="#1-创建专属仓库" class="headerlink" title="1. 创建专属仓库"></a>1. 创建专属仓库</h3><p>新建仓库，命名必须严格为：<code>你的用户名.github.io</code></p>
-<p>选择 Public，<strong>不要勾选初始化 README</strong>，直接创建。</p>
-<h3 id="2-安装-Hexo-部署插件"><a href="#2-安装-Hexo-部署插件" class="headerlink" title="2. 安装 Hexo 部署插件"></a>2. 安装 Hexo 部署插件</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-
-<h3 id="3-修改部署配置"><a href="#3-修改部署配置" class="headerlink" title="3. 修改部署配置"></a>3. 修改部署配置</h3><p>根目录 <code>_config.yml</code> 底部修改部署信息（适配单仓库双分支）：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">git@github.com:你的用户名/你的用户名.github.io.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">gh-pages</span>  <span class="comment"># 网页静态文件部署到 gh-pages 分支</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h2 id="五、本地-Git-初始化-源码备份配置"><a href="#五、本地-Git-初始化-源码备份配置" class="headerlink" title="五、本地 Git 初始化 &amp; 源码备份配置"></a>五、本地 Git 初始化 &amp; 源码备份配置</h2><h3 id="1-初始化本地仓库"><a href="#1-初始化本地仓库" class="headerlink" title="1. 初始化本地仓库"></a>1. 初始化本地仓库</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git init</span><br><span class="line">git remote add origin git@github.com:你的用户名/你的用户名.github.io.git</span><br></pre></td></tr></table></figure>
-
-<h3 id="2-配置-gitignore（过滤无用文件）"><a href="#2-配置-gitignore（过滤无用文件）" class="headerlink" title="2. 配置 .gitignore（过滤无用文件）"></a>2. 配置 .gitignore（过滤无用文件）</h3><p>根目录新建 <code>.gitignore</code>，粘贴完整规则：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Hexo 缓存与生成文件</span><br><span class="line">public/</span><br><span class="line">.deploy_git/</span><br><span class="line">db.json</span><br><span class="line">*.log</span><br><span class="line"></span><br><span class="line"># 项目依赖（体积巨大，无需备份）</span><br><span class="line">node_modules/</span><br><span class="line"></span><br><span class="line"># 编辑器临时文件</span><br><span class="line">.vscode/</span><br><span class="line">.idea/</span><br><span class="line">*.swp</span><br><span class="line">*.swo</span><br><span class="line">.DS_Store</span><br><span class="line">Thumbs.db</span><br><span class="line"></span><br><span class="line"># 本地草稿</span><br><span class="line">source/_drafts/</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h3 id="3-修复主题嵌套仓库问题（核心踩坑解决）"><a href="#3-修复主题嵌套仓库问题（核心踩坑解决）" class="headerlink" title="3. 修复主题嵌套仓库问题（核心踩坑解决）"></a>3. 修复主题嵌套仓库问题（核心踩坑解决）</h3><p>删除错误的主题缓存，改用标准子模块管理：</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 强制清除错误缓存</span></span><br><span class="line">git <span class="built_in">rm</span> <span class="literal">--cached</span> <span class="operator">-f</span> themes/butterfly</span><br><span class="line"><span class="comment"># 删除本地旧主题文件夹</span></span><br><span class="line"><span class="built_in">rmdir</span> /s /q themes\butterfly</span><br><span class="line"><span class="comment"># 新增 butterfly 子模块</span></span><br><span class="line">git submodule add git@github.com:jerryc127/hexo<span class="literal">-theme-butterfly</span>.git themes/butterfly</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h3 id="4-消除-Windows-换行符警告"><a href="#4-消除-Windows-换行符警告" class="headerlink" title="4. 消除 Windows 换行符警告"></a>4. 消除 Windows 换行符警告</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global core.autocrlf <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="5-首次提交源码并强制推送-master"><a href="#5-首次提交源码并强制推送-master" class="headerlink" title="5. 首次提交源码并强制推送 master"></a>5. 首次提交源码并强制推送 master</h3><p>远程仓库存在默认文件，需强制覆盖（仅首次执行）：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">&quot;初始化Hexo博客，Butterfly子模块配置完成&quot;</span></span><br><span class="line">git push -f origin master</span><br></pre></td></tr></table></figure>
-
-<p>✅ 此时 <strong>master 分支已完整备份所有博客源码</strong></p>
-<h2 id="六、部署博客网站（上线生效）"><a href="#六、部署博客网站（上线生效）" class="headerlink" title="六、部署博客网站（上线生效）"></a>六、部署博客网站（上线生效）</h2><h3 id="1-一键部署静态页面"><a href="#1-一键部署静态页面" class="headerlink" title="1. 一键部署静态页面"></a>1. 一键部署静态页面</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
-
-<p>执行完成后，静态网页自动推送至 <strong>gh-pages 分支</strong></p>
-<h3 id="2-开启-GitHub-Pages"><a href="#2-开启-GitHub-Pages" class="headerlink" title="2. 开启 GitHub Pages"></a>2. 开启 GitHub Pages</h3><p>仓库 → Settings → Pages：</p>
-<ul>
-<li><p>Source：Deploy from a branch</p>
-</li>
-<li><p>Branch：<strong>gh-pages</strong></p>
-</li>
-<li><p>Folder：&#x2F; (root)</p>
-</li>
-</ul>
-<p>保存等待1分钟，通过 <code>你的用户名.github.io</code> 访问博客。</p>
-<h2 id="七、日常写作-备份固定流程"><a href="#七、日常写作-备份固定流程" class="headerlink" title="七、日常写作 &amp; 备份固定流程"></a>七、日常写作 &amp; 备份固定流程</h2><h3 id="1-新建文章"><a href="#1-新建文章" class="headerlink" title="1. 新建文章"></a>1. 新建文章</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new <span class="string">&quot;文章标题&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>文章路径：<code>source/_posts/标题.md</code></p>
-<h3 id="2-写完更新全套流程"><a href="#2-写完更新全套流程" class="headerlink" title="2. 写完更新全套流程"></a>2. 写完更新全套流程</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 1. 本地预览检查</span></span><br><span class="line">hexo clean &amp;&amp; hexo s</span><br><span class="line"></span><br><span class="line"><span class="comment"># 2. 部署上线网站</span></span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br><span class="line"></span><br><span class="line"><span class="comment"># 3. 备份源码到 master 分支</span></span><br><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">&quot;更新：新增XX文章&quot;</span></span><br><span class="line">git push origin master</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h2 id="八、换电脑恢复完整博客（子模块专属）"><a href="#八、换电脑恢复完整博客（子模块专属）" class="headerlink" title="八、换电脑恢复完整博客（子模块专属）"></a>八、换电脑恢复完整博客（子模块专属）</h2><p>新电脑克隆完整博客（必须执行子模块初始化）：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> git@github.com:你的用户名/你的用户名.github.io.git</span><br><span class="line"><span class="built_in">cd</span> 你的用户名.github.io</span><br><span class="line">git submodule update --init --recursive</span><br><span class="line">npm install</span><br><span class="line">hexo s</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h2 id="九、Butterfly-主题更新方法"><a href="#九、Butterfly-主题更新方法" class="headerlink" title="九、Butterfly 主题更新方法"></a>九、Butterfly 主题更新方法</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> themes/butterfly</span><br><span class="line">git pull</span><br><span class="line"><span class="built_in">cd</span> ../../</span><br><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">&quot;更新Butterfly主题至最新版本&quot;</span></span><br><span class="line">git push origin master</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h2 id="十、常见问题汇总"><a href="#十、常见问题汇总" class="headerlink" title="十、常见问题汇总"></a>十、常见问题汇总</h2><ul>
-<li><p><strong>cp 命令不存在</strong>：Windows 改用 PowerShell <code>Copy-Item</code> 命令</p>
-</li>
-<li><p><strong>LF&#x2F;CRLF 警告</strong>：执行 <code>git config --global core.autocrlf true</code> 永久解决</p>
-</li>
-<li><p><strong>仓库嵌套报错</strong>：使用 git 子模块安装主题，不直接克隆嵌套仓库</p>
-</li>
-<li><p><strong>推送 master 被拒</strong>：首次使用 <code>git push -f origin master</code> 强制覆盖即可</p>
-</li>
-<li><p><strong>换电脑主题为空</strong>：克隆后必须执行子模块初始化命令</p>
-</li>
-</ul>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>最终实现完美闭环：<strong>单仓库双分支隔离</strong></p>
-<ul>
-<li><p><strong>master</strong>：源码备份、版本管理、主题配置、文章存储</p>
-</li>
-<li><p><strong>gh-pages</strong>：纯静态网页、对外访问、自动部署</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>博客搭建</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>Butterfly</tag>
-        <tag>GitHub</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>KMP算法</title>
-    <url>/2026/07/20/algorithm/KMP%E7%AE%97%E6%B3%95/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>二分查找</title>
-    <url>/2026/07/20/algorithm/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>二叉排序树</title>
-    <url>/2026/07/20/algorithm/%E4%BA%8C%E5%8F%89%E6%8E%92%E5%BA%8F%E6%A0%91/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>二叉树的遍历</title>
-    <url>/2026/07/20/algorithm/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>合并两个排序的链表</title>
-    <url>/2026/07/20/algorithm/%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%8E%92%E5%BA%8F%E7%9A%84%E9%93%BE%E8%A1%A8/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>合并两个有序数组</title>
-    <url>/2026/07/20/algorithm/%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>判断链表中是否有环</title>
-    <url>/2026/07/20/algorithm/%E5%88%A4%E6%96%AD%E9%93%BE%E8%A1%A8%E4%B8%AD%E6%98%AF%E5%90%A6%E6%9C%89%E7%8E%AF/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>平衡二叉树（AVL）</title>
-    <url>/2026/07/20/algorithm/%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91%EF%BC%88AVL%EF%BC%89/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>数组中的重复数字</title>
-    <url>/2026/07/20/algorithm/%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E6%95%B0%E5%AD%97/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>堆排序</title>
-    <url>/2026/07/20/algorithm/%E5%A0%86%E6%8E%92%E5%BA%8F/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>数轴覆盖</title>
-    <url>/2026/07/20/algorithm/%E6%95%B0%E8%BD%B4%E8%A6%86%E7%9B%96/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>旋转矩阵</title>
-    <url>/2026/07/20/algorithm/%E6%97%8B%E8%BD%AC%E7%9F%A9%E9%98%B5/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>旋转词</title>
-    <url>/2026/07/20/algorithm/%E6%97%8B%E8%BD%AC%E8%AF%8D/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>赫夫曼树</title>
-    <url>/2026/07/20/algorithm/%E8%B5%AB%E5%A4%AB%E6%9B%BC%E6%A0%91/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>顺序（线性）查找</title>
-    <url>/2026/07/20/algorithm/%E9%A1%BA%E5%BA%8F%EF%BC%88%E7%BA%BF%E6%80%A7%EF%BC%89%E6%9F%A5%E6%89%BE/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>青蛙跳台阶拓展问题</title>
-    <url>/2026/07/20/algorithm/%E9%9D%92%E8%9B%99%E8%B7%B3%E5%8F%B0%E9%98%B6%E6%8B%93%E5%B1%95%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>Mysql</title>
-    <url>/2026/07/20/database/Mysql/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>Leetcode-1260-二维网格迁移</title>
     <url>//shift-2d-grid/</url>
     <content><![CDATA[<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p><a href="https://leetcode.cn/problems/shift-2d-grid/description/">1260. 二维网格迁移</a></p>
@@ -608,146 +608,19 @@
       </tags>
   </entry>
   <entry>
-    <title>Leetcode-3499-操作后最大活跃区段数-I</title>
-    <url>//maximize-active-section-with-trade-i/</url>
-    <content><![CDATA[<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p><a href="https://leetcode.cn/problems/maximize-active-section-with-trade-i/description/">3499. 操作后最大活跃区段数 I</a></p>
-<p>给你一个二进制字符串 <code>s</code>，其中：</p>
-<ul>
-<li><code>&#39;1&#39;</code> 表示一个<strong>活跃区段</strong>。</li>
-<li><code>&#39;0&#39;</code> 表示一个<strong>非活跃区段</strong>。</li>
-</ul>
-<p>定义一次<strong>操作</strong>分为两个步骤：</p>
-<ol>
-<li>选择一个<strong>两侧都是 <code>&#39;0&#39;</code></strong> 的连续 <code>&#39;1&#39;</code> 区块，将其全部变为 <code>&#39;0&#39;</code>。</li>
-<li>然后，选择一个<strong>两侧都是 <code>&#39;1&#39;</code></strong> 的连续 <code>&#39;0&#39;</code> 区块，将其全部变为 <code>&#39;1&#39;</code>。</li>
-</ol>
-<p><strong>注意</strong>：处理时在 <code>s</code> 前、后各添加一个虚拟的 <code>&#39;1&#39;</code>（即等效字符串 <code>t = &#39;1&#39; + s + &#39;1&#39;</code>），两个虚拟 <code>&#39;1&#39;</code> 不计入最终结果。</p>
-<p>你最多可以执行 <strong>一次</strong> 操作。请你计算并返回操作后活跃区段的最大数量。</p>
-<p><strong>示例 1：</strong></p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">输入：s = &quot;01&quot;</span><br><span class="line">输出：1</span><br><span class="line">解释：字符串中没有两侧都是 &#x27;0&#x27; 的 &#x27;1&#x27; 区块，无法执行操作。</span><br></pre></td></tr></table></figure>
-
-<p><strong>示例 2：</strong></p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">输入：s = &quot;0100&quot;</span><br><span class="line">输出：4</span><br><span class="line">解释：</span><br><span class="line">- 虚拟串 t = &quot;1&quot; + &quot;0100&quot; + &quot;1&quot; = &quot;101001&quot;</span><br><span class="line">- 第一步：选择被 &#x27;0&#x27; 包围的 &#x27;1&#x27;（下标 2~3），将其变为 &#x27;0&#x27;。字符串变为 &quot;100001&quot;</span><br><span class="line">- 第二步：选择合并后的大 &#x27;0&#x27; 区块（下标 1~4，两侧都是 &#x27;1&#x27;），将其变为 &#x27;1&#x27;。得到 &quot;111111&quot;</span><br><span class="line">- 去掉两端虚拟 &#x27;1&#x27;，活跃区段数为 4（= 原有 1 个 &#x27;1&#x27; + 零块 1 + 零块 2）</span><br></pre></td></tr></table></figure>
-
-<p><strong>示例 3：</strong></p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">输入：s = &quot;1000100&quot;</span><br><span class="line">输出：7</span><br><span class="line">解释：原始 1 的数量为 2，两个最大相邻零块的和为 3 + 2 = 5，结果为 2 + 5 = 7。</span><br></pre></td></tr></table></figure>
-
-<p><strong>示例 4：</strong></p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">输入：s = &quot;01010&quot;</span><br><span class="line">输出：4</span><br><span class="line">解释：原始 1 的数量为 2，最大相邻零块和为 1 + 1 = 2，结果为 2 + 2 = 4。</span><br></pre></td></tr></table></figure>
-
-<p><strong>提示：</strong></p>
-<ul>
-<li><code>1 &lt;= s.length &lt;= 10^5</code></li>
-<li><code>s[i]</code> 为 <code>&#39;0&#39;</code> 或 <code>&#39;1&#39;</code></li>
-</ul>
-<h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><h3 id="操作的本质：等价收益模型"><a href="#操作的本质：等价收益模型" class="headerlink" title="操作的本质：等价收益模型"></a>操作的本质：等价收益模型</h3><p>这道题的难点在于<strong>阅读理解</strong>——需要将题目描述的操作转化为简洁的数学模型。</p>
-<p>由于 <code>s</code> 两端各有一个 <strong>虚拟 <code>&#39;1&#39;</code></strong> ，所以第一步”选择一个两侧都是 <code>&#39;0&#39;</code> 的 <code>&#39;1&#39;</code> 区块”是有可能发生的：两个虚拟 <code>&#39;1&#39;</code> 中间必须存在 <code>&#39;0&#39;</code> 才能形成有效操作。</p>
-<p>一次完整操作的过程如下：</p>
-<ol>
-<li><strong>第一步</strong>：选中一块连续 <code>&#39;1&#39;</code>（前后紧邻 <code>&#39;0&#39;</code>），将其变为 <code>&#39;0&#39;</code>。此时，这块 <code>&#39;1&#39;</code> 前后的两个 <code>&#39;0&#39;</code> 区块被「打通」，合并为一个更大的 <code>&#39;0&#39;</code> 区块。</li>
-<li><strong>第二步</strong>：将合并后的大 <code>&#39;0&#39;</code> 区块（此时它的两侧都是 <code>&#39;1&#39;</code>）全部变为 <code>&#39;1&#39;</code>。</li>
-</ol>
-<p>两步合在一起，净效果等价于：</p>
-<blockquote>
-<p><strong>选定两个相邻的 <code>&#39;0&#39;</code> 区块（中间至少隔有一个 <code>&#39;1&#39;</code> 区块），将它们全部变成 <code>&#39;1&#39;</code>。</strong></p>
-</blockquote>
-<p>中间那块 <code>&#39;1&#39;</code> 在第一步被变为 <code>&#39;0&#39;</code> 后，在第二步又被变了回来，因此实际上并没有损失。换言之：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">操作带来的活跃区段增益 = 相邻两个零块的长度之和</span><br></pre></td></tr></table></figure>
-
-<p>最终答案就是：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">答案 = 原始字符串中 &#x27;1&#x27; 的数量 + 最大相邻零块和</span><br></pre></td></tr></table></figure>
-
-<p>如果整串中零块数量不足 2 个（无法形成「两个相邻零块」），则无法执行有效操作，答案为原始 <code>&#39;1&#39;</code> 的数量。</p>
-<h3 id="举例分析"><a href="#举例分析" class="headerlink" title="举例分析"></a>举例分析</h3><p>以 <code>s = &quot;1000100&quot;</code> 为例，我们给字符串加上虚拟 <code>&#39;1&#39;</code>：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">虚拟串 t = &quot;1&quot; + &quot;1000100&quot; + &quot;1&quot; = &quot;110001001&quot;</span><br><span class="line">          ↑                           ↑</span><br><span class="line">        虚拟1                        虚拟1</span><br></pre></td></tr></table></figure>
-
-<p>零块分别为（只关注原始字符串部分）：<code>&quot;000&quot;</code>（长度 3）和 <code>&quot;00&quot;</code>（长度 2），中间隔着一个 <code>&#39;1&#39;</code> 区块。</p>
-<table>
-<thead>
-<tr>
-<th>步骤</th>
-<th>字符串状态</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>初始化</td>
-<td><code>110001001</code></td>
-<td>虚拟串，加粗的是虚拟 <code>&#39;1&#39;</code></td>
-</tr>
-<tr>
-<td>第一步</td>
-<td><code>100000001</code></td>
-<td>将中间 <code>&#39;1&#39;</code> 变 <code>&#39;0&#39;</code>，两个零块合并为 <code>&quot;00000&quot;</code></td>
-</tr>
-<tr>
-<td>第二步</td>
-<td><code>111111111</code></td>
-<td>将合并零块变 <code>&#39;1&#39;</code>，中间 5 个变成 <code>&#39;1&#39;</code></td>
-</tr>
-</tbody></table>
-<p>最终活跃区段增量 &#x3D; 3 + 2 &#x3D; 5。加上原有的 2 个 <code>&#39;1&#39;</code>，答案为 7。</p>
-<h3 id="算法设计"><a href="#算法设计" class="headerlink" title="算法设计"></a>算法设计</h3><p>核心工作变为：<strong>找到所有零块，求相邻零块之和的最大值</strong>。</p>
-<p>整体分三步：</p>
-<ol>
-<li>统计原始字符串中 <code>&#39;1&#39;</code> 的总数，作为答案基数。</li>
-<li>遍历字符串，提取所有连续 <code>&#39;0&#39;</code> 区块的长度。</li>
-<li>遍历零块列表，求相邻两项之和的最大值，即为操作收益。若零块不足 2 个则收益为 0。</li>
-</ol>
-<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><h3 id="基础版（两次遍历，O-n-空间）"><a href="#基础版（两次遍历，O-n-空间）" class="headerlink" title="基础版（两次遍历，O(n) 空间）"></a>基础版（两次遍历，O(n) 空间）</h3><p>直观做法：第一遍统计 <code>&#39;1&#39;</code> 总数，第二遍提取零块长度存入列表，第三遍求相邻零块的最大和。</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span> <span class="title function_">maxActiveSectionsAfterTrade</span><span class="params">(String s)</span> &#123;</span><br><span class="line">        <span class="type">int</span> <span class="variable">n</span> <span class="operator">=</span> s.length();</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 1. 统计原始 &#x27;1&#x27; 总数</span></span><br><span class="line">        <span class="type">int</span> <span class="variable">cnt1</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">char</span> c : s.toCharArray()) &#123;</span><br><span class="line">            <span class="keyword">if</span> (c == <span class="string">&#x27;1&#x27;</span>) cnt1++;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 2. 分段提取所有零块长度</span></span><br><span class="line">        List&lt;Integer&gt; zeroBlocks = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">        <span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">while</span> (i &lt; n) &#123;</span><br><span class="line">            <span class="type">int</span> <span class="variable">start</span> <span class="operator">=</span> i;</span><br><span class="line">            <span class="keyword">while</span> (i &lt; n &amp;&amp; s.charAt(i) == s.charAt(start)) &#123;</span><br><span class="line">                i++;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span> (s.charAt(start) == <span class="string">&#x27;0&#x27;</span>) &#123;</span><br><span class="line">                zeroBlocks.add(i - start);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 3. 零块不足 2 个，无法操作</span></span><br><span class="line">        <span class="keyword">if</span> (zeroBlocks.size() &lt; <span class="number">2</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> cnt1;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 4. 求相邻零块的最大和</span></span><br><span class="line">        <span class="type">int</span> <span class="variable">bestGain</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> <span class="number">0</span>; j &lt; zeroBlocks.size() - <span class="number">1</span>; j++) &#123;</span><br><span class="line">            bestGain = Math.max(bestGain, zeroBlocks.get(j) + zeroBlocks.get(j + <span class="number">1</span>));</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> cnt1 + bestGain;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>复杂度</strong>：时间 <code>O(n)</code>，空间 <code>O(n)</code>（零块列表最多存储 n 个元素）。</p>
-<h3 id="进阶版（一次遍历，O-1-空间）"><a href="#进阶版（一次遍历，O-1-空间）" class="headerlink" title="进阶版（一次遍历，O(1) 空间）"></a>进阶版（一次遍历，O(1) 空间）</h3><p>观察基础版：求相邻零块和时，每次只需要<strong>当前零块</strong>和<strong>上一个零块</strong>的长度，不需要保留全部列表。因此可以在分段遍历的同时，用 <code>prevZero</code> 记住上一个零块长度，边遍历边更新最大增益。</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span> <span class="title function_">maxActiveSectionsAfterTrade</span><span class="params">(String s)</span> &#123;</span><br><span class="line">        <span class="type">int</span> <span class="variable">n</span> <span class="operator">=</span> s.length();</span><br><span class="line">        <span class="type">int</span> <span class="variable">ones</span> <span class="operator">=</span> <span class="number">0</span>;          <span class="comment">// 原始 &#x27;1&#x27; 的总数</span></span><br><span class="line">        <span class="type">int</span> <span class="variable">maxGain</span> <span class="operator">=</span> <span class="number">0</span>;       <span class="comment">// 最大相邻零块和</span></span><br><span class="line">        <span class="type">int</span> <span class="variable">prevZero</span> <span class="operator">=</span> <span class="number">0</span>;      <span class="comment">// 上一个零块的长度（0 表示尚未遇到零块）</span></span><br><span class="line">        <span class="type">int</span> <span class="variable">runLen</span> <span class="operator">=</span> <span class="number">0</span>;        <span class="comment">// 当前连续段长度</span></span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">            runLen++;</span><br><span class="line">            <span class="comment">// 字符变化或到达末尾 → 当前连续段结束</span></span><br><span class="line">            <span class="keyword">if</span> (i == n - <span class="number">1</span> || s.charAt(i) != s.charAt(i + <span class="number">1</span>)) &#123;</span><br><span class="line">                <span class="keyword">if</span> (s.charAt(i) == <span class="string">&#x27;1&#x27;</span>) &#123;</span><br><span class="line">                    ones += runLen;</span><br><span class="line">                &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                    <span class="keyword">if</span> (prevZero &gt; <span class="number">0</span>) &#123;</span><br><span class="line">                        maxGain = Math.max(maxGain, prevZero + runLen);</span><br><span class="line">                    &#125;</span><br><span class="line">                    prevZero = runLen;</span><br><span class="line">                &#125;</span><br><span class="line">                runLen = <span class="number">0</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> ones + maxGain;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>变量说明</strong>：</p>
-<table>
-<thead>
-<tr>
-<th>变量</th>
-<th>作用</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><code>ones</code></td>
-<td>统计原始字符串中所有 <code>&#39;1&#39;</code> 的数量，作为答案的基数</td>
-</tr>
-<tr>
-<td><code>maxGain</code></td>
-<td>记录「相邻零块长度之和」的最大值，即操作能带来的最大增益</td>
-</tr>
-<tr>
-<td><code>prevZero</code></td>
-<td>上一个零块的长度。初始为 0，表示尚未遇到零块，顺带处理了「不足 2 个零块」的边界</td>
-</tr>
-<tr>
-<td><code>runLen</code></td>
-<td>当前连续相同字符段的长度计数器</td>
-</tr>
-</tbody></table>
-<p><strong>复杂度</strong>：时间 <code>O(n)</code>，空间 <code>O(1)</code>。</p>
-<p>遍历时采用「分段统计」技巧：当 <code>s[i] != s[i+1]</code> 或到达末尾时，<code>[i - runLen + 1, i]</code> 就是一个完整的同字符连续段，根据字符类型更新对应变量。</p>
-<h2 id="关键点"><a href="#关键点" class="headerlink" title="关键点"></a>关键点</h2><ol>
-<li><strong>题意转化</strong>：理解「先消 <code>&#39;1&#39;</code> 再补 <code>&#39;0&#39;</code>」的两次操作等价于「直接把两个相邻零块变成 <code>&#39;1&#39;</code>」，中间 <code>&#39;1&#39;</code> 先删后补，互相抵消。这是本题最核心的洞察。</li>
-<li><strong>虚拟 <code>&#39;1&#39;</code> 的作用</strong>：保证两端的零块也能被”相邻 <code>&#39;1&#39;</code>“包围，从而使第二步操作合法。但虚拟位不计入答案。</li>
-<li><strong>不可操作的情况</strong>：当零块数量 &lt; 2 时（<code>prevZero</code> 始终为 0），<code>maxGain</code> 保持为 0，答案即为原始 <code>&#39;1&#39;</code> 的总数。</li>
-<li><strong>一次遍历</strong>：利用分段统计的技巧，无需显式存储所有零块长度，只需保留 <code>prevZero</code>，将空间优化到 <code>O(1)</code>。</li>
-</ol>
-<h2 id="相关题目"><a href="#相关题目" class="headerlink" title="相关题目"></a>相关题目</h2><ul>
-<li><a href="https://leetcode.cn/problems/zero-array-transformation-i/">3355. 零数组变换 I</a> — 类似的一次遍历 + 前缀状态维护。</li>
-<li><a href="https://leetcode.cn/problems/minimum-deletions-to-make-string-balanced/">1653. 使字符串平衡的最少删除次数</a> — 字符串分段遍历 + 贪心策略。</li>
-</ul>
-]]></content>
+    <title>Leetcode-3501-操作后最大活跃区段数-II</title>
+    <url>//maximize-active-section-with-trade-ii/</url>
+    <content><![CDATA[]]></content>
       <categories>
         <category>算法题解</category>
       </categories>
       <tags>
         <tag>LeetCode</tag>
+        <tag>数组</tag>
         <tag>每日一题</tag>
-        <tag>贪心</tag>
+        <tag>线段树</tag>
         <tag>字符串</tag>
-        <tag>枚举</tag>
+        <tag>二分查找</tag>
       </tags>
   </entry>
   <entry>
@@ -900,19 +773,146 @@
       </tags>
   </entry>
   <entry>
-    <title>Leetcode-3501-操作后最大活跃区段数-II</title>
-    <url>//maximize-active-section-with-trade-ii/</url>
-    <content><![CDATA[]]></content>
+    <title>Leetcode-3499-操作后最大活跃区段数-I</title>
+    <url>//maximize-active-section-with-trade-i/</url>
+    <content><![CDATA[<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p><a href="https://leetcode.cn/problems/maximize-active-section-with-trade-i/description/">3499. 操作后最大活跃区段数 I</a></p>
+<p>给你一个二进制字符串 <code>s</code>，其中：</p>
+<ul>
+<li><code>&#39;1&#39;</code> 表示一个<strong>活跃区段</strong>。</li>
+<li><code>&#39;0&#39;</code> 表示一个<strong>非活跃区段</strong>。</li>
+</ul>
+<p>定义一次<strong>操作</strong>分为两个步骤：</p>
+<ol>
+<li>选择一个<strong>两侧都是 <code>&#39;0&#39;</code></strong> 的连续 <code>&#39;1&#39;</code> 区块，将其全部变为 <code>&#39;0&#39;</code>。</li>
+<li>然后，选择一个<strong>两侧都是 <code>&#39;1&#39;</code></strong> 的连续 <code>&#39;0&#39;</code> 区块，将其全部变为 <code>&#39;1&#39;</code>。</li>
+</ol>
+<p><strong>注意</strong>：处理时在 <code>s</code> 前、后各添加一个虚拟的 <code>&#39;1&#39;</code>（即等效字符串 <code>t = &#39;1&#39; + s + &#39;1&#39;</code>），两个虚拟 <code>&#39;1&#39;</code> 不计入最终结果。</p>
+<p>你最多可以执行 <strong>一次</strong> 操作。请你计算并返回操作后活跃区段的最大数量。</p>
+<p><strong>示例 1：</strong></p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">输入：s = &quot;01&quot;</span><br><span class="line">输出：1</span><br><span class="line">解释：字符串中没有两侧都是 &#x27;0&#x27; 的 &#x27;1&#x27; 区块，无法执行操作。</span><br></pre></td></tr></table></figure>
+
+<p><strong>示例 2：</strong></p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">输入：s = &quot;0100&quot;</span><br><span class="line">输出：4</span><br><span class="line">解释：</span><br><span class="line">- 虚拟串 t = &quot;1&quot; + &quot;0100&quot; + &quot;1&quot; = &quot;101001&quot;</span><br><span class="line">- 第一步：选择被 &#x27;0&#x27; 包围的 &#x27;1&#x27;（下标 2~3），将其变为 &#x27;0&#x27;。字符串变为 &quot;100001&quot;</span><br><span class="line">- 第二步：选择合并后的大 &#x27;0&#x27; 区块（下标 1~4，两侧都是 &#x27;1&#x27;），将其变为 &#x27;1&#x27;。得到 &quot;111111&quot;</span><br><span class="line">- 去掉两端虚拟 &#x27;1&#x27;，活跃区段数为 4（= 原有 1 个 &#x27;1&#x27; + 零块 1 + 零块 2）</span><br></pre></td></tr></table></figure>
+
+<p><strong>示例 3：</strong></p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">输入：s = &quot;1000100&quot;</span><br><span class="line">输出：7</span><br><span class="line">解释：原始 1 的数量为 2，两个最大相邻零块的和为 3 + 2 = 5，结果为 2 + 5 = 7。</span><br></pre></td></tr></table></figure>
+
+<p><strong>示例 4：</strong></p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">输入：s = &quot;01010&quot;</span><br><span class="line">输出：4</span><br><span class="line">解释：原始 1 的数量为 2，最大相邻零块和为 1 + 1 = 2，结果为 2 + 2 = 4。</span><br></pre></td></tr></table></figure>
+
+<p><strong>提示：</strong></p>
+<ul>
+<li><code>1 &lt;= s.length &lt;= 10^5</code></li>
+<li><code>s[i]</code> 为 <code>&#39;0&#39;</code> 或 <code>&#39;1&#39;</code></li>
+</ul>
+<h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><h3 id="操作的本质：等价收益模型"><a href="#操作的本质：等价收益模型" class="headerlink" title="操作的本质：等价收益模型"></a>操作的本质：等价收益模型</h3><p>这道题的难点在于<strong>阅读理解</strong>——需要将题目描述的操作转化为简洁的数学模型。</p>
+<p>由于 <code>s</code> 两端各有一个 <strong>虚拟 <code>&#39;1&#39;</code></strong> ，所以第一步”选择一个两侧都是 <code>&#39;0&#39;</code> 的 <code>&#39;1&#39;</code> 区块”是有可能发生的：两个虚拟 <code>&#39;1&#39;</code> 中间必须存在 <code>&#39;0&#39;</code> 才能形成有效操作。</p>
+<p>一次完整操作的过程如下：</p>
+<ol>
+<li><strong>第一步</strong>：选中一块连续 <code>&#39;1&#39;</code>（前后紧邻 <code>&#39;0&#39;</code>），将其变为 <code>&#39;0&#39;</code>。此时，这块 <code>&#39;1&#39;</code> 前后的两个 <code>&#39;0&#39;</code> 区块被「打通」，合并为一个更大的 <code>&#39;0&#39;</code> 区块。</li>
+<li><strong>第二步</strong>：将合并后的大 <code>&#39;0&#39;</code> 区块（此时它的两侧都是 <code>&#39;1&#39;</code>）全部变为 <code>&#39;1&#39;</code>。</li>
+</ol>
+<p>两步合在一起，净效果等价于：</p>
+<blockquote>
+<p><strong>选定两个相邻的 <code>&#39;0&#39;</code> 区块（中间至少隔有一个 <code>&#39;1&#39;</code> 区块），将它们全部变成 <code>&#39;1&#39;</code>。</strong></p>
+</blockquote>
+<p>中间那块 <code>&#39;1&#39;</code> 在第一步被变为 <code>&#39;0&#39;</code> 后，在第二步又被变了回来，因此实际上并没有损失。换言之：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">操作带来的活跃区段增益 = 相邻两个零块的长度之和</span><br></pre></td></tr></table></figure>
+
+<p>最终答案就是：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">答案 = 原始字符串中 &#x27;1&#x27; 的数量 + 最大相邻零块和</span><br></pre></td></tr></table></figure>
+
+<p>如果整串中零块数量不足 2 个（无法形成「两个相邻零块」），则无法执行有效操作，答案为原始 <code>&#39;1&#39;</code> 的数量。</p>
+<h3 id="举例分析"><a href="#举例分析" class="headerlink" title="举例分析"></a>举例分析</h3><p>以 <code>s = &quot;1000100&quot;</code> 为例，我们给字符串加上虚拟 <code>&#39;1&#39;</code>：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">虚拟串 t = &quot;1&quot; + &quot;1000100&quot; + &quot;1&quot; = &quot;110001001&quot;</span><br><span class="line">          ↑                           ↑</span><br><span class="line">        虚拟1                        虚拟1</span><br></pre></td></tr></table></figure>
+
+<p>零块分别为（只关注原始字符串部分）：<code>&quot;000&quot;</code>（长度 3）和 <code>&quot;00&quot;</code>（长度 2），中间隔着一个 <code>&#39;1&#39;</code> 区块。</p>
+<table>
+<thead>
+<tr>
+<th>步骤</th>
+<th>字符串状态</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>初始化</td>
+<td><code>110001001</code></td>
+<td>虚拟串，加粗的是虚拟 <code>&#39;1&#39;</code></td>
+</tr>
+<tr>
+<td>第一步</td>
+<td><code>100000001</code></td>
+<td>将中间 <code>&#39;1&#39;</code> 变 <code>&#39;0&#39;</code>，两个零块合并为 <code>&quot;00000&quot;</code></td>
+</tr>
+<tr>
+<td>第二步</td>
+<td><code>111111111</code></td>
+<td>将合并零块变 <code>&#39;1&#39;</code>，中间 5 个变成 <code>&#39;1&#39;</code></td>
+</tr>
+</tbody></table>
+<p>最终活跃区段增量 &#x3D; 3 + 2 &#x3D; 5。加上原有的 2 个 <code>&#39;1&#39;</code>，答案为 7。</p>
+<h3 id="算法设计"><a href="#算法设计" class="headerlink" title="算法设计"></a>算法设计</h3><p>核心工作变为：<strong>找到所有零块，求相邻零块之和的最大值</strong>。</p>
+<p>整体分三步：</p>
+<ol>
+<li>统计原始字符串中 <code>&#39;1&#39;</code> 的总数，作为答案基数。</li>
+<li>遍历字符串，提取所有连续 <code>&#39;0&#39;</code> 区块的长度。</li>
+<li>遍历零块列表，求相邻两项之和的最大值，即为操作收益。若零块不足 2 个则收益为 0。</li>
+</ol>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><h3 id="基础版（两次遍历，O-n-空间）"><a href="#基础版（两次遍历，O-n-空间）" class="headerlink" title="基础版（两次遍历，O(n) 空间）"></a>基础版（两次遍历，O(n) 空间）</h3><p>直观做法：第一遍统计 <code>&#39;1&#39;</code> 总数，第二遍提取零块长度存入列表，第三遍求相邻零块的最大和。</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span> <span class="title function_">maxActiveSectionsAfterTrade</span><span class="params">(String s)</span> &#123;</span><br><span class="line">        <span class="type">int</span> <span class="variable">n</span> <span class="operator">=</span> s.length();</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 1. 统计原始 &#x27;1&#x27; 总数</span></span><br><span class="line">        <span class="type">int</span> <span class="variable">cnt1</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">char</span> c : s.toCharArray()) &#123;</span><br><span class="line">            <span class="keyword">if</span> (c == <span class="string">&#x27;1&#x27;</span>) cnt1++;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 2. 分段提取所有零块长度</span></span><br><span class="line">        List&lt;Integer&gt; zeroBlocks = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">        <span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">while</span> (i &lt; n) &#123;</span><br><span class="line">            <span class="type">int</span> <span class="variable">start</span> <span class="operator">=</span> i;</span><br><span class="line">            <span class="keyword">while</span> (i &lt; n &amp;&amp; s.charAt(i) == s.charAt(start)) &#123;</span><br><span class="line">                i++;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span> (s.charAt(start) == <span class="string">&#x27;0&#x27;</span>) &#123;</span><br><span class="line">                zeroBlocks.add(i - start);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 3. 零块不足 2 个，无法操作</span></span><br><span class="line">        <span class="keyword">if</span> (zeroBlocks.size() &lt; <span class="number">2</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> cnt1;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 4. 求相邻零块的最大和</span></span><br><span class="line">        <span class="type">int</span> <span class="variable">bestGain</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> <span class="number">0</span>; j &lt; zeroBlocks.size() - <span class="number">1</span>; j++) &#123;</span><br><span class="line">            bestGain = Math.max(bestGain, zeroBlocks.get(j) + zeroBlocks.get(j + <span class="number">1</span>));</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> cnt1 + bestGain;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>复杂度</strong>：时间 <code>O(n)</code>，空间 <code>O(n)</code>（零块列表最多存储 n 个元素）。</p>
+<h3 id="进阶版（一次遍历，O-1-空间）"><a href="#进阶版（一次遍历，O-1-空间）" class="headerlink" title="进阶版（一次遍历，O(1) 空间）"></a>进阶版（一次遍历，O(1) 空间）</h3><p>观察基础版：求相邻零块和时，每次只需要<strong>当前零块</strong>和<strong>上一个零块</strong>的长度，不需要保留全部列表。因此可以在分段遍历的同时，用 <code>prevZero</code> 记住上一个零块长度，边遍历边更新最大增益。</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span> <span class="title function_">maxActiveSectionsAfterTrade</span><span class="params">(String s)</span> &#123;</span><br><span class="line">        <span class="type">int</span> <span class="variable">n</span> <span class="operator">=</span> s.length();</span><br><span class="line">        <span class="type">int</span> <span class="variable">ones</span> <span class="operator">=</span> <span class="number">0</span>;          <span class="comment">// 原始 &#x27;1&#x27; 的总数</span></span><br><span class="line">        <span class="type">int</span> <span class="variable">maxGain</span> <span class="operator">=</span> <span class="number">0</span>;       <span class="comment">// 最大相邻零块和</span></span><br><span class="line">        <span class="type">int</span> <span class="variable">prevZero</span> <span class="operator">=</span> <span class="number">0</span>;      <span class="comment">// 上一个零块的长度（0 表示尚未遇到零块）</span></span><br><span class="line">        <span class="type">int</span> <span class="variable">runLen</span> <span class="operator">=</span> <span class="number">0</span>;        <span class="comment">// 当前连续段长度</span></span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">            runLen++;</span><br><span class="line">            <span class="comment">// 字符变化或到达末尾 → 当前连续段结束</span></span><br><span class="line">            <span class="keyword">if</span> (i == n - <span class="number">1</span> || s.charAt(i) != s.charAt(i + <span class="number">1</span>)) &#123;</span><br><span class="line">                <span class="keyword">if</span> (s.charAt(i) == <span class="string">&#x27;1&#x27;</span>) &#123;</span><br><span class="line">                    ones += runLen;</span><br><span class="line">                &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                    <span class="keyword">if</span> (prevZero &gt; <span class="number">0</span>) &#123;</span><br><span class="line">                        maxGain = Math.max(maxGain, prevZero + runLen);</span><br><span class="line">                    &#125;</span><br><span class="line">                    prevZero = runLen;</span><br><span class="line">                &#125;</span><br><span class="line">                runLen = <span class="number">0</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> ones + maxGain;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>变量说明</strong>：</p>
+<table>
+<thead>
+<tr>
+<th>变量</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>ones</code></td>
+<td>统计原始字符串中所有 <code>&#39;1&#39;</code> 的数量，作为答案的基数</td>
+</tr>
+<tr>
+<td><code>maxGain</code></td>
+<td>记录「相邻零块长度之和」的最大值，即操作能带来的最大增益</td>
+</tr>
+<tr>
+<td><code>prevZero</code></td>
+<td>上一个零块的长度。初始为 0，表示尚未遇到零块，顺带处理了「不足 2 个零块」的边界</td>
+</tr>
+<tr>
+<td><code>runLen</code></td>
+<td>当前连续相同字符段的长度计数器</td>
+</tr>
+</tbody></table>
+<p><strong>复杂度</strong>：时间 <code>O(n)</code>，空间 <code>O(1)</code>。</p>
+<p>遍历时采用「分段统计」技巧：当 <code>s[i] != s[i+1]</code> 或到达末尾时，<code>[i - runLen + 1, i]</code> 就是一个完整的同字符连续段，根据字符类型更新对应变量。</p>
+<h2 id="关键点"><a href="#关键点" class="headerlink" title="关键点"></a>关键点</h2><ol>
+<li><strong>题意转化</strong>：理解「先消 <code>&#39;1&#39;</code> 再补 <code>&#39;0&#39;</code>」的两次操作等价于「直接把两个相邻零块变成 <code>&#39;1&#39;</code>」，中间 <code>&#39;1&#39;</code> 先删后补，互相抵消。这是本题最核心的洞察。</li>
+<li><strong>虚拟 <code>&#39;1&#39;</code> 的作用</strong>：保证两端的零块也能被”相邻 <code>&#39;1&#39;</code>“包围，从而使第二步操作合法。但虚拟位不计入答案。</li>
+<li><strong>不可操作的情况</strong>：当零块数量 &lt; 2 时（<code>prevZero</code> 始终为 0），<code>maxGain</code> 保持为 0，答案即为原始 <code>&#39;1&#39;</code> 的总数。</li>
+<li><strong>一次遍历</strong>：利用分段统计的技巧，无需显式存储所有零块长度，只需保留 <code>prevZero</code>，将空间优化到 <code>O(1)</code>。</li>
+</ol>
+<h2 id="相关题目"><a href="#相关题目" class="headerlink" title="相关题目"></a>相关题目</h2><ul>
+<li><a href="https://leetcode.cn/problems/zero-array-transformation-i/">3355. 零数组变换 I</a> — 类似的一次遍历 + 前缀状态维护。</li>
+<li><a href="https://leetcode.cn/problems/minimum-deletions-to-make-string-balanced/">1653. 使字符串平衡的最少删除次数</a> — 字符串分段遍历 + 贪心策略。</li>
+</ul>
+]]></content>
       <categories>
         <category>算法题解</category>
       </categories>
       <tags>
         <tag>LeetCode</tag>
-        <tag>数组</tag>
         <tag>每日一题</tag>
         <tag>字符串</tag>
-        <tag>线段树</tag>
-        <tag>二分查找</tag>
+        <tag>贪心</tag>
+        <tag>枚举</tag>
       </tags>
   </entry>
   <entry>
@@ -1189,11 +1189,6 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>全部分类</title>
-    <url>/categories/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>留言板</title>
     <url>/messageboard/index.html</url>
     <content><![CDATA[<h2 id="💬留言板"><a href="#💬留言板" class="headerlink" title="💬留言板"></a>💬留言板</h2><p>欢迎在这里留言，碎碎念、建议、友链申请都可以。</p>
@@ -1210,6 +1205,16 @@
 <p>💡留言会经过审阅，请勿发布广告、违规内容。</p>
 </blockquote>
 ]]></content>
+  </entry>
+  <entry>
+    <title>全部分类</title>
+    <url>/categories/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>全部标签</title>
+    <url>/tags/index.html</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>站点纪事</title>
@@ -1237,10 +1242,5 @@
 </ul>
 </div>
       </div></div>]]></content>
-  </entry>
-  <entry>
-    <title>全部标签</title>
-    <url>/tags/index.html</url>
-    <content><![CDATA[]]></content>
   </entry>
 </search>
