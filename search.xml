@@ -6,6 +6,253 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
+    <title>IO模式</title>
+    <url>/2026/07/20/IO%E6%A8%A1%E5%BC%8F/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>JVM</title>
+    <url>/2026/07/20/JVM/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Java异常机制</title>
+    <url>/2026/07/20/Java%E5%BC%82%E5%B8%B8%E6%9C%BA%E5%88%B6/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Lambda表达式</title>
+    <url>/2026/07/20/Lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>langgraph</title>
+    <url>/2026/07/20/langgraph/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>AI</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>linux教程</title>
+    <url>//linux-tutorial/</url>
+    <content><![CDATA[<p><a href="https://mp.weixin.qq.com/s?__biz=Mzg2NTAzMTExNg==&mid=2247483879&idx=1&sn=96181b566c35679e48db6bd26fb59a2c&scene=19#wechat_redirect">狂神说Linux笔记</a></p>
+<p>在需要时可以快速恢复。如果是直接关闭虚拟机的话，每次启动虚拟机都会耗费很多时间。</p>
+<p>2、硬件参数的设置<br>建议：先关闭虚拟机，再修改配置</p>
+<p>image-20210811201840311<br>image-20210811201840311</p>
+<p>3、快照和系统恢复<br>当系统出现严重错误怎么办？</p>
+<p>1、重装系统</p>
+<p>优点：操作简单</p>
+<p>缺点：Ubuntu系统的重装会比较耗时。原来系统的配置，文件以及数据没了。</p>
+<p>2、系统快照：VMware提供的系统功能</p>
+<p>当系统出现问题的时候可以使用最近一次的快照进行恢复。</p>
+<p>Linux系统操作<br>​ Linux可以用作个人桌面（办公，看视频，听音乐…),但其主要还是用于服务器环境。常用应用：文件管理器、命令行终端、文本编辑器</p>
+<p>1、文件系统<br>对windows来说，每个分区有一个盘符。每一个盘符实际上是一个分区partition。</p>
+<p>在Linux下没有C:等盘符概念。Linux使用统一的目录树结构。</p>
+<p>none<br>&#x2F;<br>&#x2F;home&#x2F;w #用户目录<br>&#x2F;root<br>&#x2F;bin<br>&#x2F;mnt<br>&#x2F;user<br>&#x2F;etc<br>1.1、用户目录<br>用户目录，即用户自己的目录。如用户w用户目录为&#x2F;home&#x2F;w 。Linux系统上可以支持多个用户，每个用户有一个目录。特例：超级用户root，其用户目录为&#x2F;root。</p>
+<p>权限机制：对普通用户来说，他能操作的目录只有用户目录。root用户没有限制可以操作任何文件和目录。</p>
+<p>2、Linux常用命令<br>none<br>ls&#x2F;cd&#x2F;pwd #目录切换和查看<br>mkdir&#x2F;rmdir #目录的创建和删除<br>cp&#x2F;rm&#x2F;mv #复制 删除 移动<br>tar&#x2F;zip&#x2F;unzip #压缩 解压<br>ln…<br>查看目录ls<br>ls,即list,列出目录下的所有项：如 查看当前目录 ls, 查看&#x2F;home&#x2F;w目录ls &#x2F;home&#x2F;w</p>
+<p>详细模式查看 ls -l &#x2F;home&#x2F;w<br>其中 -l 为参数 参数一般义 -开头</p>
+<p>none<br>w@ubuntu21:~$ ls -l &#x2F;home&#x2F;w<br>总用量 36<br>drwxr-xr-x 2 w w 4096  8月 11 11:43 公共的<br>drwxr-xr-x 2 w w 4096  8月 11 11:43 模板<br>drwxr-xr-x 2 w w 4096  8月 11 11:43 视频<br>drwxr-xr-x 2 w w 4096  8月 11 11:43 图片<br>drwxr-xr-x 2 w w 4096  8月 11 11:43 文档<br>drwxr-xr-x 2 w w 4096  8月 11 11:43 下载<br>drwxr-xr-x 2 w w 4096  8月 11 11:43 音乐<br>drwxr-xr-x 2 w w 4096  8月 11 11:43 桌面<br>drwxr-xr-x 3 w w 4096  8月 11 11:44 snap<br>在输入命令和路径时，按tab建可以自动补全。如 ls &#x2F;ho -&gt; ls &#x2F;home</p>
+<p>按上下键可以翻阅输入历史的历史命令</p>
+<p>显示当前位置pwd<br>pwd,即print working directory 显示当前工作目录</p>
+<p>切换目录cd<br>cd，change directory 切换目录</p>
+<p>切换到用户主目录：直接cd</p>
+<p>切换到某个目录：cd &#x2F;home&#x2F;w&#x2F;snap</p>
+<p>none<br>几个特殊目录<br>~ 代表当前用户的主目录<br>. 代表当前目录<br>.. 代表上一节目录<br>cd ~ 切换到用户主目录,和cd一样<br>cd ~&#x2F;snap 切换到主目录下的snap目录<br>cd ..&#x2F;www 切换到上级目录，再到www子目录</p>
+<p>在ls命令中,也可以使用~ …表示路径<br>ls ~<br>ls .&#x2F;www<br>还有更复杂的 .&#x2F;hello&#x2F;abc&#x2F;…&#x2F;123&#x2F;.&#x2F;other&#x2F;test.xml<br>目录操作<br>mkdir，即make directory创建目录</p>
+<p>mkdir abc</p>
+<p>mkdir -p abc&#x2F;123&#x2F;test</p>
+<p>使用-p参数，可以将路径的层次目录全部创建</p>
+<p>rmdir，即remove directory删除目录</p>
+<p>rmdir abc 如果目录非空，则删除失败</p>
+<p>rm ,即 remove 删除文件或目录</p>
+<p>rm -rf abc 删除abc,和子项一起删除</p>
+<p>其中,r表示recursion(递归删除)，f表示force (强制删除)</p>
+<p>rm<br>rm -rf &#x2F;* 删除根目录下的所有东西（慎用)<br>cp,即copy复制文件或者目录</p>
+<p>cp -rf snap snap2</p>
+<p>强制递归复制snap，如果snap2不存在则会创建snap2,如果snap2存在则会将sanp的内容复制到snap2下。</p>
+<p>mv,即move ,移动文件或者目录（重命名)</p>
+<p>move hello helloworld</p>
+<p>rm&#x2F;cp&#x2F;mv这三个命令对文件同样适用</p>
+<p>归档：备份<br>在Linux系统重要的程序或者文件需要备份，首先将其打包为一个文件（tar包），让后在将tar文件备份到某个位置。</p>
+<p>tar,即tape(磁带) archive(档案) 档案打包</p>
+<p>创建档案包</p>
+<p>none<br>tar -cvf example.tar example<br>其中c,表示create创建档案</p>
+<p>v,表示verbose显示详情</p>
+<p>f,表示file</p>
+<p>也可以将多个目录打包 tar -cvf xxx.tar file1 file2 file3</p>
+<p>还原档案包（解压压缩包)</p>
+<p>none<br>tar -xvf example.tar<br>tar -xvf example.tar -C outdir<br>其中,-C参数指定目标目录(C大写表示切换一个目录)，默认解压到当前目录下<br>上面的tar格式并没有压缩，体积较大。所以可以通过归档并压缩</p>
+<p>归档并压缩<br>none<br>tar -czvf example.tar.gz example 参数z表示压缩 先归档在使用gz压<br>解压缩<br>tar -xzvf example.tar.gz<br>tar -xzvf example.tar.gz -C outdir<br>软链接，相当于Windows下的快捷方式<br>使用ln命令（link）来创建软链接</p>
+<p>ln -s source link 其中，-s表示soft软链接（默认为硬)，除了软链接还有硬链接。</p>
+<p>如：ln -s example example2</p>
+<p>删除软链接对原文件没有影响。</p>
+<p>删除原文件，则软链接失效。</p>
+<p>以ls -l查看文件详情时，可以看到文件目标路径,查看当前文件是否是软链接</p>
+<p>比如，ls -l &#x2F;</p>
+<p>可以发现，&#x2F;bin 实际指向&#x2F;user&#x2F;bin</p>
+<p>none<br>lrwxrwxrwx   1 root root          7  8月 11 10:41 bin -&gt; usr&#x2F;bin<br>宿主机和虚拟机之间的拷贝粘贴<br>一般情况下，文本和文件都可以拷贝</p>
+]]></content>
+      <categories>
+        <category>Linux笔记</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>运维</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>spring详解</title>
+    <url>/2026/07/20/spring%E8%AF%A6%E8%A7%A3/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>二进制</title>
+    <url>/2026/07/20/%E4%BA%8C%E8%BF%9B%E5%88%B6/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>多线程详解</title>
+    <url>/2026/07/20/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E8%AF%A6%E8%A7%A3/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>常用类String</title>
+    <url>/2026/07/20/%E5%B8%B8%E7%94%A8%E7%B1%BBString/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>并发编程</title>
+    <url>/2026/07/20/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>序列化与反序列化</title>
+    <url>/2026/07/20/%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%8E%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>正则表达式</title>
+    <url>/2026/07/20/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>泛型</title>
+    <url>/2026/07/20/%E6%B3%9B%E5%9E%8B/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>注解与反射</title>
+    <url>/2026/07/20/%E6%B3%A8%E8%A7%A3%E4%B8%8E%E5%8F%8D%E5%B0%84/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>网络编程</title>
+    <url>/2026/07/20/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>连续子数组的最大和</title>
+    <url>/2026/07/20/%E8%BF%9E%E7%BB%AD%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>金山云笔试</title>
+    <url>/2026/07/20/%E9%87%91%E5%B1%B1%E4%BA%91%E7%AC%94%E8%AF%95/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>集合类</title>
+    <url>/2026/07/20/%E9%9B%86%E5%90%88%E7%B1%BB/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>面向对象</title>
+    <url>/2026/07/20/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>二分查找</title>
+    <url>/2026/07/20/algorithm/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>KMP算法</title>
+    <url>/2026/07/20/algorithm/KMP%E7%AE%97%E6%B3%95/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>二叉树的遍历</title>
+    <url>/2026/07/20/algorithm/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>合并两个排序的链表</title>
+    <url>/2026/07/20/algorithm/%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%8E%92%E5%BA%8F%E7%9A%84%E9%93%BE%E8%A1%A8/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>二叉排序树</title>
+    <url>/2026/07/20/algorithm/%E4%BA%8C%E5%8F%89%E6%8E%92%E5%BA%8F%E6%A0%91/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>判断链表中是否有环</title>
+    <url>/2026/07/20/algorithm/%E5%88%A4%E6%96%AD%E9%93%BE%E8%A1%A8%E4%B8%AD%E6%98%AF%E5%90%A6%E6%9C%89%E7%8E%AF/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>合并两个有序数组</title>
+    <url>/2026/07/20/algorithm/%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>堆排序</title>
+    <url>/2026/07/20/algorithm/%E5%A0%86%E6%8E%92%E5%BA%8F/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>平衡二叉树（AVL）</title>
+    <url>/2026/07/20/algorithm/%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91%EF%BC%88AVL%EF%BC%89/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>数组中的重复数字</title>
+    <url>/2026/07/20/algorithm/%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E6%95%B0%E5%AD%97/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>数轴覆盖</title>
+    <url>/2026/07/20/algorithm/%E6%95%B0%E8%BD%B4%E8%A6%86%E7%9B%96/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>旋转矩阵</title>
+    <url>/2026/07/20/algorithm/%E6%97%8B%E8%BD%AC%E7%9F%A9%E9%98%B5/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>旋转词</title>
+    <url>/2026/07/20/algorithm/%E6%97%8B%E8%BD%AC%E8%AF%8D/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>赫夫曼树</title>
+    <url>/2026/07/20/algorithm/%E8%B5%AB%E5%A4%AB%E6%9B%BC%E6%A0%91/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>青蛙跳台阶拓展问题</title>
+    <url>/2026/07/20/algorithm/%E9%9D%92%E8%9B%99%E8%B7%B3%E5%8F%B0%E9%98%B6%E6%8B%93%E5%B1%95%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>顺序（线性）查找</title>
+    <url>/2026/07/20/algorithm/%E9%A1%BA%E5%BA%8F%EF%BC%88%E7%BA%BF%E6%80%A7%EF%BC%89%E6%9F%A5%E6%89%BE/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>Hexo+Butterfly+GitHub 从零搭建个人博客（单仓库双分支+源码永久备份）</title>
     <url>//hexo-butterfly-github-build-blog/</url>
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本文为<strong>全网最干净的 Windows 从零搭建 Hexo 博客实录</strong>，解决绝大多数新手踩坑问题：</p>
@@ -282,28 +529,8 @@
       </tags>
   </entry>
   <entry>
-    <title>IO模式</title>
-    <url>/2026/07/20/IO%E6%A8%A1%E5%BC%8F/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>Java异常机制</title>
-    <url>/2026/07/20/Java%E5%BC%82%E5%B8%B8%E6%9C%BA%E5%88%B6/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>JVM</title>
-    <url>/2026/07/20/JVM/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>Lambda表达式</title>
-    <url>/2026/07/20/Lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>KMP算法</title>
-    <url>/2026/07/20/KMP%E7%AE%97%E6%B3%95/</url>
+    <title>Mysql</title>
+    <url>/2026/07/20/database/Mysql/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -673,6 +900,22 @@
       </tags>
   </entry>
   <entry>
+    <title>Leetcode-3501-操作后最大活跃区段数-II</title>
+    <url>//maximize-active-section-with-trade-ii/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>算法题解</category>
+      </categories>
+      <tags>
+        <tag>LeetCode</tag>
+        <tag>数组</tag>
+        <tag>每日一题</tag>
+        <tag>字符串</tag>
+        <tag>线段树</tag>
+        <tag>二分查找</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Leetcode-3702-按位异或非零的最长子序列</title>
     <url>//longest-subsequence-with-non-zero-bitwise-xor/</url>
     <content><![CDATA[<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p><a href="https://leetcode.cn/problems/longest-subsequence-with-non-zero-bitwise-xor/description/">3702. 按位异或非零的最长子序列</a></p>
@@ -876,249 +1119,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Leetcode-3501-操作后最大活跃区段数-II</title>
-    <url>//maximize-active-section-with-trade-ii/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>算法题解</category>
-      </categories>
-      <tags>
-        <tag>LeetCode</tag>
-        <tag>数组</tag>
-        <tag>每日一题</tag>
-        <tag>字符串</tag>
-        <tag>线段树</tag>
-        <tag>二分查找</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Mysql</title>
-    <url>/2026/07/20/Mysql/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>langgraph</title>
-    <url>/2026/07/20/langgraph/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>AI</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>spring详解</title>
-    <url>/2026/07/20/spring%E8%AF%A6%E8%A7%A3/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>二分查找</title>
-    <url>/2026/07/20/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>二叉排序树</title>
-    <url>/2026/07/20/%E4%BA%8C%E5%8F%89%E6%8E%92%E5%BA%8F%E6%A0%91/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>二叉树的遍历</title>
-    <url>/2026/07/20/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>判断链表中是否有环</title>
-    <url>/2026/07/20/%E5%88%A4%E6%96%AD%E9%93%BE%E8%A1%A8%E4%B8%AD%E6%98%AF%E5%90%A6%E6%9C%89%E7%8E%AF/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>二进制</title>
-    <url>/2026/07/20/%E4%BA%8C%E8%BF%9B%E5%88%B6/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>合并两个排序的链表</title>
-    <url>/2026/07/20/%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%8E%92%E5%BA%8F%E7%9A%84%E9%93%BE%E8%A1%A8/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>合并两个有序数组</title>
-    <url>/2026/07/20/%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>堆排序</title>
-    <url>/2026/07/20/%E5%A0%86%E6%8E%92%E5%BA%8F/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>多线程详解</title>
-    <url>/2026/07/20/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E8%AF%A6%E8%A7%A3/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>常用类String</title>
-    <url>/2026/07/20/%E5%B8%B8%E7%94%A8%E7%B1%BBString/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>并发编程</title>
-    <url>/2026/07/20/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>序列化与反序列化</title>
-    <url>/2026/07/20/%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%8E%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>平衡二叉树（AVL）</title>
-    <url>/2026/07/20/%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91%EF%BC%88AVL%EF%BC%89/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>数组中的重复数字</title>
-    <url>/2026/07/20/%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E6%95%B0%E5%AD%97/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>旋转矩阵</title>
-    <url>/2026/07/20/%E6%97%8B%E8%BD%AC%E7%9F%A9%E9%98%B5/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>数轴覆盖</title>
-    <url>/2026/07/20/%E6%95%B0%E8%BD%B4%E8%A6%86%E7%9B%96/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>旋转词</title>
-    <url>/2026/07/20/%E6%97%8B%E8%BD%AC%E8%AF%8D/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>linux教程</title>
-    <url>//linux-tutorial/</url>
-    <content><![CDATA[<p><a href="https://mp.weixin.qq.com/s?__biz=Mzg2NTAzMTExNg==&mid=2247483879&idx=1&sn=96181b566c35679e48db6bd26fb59a2c&scene=19#wechat_redirect">狂神说Linux笔记</a></p>
-<p>在需要时可以快速恢复。如果是直接关闭虚拟机的话，每次启动虚拟机都会耗费很多时间。</p>
-<p>2、硬件参数的设置<br>建议：先关闭虚拟机，再修改配置</p>
-<p>image-20210811201840311<br>image-20210811201840311</p>
-<p>3、快照和系统恢复<br>当系统出现严重错误怎么办？</p>
-<p>1、重装系统</p>
-<p>优点：操作简单</p>
-<p>缺点：Ubuntu系统的重装会比较耗时。原来系统的配置，文件以及数据没了。</p>
-<p>2、系统快照：VMware提供的系统功能</p>
-<p>当系统出现问题的时候可以使用最近一次的快照进行恢复。</p>
-<p>Linux系统操作<br>​ Linux可以用作个人桌面（办公，看视频，听音乐…),但其主要还是用于服务器环境。常用应用：文件管理器、命令行终端、文本编辑器</p>
-<p>1、文件系统<br>对windows来说，每个分区有一个盘符。每一个盘符实际上是一个分区partition。</p>
-<p>在Linux下没有C:等盘符概念。Linux使用统一的目录树结构。</p>
-<p>none<br>&#x2F;<br>&#x2F;home&#x2F;w #用户目录<br>&#x2F;root<br>&#x2F;bin<br>&#x2F;mnt<br>&#x2F;user<br>&#x2F;etc<br>1.1、用户目录<br>用户目录，即用户自己的目录。如用户w用户目录为&#x2F;home&#x2F;w 。Linux系统上可以支持多个用户，每个用户有一个目录。特例：超级用户root，其用户目录为&#x2F;root。</p>
-<p>权限机制：对普通用户来说，他能操作的目录只有用户目录。root用户没有限制可以操作任何文件和目录。</p>
-<p>2、Linux常用命令<br>none<br>ls&#x2F;cd&#x2F;pwd #目录切换和查看<br>mkdir&#x2F;rmdir #目录的创建和删除<br>cp&#x2F;rm&#x2F;mv #复制 删除 移动<br>tar&#x2F;zip&#x2F;unzip #压缩 解压<br>ln…<br>查看目录ls<br>ls,即list,列出目录下的所有项：如 查看当前目录 ls, 查看&#x2F;home&#x2F;w目录ls &#x2F;home&#x2F;w</p>
-<p>详细模式查看 ls -l &#x2F;home&#x2F;w<br>其中 -l 为参数 参数一般义 -开头</p>
-<p>none<br>w@ubuntu21:~$ ls -l &#x2F;home&#x2F;w<br>总用量 36<br>drwxr-xr-x 2 w w 4096  8月 11 11:43 公共的<br>drwxr-xr-x 2 w w 4096  8月 11 11:43 模板<br>drwxr-xr-x 2 w w 4096  8月 11 11:43 视频<br>drwxr-xr-x 2 w w 4096  8月 11 11:43 图片<br>drwxr-xr-x 2 w w 4096  8月 11 11:43 文档<br>drwxr-xr-x 2 w w 4096  8月 11 11:43 下载<br>drwxr-xr-x 2 w w 4096  8月 11 11:43 音乐<br>drwxr-xr-x 2 w w 4096  8月 11 11:43 桌面<br>drwxr-xr-x 3 w w 4096  8月 11 11:44 snap<br>在输入命令和路径时，按tab建可以自动补全。如 ls &#x2F;ho -&gt; ls &#x2F;home</p>
-<p>按上下键可以翻阅输入历史的历史命令</p>
-<p>显示当前位置pwd<br>pwd,即print working directory 显示当前工作目录</p>
-<p>切换目录cd<br>cd，change directory 切换目录</p>
-<p>切换到用户主目录：直接cd</p>
-<p>切换到某个目录：cd &#x2F;home&#x2F;w&#x2F;snap</p>
-<p>none<br>几个特殊目录<br>~ 代表当前用户的主目录<br>. 代表当前目录<br>.. 代表上一节目录<br>cd ~ 切换到用户主目录,和cd一样<br>cd ~&#x2F;snap 切换到主目录下的snap目录<br>cd ..&#x2F;www 切换到上级目录，再到www子目录</p>
-<p>在ls命令中,也可以使用~ …表示路径<br>ls ~<br>ls .&#x2F;www<br>还有更复杂的 .&#x2F;hello&#x2F;abc&#x2F;…&#x2F;123&#x2F;.&#x2F;other&#x2F;test.xml<br>目录操作<br>mkdir，即make directory创建目录</p>
-<p>mkdir abc</p>
-<p>mkdir -p abc&#x2F;123&#x2F;test</p>
-<p>使用-p参数，可以将路径的层次目录全部创建</p>
-<p>rmdir，即remove directory删除目录</p>
-<p>rmdir abc 如果目录非空，则删除失败</p>
-<p>rm ,即 remove 删除文件或目录</p>
-<p>rm -rf abc 删除abc,和子项一起删除</p>
-<p>其中,r表示recursion(递归删除)，f表示force (强制删除)</p>
-<p>rm<br>rm -rf &#x2F;* 删除根目录下的所有东西（慎用)<br>cp,即copy复制文件或者目录</p>
-<p>cp -rf snap snap2</p>
-<p>强制递归复制snap，如果snap2不存在则会创建snap2,如果snap2存在则会将sanp的内容复制到snap2下。</p>
-<p>mv,即move ,移动文件或者目录（重命名)</p>
-<p>move hello helloworld</p>
-<p>rm&#x2F;cp&#x2F;mv这三个命令对文件同样适用</p>
-<p>归档：备份<br>在Linux系统重要的程序或者文件需要备份，首先将其打包为一个文件（tar包），让后在将tar文件备份到某个位置。</p>
-<p>tar,即tape(磁带) archive(档案) 档案打包</p>
-<p>创建档案包</p>
-<p>none<br>tar -cvf example.tar example<br>其中c,表示create创建档案</p>
-<p>v,表示verbose显示详情</p>
-<p>f,表示file</p>
-<p>也可以将多个目录打包 tar -cvf xxx.tar file1 file2 file3</p>
-<p>还原档案包（解压压缩包)</p>
-<p>none<br>tar -xvf example.tar<br>tar -xvf example.tar -C outdir<br>其中,-C参数指定目标目录(C大写表示切换一个目录)，默认解压到当前目录下<br>上面的tar格式并没有压缩，体积较大。所以可以通过归档并压缩</p>
-<p>归档并压缩<br>none<br>tar -czvf example.tar.gz example 参数z表示压缩 先归档在使用gz压<br>解压缩<br>tar -xzvf example.tar.gz<br>tar -xzvf example.tar.gz -C outdir<br>软链接，相当于Windows下的快捷方式<br>使用ln命令（link）来创建软链接</p>
-<p>ln -s source link 其中，-s表示soft软链接（默认为硬)，除了软链接还有硬链接。</p>
-<p>如：ln -s example example2</p>
-<p>删除软链接对原文件没有影响。</p>
-<p>删除原文件，则软链接失效。</p>
-<p>以ls -l查看文件详情时，可以看到文件目标路径,查看当前文件是否是软链接</p>
-<p>比如，ls -l &#x2F;</p>
-<p>可以发现，&#x2F;bin 实际指向&#x2F;user&#x2F;bin</p>
-<p>none<br>lrwxrwxrwx   1 root root          7  8月 11 10:41 bin -&gt; usr&#x2F;bin<br>宿主机和虚拟机之间的拷贝粘贴<br>一般情况下，文本和文件都可以拷贝</p>
-]]></content>
-      <categories>
-        <category>Linux笔记</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>运维</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>正则表达式</title>
-    <url>/2026/07/20/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>泛型</title>
-    <url>/2026/07/20/%E6%B3%9B%E5%9E%8B/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>注解与反射</title>
-    <url>/2026/07/20/%E6%B3%A8%E8%A7%A3%E4%B8%8E%E5%8F%8D%E5%B0%84/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>赫夫曼树</title>
-    <url>/2026/07/20/%E8%B5%AB%E5%A4%AB%E6%9B%BC%E6%A0%91/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>连续子数组的最大和</title>
-    <url>/2026/07/20/%E8%BF%9E%E7%BB%AD%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>网络编程</title>
-    <url>/2026/07/20/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>金山云笔试</title>
-    <url>/2026/07/20/%E9%87%91%E5%B1%B1%E4%BA%91%E7%AC%94%E8%AF%95/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>集合类</title>
-    <url>/2026/07/20/%E9%9B%86%E5%90%88%E7%B1%BB/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>青蛙跳台阶拓展问题</title>
-    <url>/2026/07/20/%E9%9D%92%E8%9B%99%E8%B7%B3%E5%8F%B0%E9%98%B6%E6%8B%93%E5%B1%95%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>顺序（线性）查找</title>
-    <url>/2026/07/20/%E9%A1%BA%E5%BA%8F%EF%BC%88%E7%BA%BF%E6%80%A7%EF%BC%89%E6%9F%A5%E6%89%BE/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>面向对象</title>
-    <url>/2026/07/20/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>关于我</title>
     <url>/about/index.html</url>
     <content><![CDATA[<h2 id="👋-你好，我是十七"><a href="#👋-你好，我是十七" class="headerlink" title="👋 你好，我是十七"></a>👋 你好，我是十七</h2><p>一名热爱技术的<strong>软件开发工程师</strong>，专注于构建优雅、可维护的代码。</p>
@@ -1189,6 +1189,26 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
+    <title>友情链接</title>
+    <url>/link/index.html</url>
+    <content><![CDATA[<h2 id="🤝友链申请"><a href="#🤝友链申请" class="headerlink" title="🤝友链申请"></a>🤝友链申请</h2><p>想要交换友链的朋友，可以在下方留言，格式参考：</p>
+<blockquote>
+<p>⚠️本页面未开启评论，请复制下方模板，前往👉**<a href="/messageboard/">留言板</a>**提交友链申请。</p>
+</blockquote>
+<blockquote>
+<p>站点名称：xxx<br>站点链接：<a href="https://xxx.com/">https://xxx.com</a><br>头像地址：<a href="https://xxx/avatar.png">https://xxx/avatar.png</a><br>站点描述：xxxx</p>
+</blockquote>
+<blockquote>
+<p>要求：站点可正常访问，无违规内容。</p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>全部标签</title>
+    <url>/tags/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>留言板</title>
     <url>/messageboard/index.html</url>
     <content><![CDATA[<h2 id="💬留言板"><a href="#💬留言板" class="headerlink" title="💬留言板"></a>💬留言板</h2><p>欢迎在这里留言，碎碎念、建议、友链申请都可以。</p>
@@ -1203,21 +1223,6 @@
 </blockquote>
 <blockquote>
 <p>💡留言会经过审阅，请勿发布广告、违规内容。</p>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
-    <title>友情链接</title>
-    <url>/link/index.html</url>
-    <content><![CDATA[<h2 id="🤝友链申请"><a href="#🤝友链申请" class="headerlink" title="🤝友链申请"></a>🤝友链申请</h2><p>想要交换友链的朋友，可以在下方留言，格式参考：</p>
-<blockquote>
-<p>⚠️本页面未开启评论，请复制下方模板，前往👉**<a href="/messageboard/">留言板</a>**提交友链申请。</p>
-</blockquote>
-<blockquote>
-<p>站点名称：xxx<br>站点链接：<a href="https://xxx.com/">https://xxx.com</a><br>头像地址：<a href="https://xxx/avatar.png">https://xxx/avatar.png</a><br>站点描述：xxxx</p>
-</blockquote>
-<blockquote>
-<p>要求：站点可正常访问，无违规内容。</p>
 </blockquote>
 ]]></content>
   </entry>
@@ -1247,10 +1252,5 @@
 </ul>
 </div>
       </div></div>]]></content>
-  </entry>
-  <entry>
-    <title>全部标签</title>
-    <url>/tags/index.html</url>
-    <content><![CDATA[]]></content>
   </entry>
 </search>
