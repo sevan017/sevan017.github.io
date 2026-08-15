@@ -1,11 +1,22 @@
 - class_name: 友情链接
   class_desc: 那些人，那些事
   link_list:
-    # ↓新增这条
     - name: 麦香鱼的无线电小屋
       link: https://bi1mxy.github.io/
       avatar: https://bi1mxy.github.io/img/logo.png
       descr: bi1mxy的个人博客
+    - name: 码酱
+      link: https://luokangyuan.com/
+      avatar: http://image.luokangyuan.com/1_qq_27922023.jpg
+      descr: 我不是大佬，只是在追寻大佬的脚步
+    - name: 闪烁之狐
+      link: https://blinkfox.github.io
+      avatar: http://image.luokangyuan.com/4027734.jpeg
+      descr: 编程界大佬，技术牛，人还特别好，不懂的都可以请教大佬
+    - name: ja_rome
+      link: https://blog.csdn.net/jlh912008548
+      avatar: http://image.luokangyuan.com/avatar.jpg
+      descr: 平凡的脚步也可以走出伟大的行程
 
 - class_name: 网站
   class_desc: 值得推荐的网站

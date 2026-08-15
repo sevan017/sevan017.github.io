@@ -31,7 +31,7 @@ menu:
   # Link: /link/ || fas fa-link
   分类: /categories/ || fas fa-folder-open
   关于: /about/ || fas fa-heart
-#  友情链接: /link/ || fas fa-link
+  友情链接: /link/ || fas fa-link
 #  站点纪事: /timeline/ || fas fa-book-open
 #  留言板: /messageboard/ || fas fa-comments
 
