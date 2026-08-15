@@ -1,6 +1,10 @@
 - class_name: 友情链接
   class_desc: 那些人，那些事
   link_list:
+    - name: 十七
+      link: https://www.welcomeme.cn/
+      avatar: https://www.welcomeme.cn/img/friend_link.png
+      descr: 只要你不停止，走慢一点没关系
     - name: 麦香鱼的无线电小屋
       link: https://bi1mxy.github.io/
       avatar: https://bi1mxy.github.io/img/logo.png
@@ -17,6 +21,10 @@
       link: https://blog.csdn.net/jlh912008548
       avatar: http://image.luokangyuan.com/avatar.jpg
       descr: 平凡的脚步也可以走出伟大的行程
+    - name: A2DATA
+      link: https://www.a2data.cn/
+      avatar: https://www.a2data.cn/images/logo.png
+      descr: 武术跨行大数据，用技术推动梦想的落地！
 
 - class_name: 网站
   class_desc: 值得推荐的网站
