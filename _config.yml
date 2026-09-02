@@ -42,7 +42,8 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
+#post_asset_folder: true # 开启，hexo会自动创建一个文件夹，用于存储文章中的图片、视频等资源
+post_asset_folder: false
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
