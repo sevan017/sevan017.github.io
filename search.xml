@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>File相关类</title>
-    <url>/2026/07/20/File%E7%9B%B8%E5%85%B3%E7%B1%BB/</url>
+    <title>IO模式</title>
+    <url>/2026/07/20/IO%E6%A8%A1%E5%BC%8F/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>IO模式</title>
-    <url>/2026/07/20/IO%E6%A8%A1%E5%BC%8F/</url>
+    <title>File相关类</title>
+    <url>/2026/07/20/File%E7%9B%B8%E5%85%B3%E7%B1%BB/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -27,8 +27,11 @@
   </entry>
   <entry>
     <title>langgraph</title>
-    <url>/2026/07/20/langgraph/</url>
+    <url>//langgraph/</url>
     <content><![CDATA[]]></content>
+      <categories>
+        <category>AI</category>
+      </categories>
       <tags>
         <tag>AI</tag>
       </tags>
@@ -123,13 +126,13 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>并发编程</title>
-    <url>/2026/07/20/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/</url>
+    <title>序列化与反序列化</title>
+    <url>/2026/07/20/%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%8E%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>序列化与反序列化</title>
-    <url>/2026/07/20/%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%8E%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/</url>
+    <title>并发编程</title>
+    <url>/2026/07/20/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -148,6 +151,11 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
+    <title>网络编程</title>
+    <url>/2026/07/20/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>连续子数组的最大和</title>
     <url>/2026/07/20/%E8%BF%9E%E7%BB%AD%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C/</url>
     <content><![CDATA[]]></content>
@@ -155,11 +163,6 @@
   <entry>
     <title>金山云笔试</title>
     <url>/2026/07/20/%E9%87%91%E5%B1%B1%E4%BA%91%E7%AC%94%E8%AF%95/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>网络编程</title>
-    <url>/2026/07/20/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -183,13 +186,13 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>二叉树的遍历</title>
-    <url>/2026/07/20/algorithm/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86/</url>
+    <title>二叉排序树</title>
+    <url>/2026/07/20/algorithm/%E4%BA%8C%E5%8F%89%E6%8E%92%E5%BA%8F%E6%A0%91/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>二叉排序树</title>
-    <url>/2026/07/20/algorithm/%E4%BA%8C%E5%8F%89%E6%8E%92%E5%BA%8F%E6%A0%91/</url>
+    <title>二叉树的遍历</title>
+    <url>/2026/07/20/algorithm/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -218,13 +221,13 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>数组中的重复数字</title>
-    <url>/2026/07/20/algorithm/%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E6%95%B0%E5%AD%97/</url>
+    <title>数轴覆盖</title>
+    <url>/2026/07/20/algorithm/%E6%95%B0%E8%BD%B4%E8%A6%86%E7%9B%96/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>数轴覆盖</title>
-    <url>/2026/07/20/algorithm/%E6%95%B0%E8%BD%B4%E8%A6%86%E7%9B%96/</url>
+    <title>数组中的重复数字</title>
+    <url>/2026/07/20/algorithm/%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E6%95%B0%E5%AD%97/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -236,6 +239,17 @@
     <title>旋转词</title>
     <url>/2026/07/20/algorithm/%E6%97%8B%E8%BD%AC%E8%AF%8D/</url>
     <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>算法之旅</title>
+    <url>//algorithm_journey/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>算法之旅</category>
+      </categories>
+      <tags>
+        <tag>算法知识</tag>
+      </tags>
   </entry>
   <entry>
     <title>赫夫曼树</title>
@@ -719,80 +733,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Leetcode-1260-二维网格迁移</title>
-    <url>//shift-2d-grid/</url>
-    <content><![CDATA[<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p><a href="https://leetcode.cn/problems/shift-2d-grid/description/">1260. 二维网格迁移</a></p>
-<p>给你一个 <code>m</code> 行 <code>n</code> 列的二维网格 <code>grid</code> 和一个整数 <code>k</code>。你需要将 <code>grid</code> 迁移 <code>k</code> 次。</p>
-<p>每次「迁移」操作会引发下述活动：</p>
-<ul>
-<li>位于 <code>grid[i][j]</code>（<code>j &lt; n - 1</code>）的元素会移动到 <code>grid[i][j + 1]</code>。</li>
-<li>位于 <code>grid[i][n - 1]</code> 的元素会移动到 <code>grid[i + 1][0]</code>。</li>
-<li>位于 <code>grid[m - 1][n - 1]</code> 的元素会移动到 <code>grid[0][0]</code>。</li>
-</ul>
-<p>请返回 <code>k</code> 次迁移操作后最终得到的 <strong>二维网格</strong>。</p>
-<p><strong>示例 1：</strong></p>
-<p><img src="https://assets.leetcode.com/uploads/2019/11/05/e1.png" alt="示例1"></p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">输入：grid = [[1,2,3],[4,5,6],[7,8,9]], k = 1</span><br><span class="line">输出：[[9,1,2],[3,4,5],[6,7,8]]</span><br></pre></td></tr></table></figure>
-
-<p><strong>示例 2：</strong></p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">输入：grid = [[3,8,1,9],[19,7,2,5],[4,6,11,10],[12,0,21,13]], k = 4</span><br><span class="line">输出：[[12,0,21,13],[3,8,1,9],[19,7,2,5],[4,6,11,10]]</span><br></pre></td></tr></table></figure>
-
-<p><strong>示例 3：</strong></p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">输入：grid = [[1,2,3],[4,5,6],[7,8,9]], k = 9</span><br><span class="line">输出：[[1,2,3],[4,5,6],[7,8,9]]</span><br></pre></td></tr></table></figure>
-
-<p><strong>提示：</strong></p>
-<ul>
-<li><code>m == grid.length</code></li>
-<li><code>n == grid[i].length</code></li>
-<li><code>1 &lt;= m &lt;= 50</code></li>
-<li><code>1 &lt;= n &lt;= 50</code></li>
-<li><code>-1000 &lt;= grid[i][j] &lt;= 1000</code></li>
-<li><code>0 &lt;= k &lt;= 100</code></li>
-</ul>
-<h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><h3 id="一维展开"><a href="#一维展开" class="headerlink" title="一维展开"></a>一维展开</h3><p>核心思路是将二维网格<strong>展开为一维数组</strong>来思考。</p>
-<p>对于一个 <code>m × n</code> 的二维网格，元素 <code>grid[i][j]</code> 在一维中的位置（下标）为：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">index = i × n + j</span><br></pre></td></tr></table></figure>
-
-<p>每次迁移相当于所有元素在一维数组中<strong>向右移动一位</strong>，最后一个元素移动到第一个位置。迁移 <code>k</code> 次后，原来位于一维下标 <code>index</code> 的元素，新位置为：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">newIndex = (index + k) % (m × n)</span><br></pre></td></tr></table></figure>
-
-<p>最后再将一维下标 <code>newIndex</code> 映射回二维坐标：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">row = newIndex / n   // 行：商</span><br><span class="line">col = newIndex % n   // 列：余数</span><br></pre></td></tr></table></figure>
-
-<h3 id="举例"><a href="#举例" class="headerlink" title="举例"></a>举例</h3><p>以 <code>grid = [[1,2,3],[4,5,6],[7,8,9]]</code>，<code>k = 1</code> 为例：</p>
-<p>一维展开：<code>[1, 2, 3, 4, 5, 6, 7, 8, 9]</code></p>
-<p>迁移 1 次后：<code>[9, 1, 2, 3, 4, 5, 6, 7, 8]</code></p>
-<p>还原为二维：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">[[9, 1, 2],</span><br><span class="line"> [3, 4, 5],</span><br><span class="line"> [6, 7, 8]]</span><br></pre></td></tr></table></figure>
-
-<h3 id="复杂度分析"><a href="#复杂度分析" class="headerlink" title="复杂度分析"></a>复杂度分析</h3><ul>
-<li><strong>时间复杂度</strong>：<code>O(m × n)</code>，遍历每个元素一次。</li>
-<li><strong>空间复杂度</strong>：<code>O(1)</code>（不计返回结果所需的空间）。</li>
-</ul>
-<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> List&lt;List&lt;Integer&gt;&gt; <span class="title function_">shiftGrid</span><span class="params">(<span class="type">int</span>[][] grid, <span class="type">int</span> k)</span> &#123;</span><br><span class="line">        <span class="type">int</span> <span class="variable">m</span> <span class="operator">=</span> grid.length, n = grid[<span class="number">0</span>].length;</span><br><span class="line">        <span class="type">int</span> <span class="variable">total</span> <span class="operator">=</span> m * n;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 初始化结果二维列表</span></span><br><span class="line">        List&lt;List&lt;Integer&gt;&gt; ans = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; m; i++) &#123;</span><br><span class="line">            List&lt;Integer&gt; row = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">            <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> <span class="number">0</span>; j &lt; n; j++) &#123;</span><br><span class="line">                row.add(<span class="number">0</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            ans.add(row);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 遍历原网格每个元素，计算迁移后的位置并填入</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; m; i++) &#123;</span><br><span class="line">            <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> <span class="number">0</span>; j &lt; n; j++) &#123;</span><br><span class="line">                <span class="comment">// 一维展开后迁移 k 步的新下标</span></span><br><span class="line">                <span class="type">int</span> <span class="variable">index</span> <span class="operator">=</span> (i * n + j + k) % total;</span><br><span class="line">                <span class="comment">// 还原为二维坐标</span></span><br><span class="line">                <span class="type">int</span> <span class="variable">row</span> <span class="operator">=</span> index / n;</span><br><span class="line">                <span class="type">int</span> <span class="variable">col</span> <span class="operator">=</span> index % n;</span><br><span class="line">                ans.get(row).set(col, grid[i][j]);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="关键点"><a href="#关键点" class="headerlink" title="关键点"></a>关键点</h2><ol>
-<li><strong>下标映射</strong>：<code>(i, j) → i × n + j</code>，这是二维数组一维化的核心公式。</li>
-<li><strong>取模运算</strong>：<code>% total</code> 处理了循环移动，当 <code>k</code> 大于总元素数时自动取余。</li>
-<li><strong>取余与取模的区别</strong>：Java 中 <code>%</code> 对正数运算即为取余，由于 <code>index</code> 和 <code>k</code> 均为非负数，直接使用 <code>%</code> 即可。</li>
-</ol>
-<h2 id="相关题目"><a href="#相关题目" class="headerlink" title="相关题目"></a>相关题目</h2><ul>
-<li><a href="https://leetcode.cn/problems/rotate-array/">189. 轮转数组</a> — 一维数组的轮转，本题是二维版本。</li>
-<li><a href="https://leetcode.cn/problems/rotate-image/">48. 旋转图像</a> — 二维矩阵的原地旋转。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>算法题解</category>
-      </categories>
-      <tags>
-        <tag>LeetCode</tag>
-        <tag>数组</tag>
-        <tag>每日一题</tag>
-        <tag>矩阵</tag>
-        <tag>模拟</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Leetcode-3090-每个字符最多出现两次的最长子字符串</title>
     <url>//maximum-length-substring-with-two-occurrences/</url>
     <content><![CDATA[<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p><a href="https://leetcode.cn/problems/maximum-length-substring-with-two-occurrences/description/">3090. 每个字符最多出现两次的最长子字符串</a></p>
@@ -939,6 +879,80 @@
         <tag>滑动窗口</tag>
         <tag>字符串</tag>
         <tag>哈希表</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Leetcode-1260-二维网格迁移</title>
+    <url>//shift-2d-grid/</url>
+    <content><![CDATA[<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p><a href="https://leetcode.cn/problems/shift-2d-grid/description/">1260. 二维网格迁移</a></p>
+<p>给你一个 <code>m</code> 行 <code>n</code> 列的二维网格 <code>grid</code> 和一个整数 <code>k</code>。你需要将 <code>grid</code> 迁移 <code>k</code> 次。</p>
+<p>每次「迁移」操作会引发下述活动：</p>
+<ul>
+<li>位于 <code>grid[i][j]</code>（<code>j &lt; n - 1</code>）的元素会移动到 <code>grid[i][j + 1]</code>。</li>
+<li>位于 <code>grid[i][n - 1]</code> 的元素会移动到 <code>grid[i + 1][0]</code>。</li>
+<li>位于 <code>grid[m - 1][n - 1]</code> 的元素会移动到 <code>grid[0][0]</code>。</li>
+</ul>
+<p>请返回 <code>k</code> 次迁移操作后最终得到的 <strong>二维网格</strong>。</p>
+<p><strong>示例 1：</strong></p>
+<p><img src="https://assets.leetcode.com/uploads/2019/11/05/e1.png" alt="示例1"></p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">输入：grid = [[1,2,3],[4,5,6],[7,8,9]], k = 1</span><br><span class="line">输出：[[9,1,2],[3,4,5],[6,7,8]]</span><br></pre></td></tr></table></figure>
+
+<p><strong>示例 2：</strong></p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">输入：grid = [[3,8,1,9],[19,7,2,5],[4,6,11,10],[12,0,21,13]], k = 4</span><br><span class="line">输出：[[12,0,21,13],[3,8,1,9],[19,7,2,5],[4,6,11,10]]</span><br></pre></td></tr></table></figure>
+
+<p><strong>示例 3：</strong></p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">输入：grid = [[1,2,3],[4,5,6],[7,8,9]], k = 9</span><br><span class="line">输出：[[1,2,3],[4,5,6],[7,8,9]]</span><br></pre></td></tr></table></figure>
+
+<p><strong>提示：</strong></p>
+<ul>
+<li><code>m == grid.length</code></li>
+<li><code>n == grid[i].length</code></li>
+<li><code>1 &lt;= m &lt;= 50</code></li>
+<li><code>1 &lt;= n &lt;= 50</code></li>
+<li><code>-1000 &lt;= grid[i][j] &lt;= 1000</code></li>
+<li><code>0 &lt;= k &lt;= 100</code></li>
+</ul>
+<h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><h3 id="一维展开"><a href="#一维展开" class="headerlink" title="一维展开"></a>一维展开</h3><p>核心思路是将二维网格<strong>展开为一维数组</strong>来思考。</p>
+<p>对于一个 <code>m × n</code> 的二维网格，元素 <code>grid[i][j]</code> 在一维中的位置（下标）为：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">index = i × n + j</span><br></pre></td></tr></table></figure>
+
+<p>每次迁移相当于所有元素在一维数组中<strong>向右移动一位</strong>，最后一个元素移动到第一个位置。迁移 <code>k</code> 次后，原来位于一维下标 <code>index</code> 的元素，新位置为：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">newIndex = (index + k) % (m × n)</span><br></pre></td></tr></table></figure>
+
+<p>最后再将一维下标 <code>newIndex</code> 映射回二维坐标：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">row = newIndex / n   // 行：商</span><br><span class="line">col = newIndex % n   // 列：余数</span><br></pre></td></tr></table></figure>
+
+<h3 id="举例"><a href="#举例" class="headerlink" title="举例"></a>举例</h3><p>以 <code>grid = [[1,2,3],[4,5,6],[7,8,9]]</code>，<code>k = 1</code> 为例：</p>
+<p>一维展开：<code>[1, 2, 3, 4, 5, 6, 7, 8, 9]</code></p>
+<p>迁移 1 次后：<code>[9, 1, 2, 3, 4, 5, 6, 7, 8]</code></p>
+<p>还原为二维：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">[[9, 1, 2],</span><br><span class="line"> [3, 4, 5],</span><br><span class="line"> [6, 7, 8]]</span><br></pre></td></tr></table></figure>
+
+<h3 id="复杂度分析"><a href="#复杂度分析" class="headerlink" title="复杂度分析"></a>复杂度分析</h3><ul>
+<li><strong>时间复杂度</strong>：<code>O(m × n)</code>，遍历每个元素一次。</li>
+<li><strong>空间复杂度</strong>：<code>O(1)</code>（不计返回结果所需的空间）。</li>
+</ul>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> List&lt;List&lt;Integer&gt;&gt; <span class="title function_">shiftGrid</span><span class="params">(<span class="type">int</span>[][] grid, <span class="type">int</span> k)</span> &#123;</span><br><span class="line">        <span class="type">int</span> <span class="variable">m</span> <span class="operator">=</span> grid.length, n = grid[<span class="number">0</span>].length;</span><br><span class="line">        <span class="type">int</span> <span class="variable">total</span> <span class="operator">=</span> m * n;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 初始化结果二维列表</span></span><br><span class="line">        List&lt;List&lt;Integer&gt;&gt; ans = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; m; i++) &#123;</span><br><span class="line">            List&lt;Integer&gt; row = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">            <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> <span class="number">0</span>; j &lt; n; j++) &#123;</span><br><span class="line">                row.add(<span class="number">0</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            ans.add(row);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 遍历原网格每个元素，计算迁移后的位置并填入</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; m; i++) &#123;</span><br><span class="line">            <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> <span class="number">0</span>; j &lt; n; j++) &#123;</span><br><span class="line">                <span class="comment">// 一维展开后迁移 k 步的新下标</span></span><br><span class="line">                <span class="type">int</span> <span class="variable">index</span> <span class="operator">=</span> (i * n + j + k) % total;</span><br><span class="line">                <span class="comment">// 还原为二维坐标</span></span><br><span class="line">                <span class="type">int</span> <span class="variable">row</span> <span class="operator">=</span> index / n;</span><br><span class="line">                <span class="type">int</span> <span class="variable">col</span> <span class="operator">=</span> index % n;</span><br><span class="line">                ans.get(row).set(col, grid[i][j]);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="关键点"><a href="#关键点" class="headerlink" title="关键点"></a>关键点</h2><ol>
+<li><strong>下标映射</strong>：<code>(i, j) → i × n + j</code>，这是二维数组一维化的核心公式。</li>
+<li><strong>取模运算</strong>：<code>% total</code> 处理了循环移动，当 <code>k</code> 大于总元素数时自动取余。</li>
+<li><strong>取余与取模的区别</strong>：Java 中 <code>%</code> 对正数运算即为取余，由于 <code>index</code> 和 <code>k</code> 均为非负数，直接使用 <code>%</code> 即可。</li>
+</ol>
+<h2 id="相关题目"><a href="#相关题目" class="headerlink" title="相关题目"></a>相关题目</h2><ul>
+<li><a href="https://leetcode.cn/problems/rotate-array/">189. 轮转数组</a> — 一维数组的轮转，本题是二维版本。</li>
+<li><a href="https://leetcode.cn/problems/rotate-image/">48. 旋转图像</a> — 二维矩阵的原地旋转。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>算法题解</category>
+      </categories>
+      <tags>
+        <tag>LeetCode</tag>
+        <tag>数组</tag>
+        <tag>每日一题</tag>
+        <tag>矩阵</tag>
+        <tag>模拟</tag>
       </tags>
   </entry>
   <entry>
@@ -1304,6 +1318,26 @@
       </tags>
   </entry>
   <entry>
+    <title>小花获胜的奶茶</title>
+    <url>//xiaohua_winning_tea/</url>
+    <content><![CDATA[<h1 id="小花获胜的奶茶"><a href="#小花获胜的奶茶" class="headerlink" title="小花获胜的奶茶"></a>小花获胜的奶茶</h1><h2 id="题目内容"><a href="#题目内容" class="headerlink" title="题目内容"></a>题目内容</h2><p>小菊和小花是好朋友，他们玩一个数字游戏。小菊在纸上写了一排数组，小花需要从中选择连续k个数字，使得这k个数字的和最大。小花正确找到最大的值就是获胜，小菊则提供1杯奶茶。</p>
+<h2 id="输入描述"><a href="#输入描述" class="headerlink" title="输入描述"></a>输入描述</h2><ul>
+<li>一排数字</li>
+<li>连续数字的个数k</li>
+</ul>
+<h2 id="输出描述"><a href="#输出描述" class="headerlink" title="输出描述"></a>输出描述</h2><p>最大k个数字和</p>
+<h2 id="样例1"><a href="#样例1" class="headerlink" title="样例1"></a>样例1</h2><p><strong>输入</strong><br>1,3,8,6,4,10 3</p>
+<p><strong>输出</strong><br>20</p>
+]]></content>
+      <categories>
+        <category>算法题解</category>
+      </categories>
+      <tags>
+        <tag>滑动窗口</tag>
+        <tag>华为OD</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>关于我</title>
     <url>/about/index.html</url>
     <content><![CDATA[<h2 id="👋-你好，我是十七"><a href="#👋-你好，我是十七" class="headerlink" title="👋 你好，我是十七"></a>👋 你好，我是十七</h2><p>一名热爱技术的<strong>软件开发工程师</strong>，专注于构建优雅、可维护的代码。</p>
@@ -1374,6 +1408,11 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
+    <title>友情链接</title>
+    <url>/link/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>留言板</title>
     <url>/messageboard/index.html</url>
     <content><![CDATA[<h2 id="💬留言板"><a href="#💬留言板" class="headerlink" title="💬留言板"></a>💬留言板</h2><p>欢迎在这里留言，碎碎念、建议、友链申请都可以。</p>
@@ -1392,8 +1431,8 @@
 ]]></content>
   </entry>
   <entry>
-    <title>友情链接</title>
-    <url>/link/index.html</url>
+    <title>全部标签</title>
+    <url>/tags/index.html</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -1422,10 +1461,5 @@
 </ul>
 </div>
       </div></div>]]></content>
-  </entry>
-  <entry>
-    <title>全部标签</title>
-    <url>/tags/index.html</url>
-    <content><![CDATA[]]></content>
   </entry>
 </search>
