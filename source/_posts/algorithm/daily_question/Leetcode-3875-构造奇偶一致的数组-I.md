@@ -1,5 +1,5 @@
 ---
-title: 3875-构造奇偶一致的数组-I
+title: Leetcode-3875-构造奇偶一致的数组-I
 date: 2026-09-02 09:25:28
 tags: [ LeetCode, 数组, 数学, 每日一题 ]
 categories: [ 算法题解 ]
