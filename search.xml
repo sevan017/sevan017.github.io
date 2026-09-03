@@ -548,191 +548,6 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>3875-构造奇偶一致的数组-I</title>
-    <url>//construct-uniform-parity-array-i/</url>
-    <content><![CDATA[<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p><a href="https://leetcode.cn/problems/construct-uniform-parity-array-i/description/">3875. 构造奇偶一致的数组 I</a></p>
-<p>给你一个长度为 <code>n</code> 的数组 <code>nums1</code>，其中包含 <strong>互不相同</strong> 的整数。</p>
-<p>你需要构造另一个长度为 <code>n</code> 的数组 <code>nums2</code>，使得 <code>nums2</code> 中的元素要么<strong>全部为奇数</strong>，要么<strong>全部为偶数</strong>。</p>
-<p>对于每个下标 <code>i</code>，你必须从以下两种选择中<strong>任选其一</strong>（顺序不限）：</p>
-<ol>
-<li><code>nums2[i] = nums1[i]</code></li>
-<li><code>nums2[i] = nums1[i] - nums1[j]</code>，其中 <code>j ≠ i</code></li>
-</ol>
-<p>如果可以构造出满足条件的数组 <code>nums2</code>，返回 <code>true</code>；否则返回 <code>false</code>。</p>
-<p><strong>示例 1：</strong></p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">输入：nums1 = [2,3]</span><br><span class="line">输出：true</span><br><span class="line">解释：nums2[0] = 2 - 3 = -1（奇数），nums2[1] = 3（奇数）。nums2 = [-1, 3] 全为奇数。</span><br></pre></td></tr></table></figure>
-
-<p><strong>示例 2：</strong></p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">输入：nums1 = [4,6]</span><br><span class="line">输出：true</span><br><span class="line">解释：nums2[0] = 4，nums2[1] = 6。nums2 = [4, 6] 全为偶数。</span><br></pre></td></tr></table></figure>
-
-<p><strong>提示：</strong></p>
-<ul>
-<li><code>2 &lt;= n &lt;= 100</code></li>
-<li><code>-10^5 &lt;= nums1[i] &lt;= 10^5</code></li>
-</ul>
-<h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><h3 id="奇偶性的三条运算规则"><a href="#奇偶性的三条运算规则" class="headerlink" title="奇偶性的三条运算规则"></a>奇偶性的三条运算规则</h3><p>这道题的核心完全在于<strong>奇偶性分析</strong>，先回忆三条基础规则：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">奇 ± 奇 = 偶</span><br><span class="line">偶 ± 偶 = 偶</span><br><span class="line">奇 ± 偶 = 奇</span><br></pre></td></tr></table></figure>
-
-<p>减法在奇偶性上和加法完全等价，因为 <code>-奇 = 奇</code>、<code>-偶 = 偶</code>。</p>
-<h3 id="对每个位置能输出什么？"><a href="#对每个位置能输出什么？" class="headerlink" title="对每个位置能输出什么？"></a>对每个位置能输出什么？</h3><p>对于数组中任意一个元素 <code>nums1[i]</code>，我们来分析它通过两种操作能输出什么奇偶性。</p>
-<p><strong>情况一：nums1[i] 是偶数</strong></p>
-<table>
-<thead>
-<tr>
-<th>操作</th>
-<th>表达式</th>
-<th>结果奇偶</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>选项1：保留自身</td>
-<td><code>nums1[i]</code></td>
-<td><strong>偶数</strong></td>
-</tr>
-<tr>
-<td>选项2：减去偶数</td>
-<td><code>偶 - 偶</code></td>
-<td><strong>偶数</strong></td>
-</tr>
-<tr>
-<td>选项2：减去奇数</td>
-<td><code>偶 - 奇</code></td>
-<td><strong>奇数</strong></td>
-</tr>
-</tbody></table>
-<p><strong>结论：偶数位置既能输出偶数，也能输出奇数。</strong></p>
-<p><strong>情况二：nums1[i] 是奇数</strong></p>
-<table>
-<thead>
-<tr>
-<th>操作</th>
-<th>表达式</th>
-<th>结果奇偶</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>选项1：保留自身</td>
-<td><code>nums1[i]</code></td>
-<td><strong>奇数</strong></td>
-</tr>
-<tr>
-<td>选项2：减去奇数</td>
-<td><code>奇 - 奇</code></td>
-<td><strong>偶数</strong></td>
-</tr>
-<tr>
-<td>选项2：减去偶数</td>
-<td><code>奇 - 偶</code></td>
-<td><strong>奇数</strong></td>
-</tr>
-</tbody></table>
-<p><strong>结论：奇数位置既能输出奇数，也能输出偶数。</strong></p>
-<h3 id="三种场景的统一结论"><a href="#三种场景的统一结论" class="headerlink" title="三种场景的统一结论"></a>三种场景的统一结论</h3><p>综合以上分析，无论数组是什么情况：</p>
-<table>
-<thead>
-<tr>
-<th>数组情况</th>
-<th>策略</th>
-<th>结果</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>全部为奇数</td>
-<td>全部保留自身 → 全奇</td>
-<td><code>true</code></td>
-</tr>
-<tr>
-<td>全部为偶数</td>
-<td>全部保留自身 → 全偶</td>
-<td><code>true</code></td>
-</tr>
-<tr>
-<td>奇偶混合</td>
-<td>每个位置都能自由选择奇偶性 → 总能构造出全奇或全偶</td>
-<td><code>true</code></td>
-</tr>
-</tbody></table>
-<p><strong>答案永远是 <code>true</code>！</strong></p>
-<h3 id="举例验证"><a href="#举例验证" class="headerlink" title="举例验证"></a>举例验证</h3><p><strong>例：<code>nums1 = [2, 3]</code>（奇偶混合）</strong></p>
-<p>目标全奇：nums2[0] &#x3D; 2 - 3 &#x3D; -1（奇），nums2[1] &#x3D; 3（奇）→ 成功。</p>
-<p>目标全偶：nums2[0] &#x3D; 2（偶），nums2[1] &#x3D; 3 - 3… 不行，j ≠ i。nums2[1] &#x3D; 3 - 2 &#x3D; 1（奇）。等等，3 只能输出奇？</p>
-<p>让我们重新审视 <code>nums1 = [2, 3]</code> 中奇数 3 的情况：</p>
-<ul>
-<li>3 是奇数，自身 &#x3D; 奇</li>
-<li>3 - 2 &#x3D; 奇 - 偶 &#x3D; 奇</li>
-</ul>
-<p><strong>哦！当数组中只有一个偶数时，奇数 3 无法通过减法变成偶数</strong>（唯一可减的 2 是偶数，奇 - 偶 &#x3D; 奇）。</p>
-<p>那反过来，偶数 2 能变成什么？</p>
-<ul>
-<li>2 是偶数，自身 &#x3D; 偶</li>
-<li>2 - 3 &#x3D; 偶 - 奇 &#x3D; 奇</li>
-</ul>
-<p>所以 2 既能变偶也能变奇，但 3 <strong>只能是奇数</strong>。</p>
-<p>这意味着：</p>
-<ul>
-<li>想全偶？3 不行 → 失败</li>
-<li>想全奇？2 可以变成 2-3 &#x3D; -1（奇），3 本身就是奇 → 成功 ✓</li>
-</ul>
-<p><strong>依然返回 true</strong>，只是只有全奇这条路走得通。</p>
-<h3 id="什么情况下会返回-false？"><a href="#什么情况下会返回-false？" class="headerlink" title="什么情况下会返回 false？"></a>什么情况下会返回 false？</h3><p>通过上面的分析你可能会发现：<strong>不管怎么组合，似乎总有一条路能走通</strong>。让我们更严谨地推导：</p>
-<p><strong>什么时候全偶不可能？</strong><br>→ 存在某个奇数元素 <code>x</code>，且数组中<strong>没有其他奇数</strong>可以让它相减（<code>奇 - 奇 = 偶</code>）。<br>→ 即：数组中恰好有一个奇数，其余全为偶数。</p>
-<p>此时这个”孤独的奇数”：</p>
-<ul>
-<li>自身是奇数</li>
-<li>减去任何偶数 &#x3D; 奇数<br>→ <strong>它只能是奇数，无法变成偶数。</strong></li>
-</ul>
-<p><strong>什么时候全奇不可能？</strong><br>→ 存在某个偶数元素 <code>y</code>，且数组中<strong>没有其他偶数</strong>可以让它相减（<code>偶 - 偶 = 偶</code> 不行，我们需要 <code>偶 - 奇 = 奇</code>）。<br>→ 等等，偶数想变成奇数需要 <code>偶 - 奇 = 奇</code>。只要数组中存在至少一个奇数，偶数就能通过减去那个奇数变成奇数！<br>→ 所以全奇不可能的情况是：<strong>数组中没有奇数（全偶）</strong>——但全偶时直接保留自身就是全偶了，不需要全奇。</p>
-<p><strong>关键洞察</strong>：全偶和全奇是两条独立的路。我们只需要<strong>至少一条路走通</strong>即可：</p>
-<ul>
-<li>如果数组<strong>全奇</strong>或<strong>全偶</strong>：保留自身，直接成功。</li>
-<li>如果数组<strong>混合奇偶</strong>：<ul>
-<li>若<strong>奇数 ≥ 2</strong>：每个奇数都能找另一个奇数相减变偶 → 全偶可行 → <code>true</code></li>
-<li>若<strong>恰好一个奇数</strong>（其余全偶）：这个奇数无法变偶 → 全偶不可行。但偶数可以减去这个唯一的奇数变奇 → 全奇可行 → <code>true</code></li>
-</ul>
-</li>
-</ul>
-<p><strong>无论哪种情况，总有一条路走通。答案确实永远是 <code>true</code>。</strong></p>
-<h3 id="复杂度分析"><a href="#复杂度分析" class="headerlink" title="复杂度分析"></a>复杂度分析</h3><ul>
-<li><strong>时间复杂度</strong>：<code>O(1)</code>，不需要任何遍历。</li>
-<li><strong>空间复杂度</strong>：<code>O(1)</code>。</li>
-</ul>
-<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">boolean</span> <span class="title function_">uniformArray</span><span class="params">(<span class="type">int</span>[] nums1)</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="相关疑问"><a href="#相关疑问" class="headerlink" title="相关疑问"></a>相关疑问</h2><h3 id="这算数学题吗？"><a href="#这算数学题吗？" class="headerlink" title="这算数学题吗？"></a>这算数学题吗？</h3><p><strong>是的，而且是非常纯粹的数学题。</strong> 它考察的是整数奇偶性的基本运算规律（加减不改变奇偶性规则），以及能否严谨地分类讨论穷尽所有情况。代码只有一行 <code>return true</code>，但背后的数学推理才是这道题的核心。</p>
-<h3 id="这算脑筋急转弯吗？"><a href="#这算脑筋急转弯吗？" class="headerlink" title="这算脑筋急转弯吗？"></a>这算脑筋急转弯吗？</h3><p><strong>有点像！</strong> 这道题的”反直觉”之处在于：</p>
-<ul>
-<li>初看题目，你可能会想：”这要怎么构造？是不是要遍历找方案？”</li>
-<li>深入分析奇偶性后才发现：<strong>无论输入什么，总有解</strong>。</li>
-<li>这就像一个”陷阱题”——题目描述得像是需要复杂构造，但数学推理告诉你答案恒为 <code>true</code>。</li>
-</ul>
-<p>不过它不是无厘头的脑筋急转弯，而是一道**有扎实数学支撑的”结论题”**。类似的题目还有很多，比如：</p>
-<blockquote>
-<p>“给定任意整数数组，总能通过 + 或 - 让所有元素变成偶数吗？”（答案也是总能，因为 <code>a + a = 2a</code> 必为偶…不过这道更简单）</p>
-</blockquote>
-<p>真正的”脑筋急转弯”式算法题，本质上都是：<strong>你以为需要计算，但数学证明告诉你答案是常量</strong>。</p>
-<h3 id="和-CodeForces-原题的区别"><a href="#和-CodeForces-原题的区别" class="headerlink" title="和 CodeForces 原题的区别"></a>和 CodeForces 原题的区别</h3><p>值得一提的是，这道题的原型来自 CodeForces，原题有一个额外约束：<strong>构造出的 nums2 每个元素都必须大于 0</strong>。加上这个约束后，<code>return true</code> 就不再正确了，需要根据<strong>最小值的奇偶性</strong>来判断。LeetCode 版本去掉了正数约束，使得解法简化为恒 <code>true</code>。</p>
-<h2 id="关键点"><a href="#关键点" class="headerlink" title="关键点"></a>关键点</h2><ol>
-<li><strong>奇偶性不变性</strong>：减法和加法在奇偶性上等价，因为负号不改变奇偶性。</li>
-<li><strong>分类讨论的完备性</strong>：分析”偶数能输出什么”和”奇数能输出什么”时，需要穷尽减去奇数和减去偶数两种可能。</li>
-<li><strong>两条路的独立性</strong>：题目要求全奇 <strong>或</strong> 全偶，只要有一条路能走通就算成功，不需要两条都通。</li>
-<li><strong>孤独的奇数</strong>：当数组中只有一个奇数时，它无法变成偶数（因为没有另一个奇数让它相减），但此时全奇这条路依然走得通（偶数可以减这个奇数变奇）。</li>
-</ol>
-<h2 id="相关题目"><a href="#相关题目" class="headerlink" title="相关题目"></a>相关题目</h2><ul>
-<li><a href="https://leetcode.cn/problems/construct-uniform-parity-array-ii/">3876. 构造奇偶一致的数组 II</a> — 约束更严格的版本，不再是恒 <code>true</code>，需要根据最小值奇偶性判断。</li>
-<li><a href="https://leetcode.cn/problems/flip-binary-tree-to-match-preorder-traversal/">971. 翻转二叉树以匹配先序遍历</a> — 也是一道”看上去要复杂构造，实际上有简洁结论”的题。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>算法题解</category>
-      </categories>
-      <tags>
-        <tag>LeetCode</tag>
-        <tag>数组</tag>
-        <tag>数学</tag>
-        <tag>每日一题</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Leetcode-3090-每个字符最多出现两次的最长子字符串</title>
     <url>//maximum-length-substring-with-two-occurrences/</url>
     <content><![CDATA[<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p><a href="https://leetcode.cn/problems/maximum-length-substring-with-two-occurrences/description/">3090. 每个字符最多出现两次的最长子字符串</a></p>
@@ -1335,6 +1150,191 @@
       <tags>
         <tag>滑动窗口</tag>
         <tag>华为OD</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Leetcode-3875-构造奇偶一致的数组-I</title>
+    <url>//construct-uniform-parity-array-i/</url>
+    <content><![CDATA[<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p><a href="https://leetcode.cn/problems/construct-uniform-parity-array-i/description/">3875. 构造奇偶一致的数组 I</a></p>
+<p>给你一个长度为 <code>n</code> 的数组 <code>nums1</code>，其中包含 <strong>互不相同</strong> 的整数。</p>
+<p>你需要构造另一个长度为 <code>n</code> 的数组 <code>nums2</code>，使得 <code>nums2</code> 中的元素要么<strong>全部为奇数</strong>，要么<strong>全部为偶数</strong>。</p>
+<p>对于每个下标 <code>i</code>，你必须从以下两种选择中<strong>任选其一</strong>（顺序不限）：</p>
+<ol>
+<li><code>nums2[i] = nums1[i]</code></li>
+<li><code>nums2[i] = nums1[i] - nums1[j]</code>，其中 <code>j ≠ i</code></li>
+</ol>
+<p>如果可以构造出满足条件的数组 <code>nums2</code>，返回 <code>true</code>；否则返回 <code>false</code>。</p>
+<p><strong>示例 1：</strong></p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">输入：nums1 = [2,3]</span><br><span class="line">输出：true</span><br><span class="line">解释：nums2[0] = 2 - 3 = -1（奇数），nums2[1] = 3（奇数）。nums2 = [-1, 3] 全为奇数。</span><br></pre></td></tr></table></figure>
+
+<p><strong>示例 2：</strong></p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">输入：nums1 = [4,6]</span><br><span class="line">输出：true</span><br><span class="line">解释：nums2[0] = 4，nums2[1] = 6。nums2 = [4, 6] 全为偶数。</span><br></pre></td></tr></table></figure>
+
+<p><strong>提示：</strong></p>
+<ul>
+<li><code>2 &lt;= n &lt;= 100</code></li>
+<li><code>-10^5 &lt;= nums1[i] &lt;= 10^5</code></li>
+</ul>
+<h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><h3 id="奇偶性的三条运算规则"><a href="#奇偶性的三条运算规则" class="headerlink" title="奇偶性的三条运算规则"></a>奇偶性的三条运算规则</h3><p>这道题的核心完全在于<strong>奇偶性分析</strong>，先回忆三条基础规则：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">奇 ± 奇 = 偶</span><br><span class="line">偶 ± 偶 = 偶</span><br><span class="line">奇 ± 偶 = 奇</span><br></pre></td></tr></table></figure>
+
+<p>减法在奇偶性上和加法完全等价，因为 <code>-奇 = 奇</code>、<code>-偶 = 偶</code>。</p>
+<h3 id="对每个位置能输出什么？"><a href="#对每个位置能输出什么？" class="headerlink" title="对每个位置能输出什么？"></a>对每个位置能输出什么？</h3><p>对于数组中任意一个元素 <code>nums1[i]</code>，我们来分析它通过两种操作能输出什么奇偶性。</p>
+<p><strong>情况一：nums1[i] 是偶数</strong></p>
+<table>
+<thead>
+<tr>
+<th>操作</th>
+<th>表达式</th>
+<th>结果奇偶</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>选项1：保留自身</td>
+<td><code>nums1[i]</code></td>
+<td><strong>偶数</strong></td>
+</tr>
+<tr>
+<td>选项2：减去偶数</td>
+<td><code>偶 - 偶</code></td>
+<td><strong>偶数</strong></td>
+</tr>
+<tr>
+<td>选项2：减去奇数</td>
+<td><code>偶 - 奇</code></td>
+<td><strong>奇数</strong></td>
+</tr>
+</tbody></table>
+<p><strong>结论：偶数位置既能输出偶数，也能输出奇数。</strong></p>
+<p><strong>情况二：nums1[i] 是奇数</strong></p>
+<table>
+<thead>
+<tr>
+<th>操作</th>
+<th>表达式</th>
+<th>结果奇偶</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>选项1：保留自身</td>
+<td><code>nums1[i]</code></td>
+<td><strong>奇数</strong></td>
+</tr>
+<tr>
+<td>选项2：减去奇数</td>
+<td><code>奇 - 奇</code></td>
+<td><strong>偶数</strong></td>
+</tr>
+<tr>
+<td>选项2：减去偶数</td>
+<td><code>奇 - 偶</code></td>
+<td><strong>奇数</strong></td>
+</tr>
+</tbody></table>
+<p><strong>结论：奇数位置既能输出奇数，也能输出偶数。</strong></p>
+<h3 id="三种场景的统一结论"><a href="#三种场景的统一结论" class="headerlink" title="三种场景的统一结论"></a>三种场景的统一结论</h3><p>综合以上分析，无论数组是什么情况：</p>
+<table>
+<thead>
+<tr>
+<th>数组情况</th>
+<th>策略</th>
+<th>结果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>全部为奇数</td>
+<td>全部保留自身 → 全奇</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td>全部为偶数</td>
+<td>全部保留自身 → 全偶</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td>奇偶混合</td>
+<td>每个位置都能自由选择奇偶性 → 总能构造出全奇或全偶</td>
+<td><code>true</code></td>
+</tr>
+</tbody></table>
+<p><strong>答案永远是 <code>true</code>！</strong></p>
+<h3 id="举例验证"><a href="#举例验证" class="headerlink" title="举例验证"></a>举例验证</h3><p><strong>例：<code>nums1 = [2, 3]</code>（奇偶混合）</strong></p>
+<p>目标全奇：nums2[0] &#x3D; 2 - 3 &#x3D; -1（奇），nums2[1] &#x3D; 3（奇）→ 成功。</p>
+<p>目标全偶：nums2[0] &#x3D; 2（偶），nums2[1] &#x3D; 3 - 3… 不行，j ≠ i。nums2[1] &#x3D; 3 - 2 &#x3D; 1（奇）。等等，3 只能输出奇？</p>
+<p>让我们重新审视 <code>nums1 = [2, 3]</code> 中奇数 3 的情况：</p>
+<ul>
+<li>3 是奇数，自身 &#x3D; 奇</li>
+<li>3 - 2 &#x3D; 奇 - 偶 &#x3D; 奇</li>
+</ul>
+<p><strong>哦！当数组中只有一个偶数时，奇数 3 无法通过减法变成偶数</strong>（唯一可减的 2 是偶数，奇 - 偶 &#x3D; 奇）。</p>
+<p>那反过来，偶数 2 能变成什么？</p>
+<ul>
+<li>2 是偶数，自身 &#x3D; 偶</li>
+<li>2 - 3 &#x3D; 偶 - 奇 &#x3D; 奇</li>
+</ul>
+<p>所以 2 既能变偶也能变奇，但 3 <strong>只能是奇数</strong>。</p>
+<p>这意味着：</p>
+<ul>
+<li>想全偶？3 不行 → 失败</li>
+<li>想全奇？2 可以变成 2-3 &#x3D; -1（奇），3 本身就是奇 → 成功 ✓</li>
+</ul>
+<p><strong>依然返回 true</strong>，只是只有全奇这条路走得通。</p>
+<h3 id="什么情况下会返回-false？"><a href="#什么情况下会返回-false？" class="headerlink" title="什么情况下会返回 false？"></a>什么情况下会返回 false？</h3><p>通过上面的分析你可能会发现：<strong>不管怎么组合，似乎总有一条路能走通</strong>。让我们更严谨地推导：</p>
+<p><strong>什么时候全偶不可能？</strong><br>→ 存在某个奇数元素 <code>x</code>，且数组中<strong>没有其他奇数</strong>可以让它相减（<code>奇 - 奇 = 偶</code>）。<br>→ 即：数组中恰好有一个奇数，其余全为偶数。</p>
+<p>此时这个”孤独的奇数”：</p>
+<ul>
+<li>自身是奇数</li>
+<li>减去任何偶数 &#x3D; 奇数<br>→ <strong>它只能是奇数，无法变成偶数。</strong></li>
+</ul>
+<p><strong>什么时候全奇不可能？</strong><br>→ 存在某个偶数元素 <code>y</code>，且数组中<strong>没有其他偶数</strong>可以让它相减（<code>偶 - 偶 = 偶</code> 不行，我们需要 <code>偶 - 奇 = 奇</code>）。<br>→ 等等，偶数想变成奇数需要 <code>偶 - 奇 = 奇</code>。只要数组中存在至少一个奇数，偶数就能通过减去那个奇数变成奇数！<br>→ 所以全奇不可能的情况是：<strong>数组中没有奇数（全偶）</strong>——但全偶时直接保留自身就是全偶了，不需要全奇。</p>
+<p><strong>关键洞察</strong>：全偶和全奇是两条独立的路。我们只需要<strong>至少一条路走通</strong>即可：</p>
+<ul>
+<li>如果数组<strong>全奇</strong>或<strong>全偶</strong>：保留自身，直接成功。</li>
+<li>如果数组<strong>混合奇偶</strong>：<ul>
+<li>若<strong>奇数 ≥ 2</strong>：每个奇数都能找另一个奇数相减变偶 → 全偶可行 → <code>true</code></li>
+<li>若<strong>恰好一个奇数</strong>（其余全偶）：这个奇数无法变偶 → 全偶不可行。但偶数可以减去这个唯一的奇数变奇 → 全奇可行 → <code>true</code></li>
+</ul>
+</li>
+</ul>
+<p><strong>无论哪种情况，总有一条路走通。答案确实永远是 <code>true</code>。</strong></p>
+<h3 id="复杂度分析"><a href="#复杂度分析" class="headerlink" title="复杂度分析"></a>复杂度分析</h3><ul>
+<li><strong>时间复杂度</strong>：<code>O(1)</code>，不需要任何遍历。</li>
+<li><strong>空间复杂度</strong>：<code>O(1)</code>。</li>
+</ul>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">boolean</span> <span class="title function_">uniformArray</span><span class="params">(<span class="type">int</span>[] nums1)</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="相关疑问"><a href="#相关疑问" class="headerlink" title="相关疑问"></a>相关疑问</h2><h3 id="这算数学题吗？"><a href="#这算数学题吗？" class="headerlink" title="这算数学题吗？"></a>这算数学题吗？</h3><p><strong>是的，而且是非常纯粹的数学题。</strong> 它考察的是整数奇偶性的基本运算规律（加减不改变奇偶性规则），以及能否严谨地分类讨论穷尽所有情况。代码只有一行 <code>return true</code>，但背后的数学推理才是这道题的核心。</p>
+<h3 id="这算脑筋急转弯吗？"><a href="#这算脑筋急转弯吗？" class="headerlink" title="这算脑筋急转弯吗？"></a>这算脑筋急转弯吗？</h3><p><strong>有点像！</strong> 这道题的”反直觉”之处在于：</p>
+<ul>
+<li>初看题目，你可能会想：”这要怎么构造？是不是要遍历找方案？”</li>
+<li>深入分析奇偶性后才发现：<strong>无论输入什么，总有解</strong>。</li>
+<li>这就像一个”陷阱题”——题目描述得像是需要复杂构造，但数学推理告诉你答案恒为 <code>true</code>。</li>
+</ul>
+<p>不过它不是无厘头的脑筋急转弯，而是一道**有扎实数学支撑的”结论题”**。类似的题目还有很多，比如：</p>
+<blockquote>
+<p>“给定任意整数数组，总能通过 + 或 - 让所有元素变成偶数吗？”（答案也是总能，因为 <code>a + a = 2a</code> 必为偶…不过这道更简单）</p>
+</blockquote>
+<p>真正的”脑筋急转弯”式算法题，本质上都是：<strong>你以为需要计算，但数学证明告诉你答案是常量</strong>。</p>
+<h3 id="和-CodeForces-原题的区别"><a href="#和-CodeForces-原题的区别" class="headerlink" title="和 CodeForces 原题的区别"></a>和 CodeForces 原题的区别</h3><p>值得一提的是，这道题的原型来自 CodeForces，原题有一个额外约束：<strong>构造出的 nums2 每个元素都必须大于 0</strong>。加上这个约束后，<code>return true</code> 就不再正确了，需要根据<strong>最小值的奇偶性</strong>来判断。LeetCode 版本去掉了正数约束，使得解法简化为恒 <code>true</code>。</p>
+<h2 id="关键点"><a href="#关键点" class="headerlink" title="关键点"></a>关键点</h2><ol>
+<li><strong>奇偶性不变性</strong>：减法和加法在奇偶性上等价，因为负号不改变奇偶性。</li>
+<li><strong>分类讨论的完备性</strong>：分析”偶数能输出什么”和”奇数能输出什么”时，需要穷尽减去奇数和减去偶数两种可能。</li>
+<li><strong>两条路的独立性</strong>：题目要求全奇 <strong>或</strong> 全偶，只要有一条路能走通就算成功，不需要两条都通。</li>
+<li><strong>孤独的奇数</strong>：当数组中只有一个奇数时，它无法变成偶数（因为没有另一个奇数让它相减），但此时全奇这条路依然走得通（偶数可以减这个奇数变奇）。</li>
+</ol>
+<h2 id="相关题目"><a href="#相关题目" class="headerlink" title="相关题目"></a>相关题目</h2><ul>
+<li><a href="https://leetcode.cn/problems/construct-uniform-parity-array-ii/">3876. 构造奇偶一致的数组 II</a> — 约束更严格的版本，不再是恒 <code>true</code>，需要根据最小值奇偶性判断。</li>
+<li><a href="https://leetcode.cn/problems/flip-binary-tree-to-match-preorder-traversal/">971. 翻转二叉树以匹配先序遍历</a> — 也是一道”看上去要复杂构造，实际上有简洁结论”的题。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>算法题解</category>
+      </categories>
+      <tags>
+        <tag>LeetCode</tag>
+        <tag>数组</tag>
+        <tag>数学</tag>
+        <tag>每日一题</tag>
       </tags>
   </entry>
   <entry>
