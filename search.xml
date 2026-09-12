@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>IO模式</title>
-    <url>/2026/07/20/IO%E6%A8%A1%E5%BC%8F/</url>
+    <title>File相关类</title>
+    <url>/2026/07/20/File%E7%9B%B8%E5%85%B3%E7%B1%BB/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>File相关类</title>
-    <url>/2026/07/20/File%E7%9B%B8%E5%85%B3%E7%B1%BB/</url>
+    <title>IO模式</title>
+    <url>/2026/07/20/IO%E6%A8%A1%E5%BC%8F/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -126,13 +126,13 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>序列化与反序列化</title>
-    <url>/2026/07/20/%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%8E%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/</url>
+    <title>并发编程</title>
+    <url>/2026/07/20/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>并发编程</title>
-    <url>/2026/07/20/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/</url>
+    <title>序列化与反序列化</title>
+    <url>/2026/07/20/%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%8E%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -146,13 +146,13 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>注解与反射</title>
-    <url>/2026/07/20/%E6%B3%A8%E8%A7%A3%E4%B8%8E%E5%8F%8D%E5%B0%84/</url>
+    <title>网络编程</title>
+    <url>/2026/07/20/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>网络编程</title>
-    <url>/2026/07/20/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/</url>
+    <title>注解与反射</title>
+    <url>/2026/07/20/%E6%B3%A8%E8%A7%A3%E4%B8%8E%E5%8F%8D%E5%B0%84/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -166,13 +166,13 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>集合类</title>
-    <url>/2026/07/20/%E9%9B%86%E5%90%88%E7%B1%BB/</url>
+    <title>面向对象</title>
+    <url>/2026/07/20/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>面向对象</title>
-    <url>/2026/07/20/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</url>
+    <title>集合类</title>
+    <url>/2026/07/20/%E9%9B%86%E5%90%88%E7%B1%BB/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -186,13 +186,13 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>二叉排序树</title>
-    <url>/2026/07/20/algorithm/%E4%BA%8C%E5%8F%89%E6%8E%92%E5%BA%8F%E6%A0%91/</url>
+    <title>二叉树的遍历</title>
+    <url>/2026/07/20/algorithm/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>二叉树的遍历</title>
-    <url>/2026/07/20/algorithm/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86/</url>
+    <title>二叉排序树</title>
+    <url>/2026/07/20/algorithm/%E4%BA%8C%E5%8F%89%E6%8E%92%E5%BA%8F%E6%A0%91/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -221,13 +221,13 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>数轴覆盖</title>
-    <url>/2026/07/20/algorithm/%E6%95%B0%E8%BD%B4%E8%A6%86%E7%9B%96/</url>
+    <title>数组中的重复数字</title>
+    <url>/2026/07/20/algorithm/%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E6%95%B0%E5%AD%97/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>数组中的重复数字</title>
-    <url>/2026/07/20/algorithm/%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E6%95%B0%E5%AD%97/</url>
+    <title>数轴覆盖</title>
+    <url>/2026/07/20/algorithm/%E6%95%B0%E8%BD%B4%E8%A6%86%E7%9B%96/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -239,17 +239,6 @@
     <title>旋转词</title>
     <url>/2026/07/20/algorithm/%E6%97%8B%E8%BD%AC%E8%AF%8D/</url>
     <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>算法之旅</title>
-    <url>//algorithm_journey/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>算法之旅</category>
-      </categories>
-      <tags>
-        <tag>算法知识</tag>
-      </tags>
   </entry>
   <entry>
     <title>赫夫曼树</title>
@@ -548,6 +537,80 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
+    <title>Leetcode-1260-二维网格迁移</title>
+    <url>//shift-2d-grid/</url>
+    <content><![CDATA[<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p><a href="https://leetcode.cn/problems/shift-2d-grid/description/">1260. 二维网格迁移</a></p>
+<p>给你一个 <code>m</code> 行 <code>n</code> 列的二维网格 <code>grid</code> 和一个整数 <code>k</code>。你需要将 <code>grid</code> 迁移 <code>k</code> 次。</p>
+<p>每次「迁移」操作会引发下述活动：</p>
+<ul>
+<li>位于 <code>grid[i][j]</code>（<code>j &lt; n - 1</code>）的元素会移动到 <code>grid[i][j + 1]</code>。</li>
+<li>位于 <code>grid[i][n - 1]</code> 的元素会移动到 <code>grid[i + 1][0]</code>。</li>
+<li>位于 <code>grid[m - 1][n - 1]</code> 的元素会移动到 <code>grid[0][0]</code>。</li>
+</ul>
+<p>请返回 <code>k</code> 次迁移操作后最终得到的 <strong>二维网格</strong>。</p>
+<p><strong>示例 1：</strong></p>
+<p><img src="https://assets.leetcode.com/uploads/2019/11/05/e1.png" alt="示例1"></p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">输入：grid = [[1,2,3],[4,5,6],[7,8,9]], k = 1</span><br><span class="line">输出：[[9,1,2],[3,4,5],[6,7,8]]</span><br></pre></td></tr></table></figure>
+
+<p><strong>示例 2：</strong></p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">输入：grid = [[3,8,1,9],[19,7,2,5],[4,6,11,10],[12,0,21,13]], k = 4</span><br><span class="line">输出：[[12,0,21,13],[3,8,1,9],[19,7,2,5],[4,6,11,10]]</span><br></pre></td></tr></table></figure>
+
+<p><strong>示例 3：</strong></p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">输入：grid = [[1,2,3],[4,5,6],[7,8,9]], k = 9</span><br><span class="line">输出：[[1,2,3],[4,5,6],[7,8,9]]</span><br></pre></td></tr></table></figure>
+
+<p><strong>提示：</strong></p>
+<ul>
+<li><code>m == grid.length</code></li>
+<li><code>n == grid[i].length</code></li>
+<li><code>1 &lt;= m &lt;= 50</code></li>
+<li><code>1 &lt;= n &lt;= 50</code></li>
+<li><code>-1000 &lt;= grid[i][j] &lt;= 1000</code></li>
+<li><code>0 &lt;= k &lt;= 100</code></li>
+</ul>
+<h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><h3 id="一维展开"><a href="#一维展开" class="headerlink" title="一维展开"></a>一维展开</h3><p>核心思路是将二维网格<strong>展开为一维数组</strong>来思考。</p>
+<p>对于一个 <code>m × n</code> 的二维网格，元素 <code>grid[i][j]</code> 在一维中的位置（下标）为：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">index = i × n + j</span><br></pre></td></tr></table></figure>
+
+<p>每次迁移相当于所有元素在一维数组中<strong>向右移动一位</strong>，最后一个元素移动到第一个位置。迁移 <code>k</code> 次后，原来位于一维下标 <code>index</code> 的元素，新位置为：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">newIndex = (index + k) % (m × n)</span><br></pre></td></tr></table></figure>
+
+<p>最后再将一维下标 <code>newIndex</code> 映射回二维坐标：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">row = newIndex / n   // 行：商</span><br><span class="line">col = newIndex % n   // 列：余数</span><br></pre></td></tr></table></figure>
+
+<h3 id="举例"><a href="#举例" class="headerlink" title="举例"></a>举例</h3><p>以 <code>grid = [[1,2,3],[4,5,6],[7,8,9]]</code>，<code>k = 1</code> 为例：</p>
+<p>一维展开：<code>[1, 2, 3, 4, 5, 6, 7, 8, 9]</code></p>
+<p>迁移 1 次后：<code>[9, 1, 2, 3, 4, 5, 6, 7, 8]</code></p>
+<p>还原为二维：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">[[9, 1, 2],</span><br><span class="line"> [3, 4, 5],</span><br><span class="line"> [6, 7, 8]]</span><br></pre></td></tr></table></figure>
+
+<h3 id="复杂度分析"><a href="#复杂度分析" class="headerlink" title="复杂度分析"></a>复杂度分析</h3><ul>
+<li><strong>时间复杂度</strong>：<code>O(m × n)</code>，遍历每个元素一次。</li>
+<li><strong>空间复杂度</strong>：<code>O(1)</code>（不计返回结果所需的空间）。</li>
+</ul>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> List&lt;List&lt;Integer&gt;&gt; <span class="title function_">shiftGrid</span><span class="params">(<span class="type">int</span>[][] grid, <span class="type">int</span> k)</span> &#123;</span><br><span class="line">        <span class="type">int</span> <span class="variable">m</span> <span class="operator">=</span> grid.length, n = grid[<span class="number">0</span>].length;</span><br><span class="line">        <span class="type">int</span> <span class="variable">total</span> <span class="operator">=</span> m * n;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 初始化结果二维列表</span></span><br><span class="line">        List&lt;List&lt;Integer&gt;&gt; ans = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; m; i++) &#123;</span><br><span class="line">            List&lt;Integer&gt; row = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">            <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> <span class="number">0</span>; j &lt; n; j++) &#123;</span><br><span class="line">                row.add(<span class="number">0</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            ans.add(row);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 遍历原网格每个元素，计算迁移后的位置并填入</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; m; i++) &#123;</span><br><span class="line">            <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> <span class="number">0</span>; j &lt; n; j++) &#123;</span><br><span class="line">                <span class="comment">// 一维展开后迁移 k 步的新下标</span></span><br><span class="line">                <span class="type">int</span> <span class="variable">index</span> <span class="operator">=</span> (i * n + j + k) % total;</span><br><span class="line">                <span class="comment">// 还原为二维坐标</span></span><br><span class="line">                <span class="type">int</span> <span class="variable">row</span> <span class="operator">=</span> index / n;</span><br><span class="line">                <span class="type">int</span> <span class="variable">col</span> <span class="operator">=</span> index % n;</span><br><span class="line">                ans.get(row).set(col, grid[i][j]);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="关键点"><a href="#关键点" class="headerlink" title="关键点"></a>关键点</h2><ol>
+<li><strong>下标映射</strong>：<code>(i, j) → i × n + j</code>，这是二维数组一维化的核心公式。</li>
+<li><strong>取模运算</strong>：<code>% total</code> 处理了循环移动，当 <code>k</code> 大于总元素数时自动取余。</li>
+<li><strong>取余与取模的区别</strong>：Java 中 <code>%</code> 对正数运算即为取余，由于 <code>index</code> 和 <code>k</code> 均为非负数，直接使用 <code>%</code> 即可。</li>
+</ol>
+<h2 id="相关题目"><a href="#相关题目" class="headerlink" title="相关题目"></a>相关题目</h2><ul>
+<li><a href="https://leetcode.cn/problems/rotate-array/">189. 轮转数组</a> — 一维数组的轮转，本题是二维版本。</li>
+<li><a href="https://leetcode.cn/problems/rotate-image/">48. 旋转图像</a> — 二维矩阵的原地旋转。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>算法题解</category>
+      </categories>
+      <tags>
+        <tag>LeetCode</tag>
+        <tag>数组</tag>
+        <tag>矩阵</tag>
+        <tag>模拟</tag>
+        <tag>每日一题</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Leetcode-3090-每个字符最多出现两次的最长子字符串</title>
     <url>//maximum-length-substring-with-two-occurrences/</url>
     <content><![CDATA[<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p><a href="https://leetcode.cn/problems/maximum-length-substring-with-two-occurrences/description/">3090. 每个字符最多出现两次的最长子字符串</a></p>
@@ -697,66 +760,162 @@
       </tags>
   </entry>
   <entry>
-    <title>Leetcode-1260-二维网格迁移</title>
-    <url>//shift-2d-grid/</url>
-    <content><![CDATA[<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p><a href="https://leetcode.cn/problems/shift-2d-grid/description/">1260. 二维网格迁移</a></p>
-<p>给你一个 <code>m</code> 行 <code>n</code> 列的二维网格 <code>grid</code> 和一个整数 <code>k</code>。你需要将 <code>grid</code> 迁移 <code>k</code> 次。</p>
-<p>每次「迁移」操作会引发下述活动：</p>
-<ul>
-<li>位于 <code>grid[i][j]</code>（<code>j &lt; n - 1</code>）的元素会移动到 <code>grid[i][j + 1]</code>。</li>
-<li>位于 <code>grid[i][n - 1]</code> 的元素会移动到 <code>grid[i + 1][0]</code>。</li>
-<li>位于 <code>grid[m - 1][n - 1]</code> 的元素会移动到 <code>grid[0][0]</code>。</li>
-</ul>
-<p>请返回 <code>k</code> 次迁移操作后最终得到的 <strong>二维网格</strong>。</p>
+    <title>Leetcode-3414-不重叠区间的最大得分</title>
+    <url>//maximum-score-of-non-overlapping-intervals/</url>
+    <content><![CDATA[<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p><a href="https://leetcode.cn/problems/maximum-score-of-non-overlapping-intervals/description/">3414. 不重叠区间的最大得分</a></p>
+<p>给你一个二维整数数组 <code>intervals</code>，其中 <code>intervals[i] = [l_i, r_i, weight_i]</code>。区间 <code>i</code> 的起点为 <code>l_i</code>，终点为 <code>r_i</code>，权重为 <code>weight_i</code>。你<strong>最多可以选择 4 个互不重叠</strong>的区间。所选择区间的<strong>得分</strong>定义为这些区间权重的总和。</p>
+<p>返回一个数组，包含从 <code>intervals</code> 中选出的至多 4 个区间的<strong>下标</strong>（原始下标），使得得分最大。如果有多个方案得分相同，返回<strong>字典序最小</strong>的那个。</p>
+<p>注意：区间 <code>[a, b]</code> 包含端点，即两个区间共享端点也算重叠。</p>
 <p><strong>示例 1：</strong></p>
-<p><img src="https://assets.leetcode.com/uploads/2019/11/05/e1.png" alt="示例1"></p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">输入：grid = [[1,2,3],[4,5,6],[7,8,9]], k = 1</span><br><span class="line">输出：[[9,1,2],[3,4,5],[6,7,8]]</span><br></pre></td></tr></table></figure>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">输入：intervals = [[1,3,2],[4,5,2],[1,5,5],[6,9,3],[6,7,1],[8,9,1]]</span><br><span class="line">输出：[2,3]</span><br><span class="line">解释：可以选择下标为 2 和 3 的区间，其权重分别为 5 和 3。</span><br></pre></td></tr></table></figure>
 
 <p><strong>示例 2：</strong></p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">输入：grid = [[3,8,1,9],[19,7,2,5],[4,6,11,10],[12,0,21,13]], k = 4</span><br><span class="line">输出：[[12,0,21,13],[3,8,1,9],[19,7,2,5],[4,6,11,10]]</span><br></pre></td></tr></table></figure>
-
-<p><strong>示例 3：</strong></p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">输入：grid = [[1,2,3],[4,5,6],[7,8,9]], k = 9</span><br><span class="line">输出：[[1,2,3],[4,5,6],[7,8,9]]</span><br></pre></td></tr></table></figure>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">输入：intervals = [[5,8,1],[6,7,7],[4,7,3],[9,10,6],[7,8,2],[11,14,3],[3,5,5]]</span><br><span class="line">输出：[1,3,5,6]</span><br><span class="line">解释：可以选择下标为 1、3、5 和 6 的区间，其权重分别为 7、6、3 和 5。</span><br></pre></td></tr></table></figure>
 
 <p><strong>提示：</strong></p>
 <ul>
-<li><code>m == grid.length</code></li>
-<li><code>n == grid[i].length</code></li>
-<li><code>1 &lt;= m &lt;= 50</code></li>
-<li><code>1 &lt;= n &lt;= 50</code></li>
-<li><code>-1000 &lt;= grid[i][j] &lt;= 1000</code></li>
-<li><code>0 &lt;= k &lt;= 100</code></li>
+<li><code>1 &lt;= intervals.length &lt;= 5 * 10^4</code></li>
+<li><code>intervals[i].length == 3</code></li>
+<li><code>1 &lt;= l_i &lt;= r_i &lt;= 10^9</code></li>
+<li><code>1 &lt;= weight_i &lt;= 10^9</code></li>
 </ul>
-<h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><h3 id="一维展开"><a href="#一维展开" class="headerlink" title="一维展开"></a>一维展开</h3><p>核心思路是将二维网格<strong>展开为一维数组</strong>来思考。</p>
-<p>对于一个 <code>m × n</code> 的二维网格，元素 <code>grid[i][j]</code> 在一维中的位置（下标）为：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">index = i × n + j</span><br></pre></td></tr></table></figure>
+<h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><p>这道题是经典的<strong>区间调度问题（Interval Scheduling）</strong>的变种，核心矛盾在于：<strong>选互不重叠的区间让总权重最大，但最多只能选 4 个</strong>，且还要返回<strong>字典序最小</strong>的下标集合。</p>
+<h3 id="四个标签如何协同解题"><a href="#四个标签如何协同解题" class="headerlink" title="四个标签如何协同解题"></a>四个标签如何协同解题</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">┌──────────────────────────────────────────────────────┐</span><br><span class="line">│                   完整解题流程                         │</span><br><span class="line">│                                                      │</span><br><span class="line">│  ① 数组 ──→ 存储原始区间数据 [l, r, weight, origIdx] │</span><br><span class="line">│                       │                              │</span><br><span class="line">│                       ▼                              │</span><br><span class="line">│  ② 排序 ──→ 按右端点升序排列，方便冲突判断和二分       │</span><br><span class="line">│                       │                              │</span><br><span class="line">│                       ▼                              │</span><br><span class="line">│  ③ 动态规划 ──→ 状态转移中需要查找前驱不重叠区间       │</span><br><span class="line">│                       │                              │</span><br><span class="line">│                       ▼                              │</span><br><span class="line">│  ④ 二分查找 ──→ 在有序的右端点数组中 O(log n) 定位    │</span><br><span class="line">│                                                      │</span><br><span class="line">└──────────────────────────────────────────────────────┘</span><br></pre></td></tr></table></figure>
 
-<p>每次迁移相当于所有元素在一维数组中<strong>向右移动一位</strong>，最后一个元素移动到第一个位置。迁移 <code>k</code> 次后，原来位于一维下标 <code>index</code> 的元素，新位置为：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">newIndex = (index + k) % (m × n)</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="标签详解"><a href="#标签详解" class="headerlink" title="标签详解"></a>标签详解</h2><h3 id="一、排序：为什么必须按右端点排？"><a href="#一、排序：为什么必须按右端点排？" class="headerlink" title="一、排序：为什么必须按右端点排？"></a>一、排序：为什么必须按右端点排？</h3><p>区间问题的经典套路——<strong>按右端点排序</strong>，原因有三：</p>
+<ol>
+<li><strong>简化冲突判断</strong>：排序后，对于区间 <code>i</code>，所有 <code>j &lt; i</code> 的区间右端点都 ≤ <code>arr[i].r</code>。因此区间 <code>j</code> 和 <code>i</code> <strong>不重叠</strong> 等价于 <code>arr[j].r &lt; arr[i].l</code>（因为 <code>j</code> 在 <code>i</code> 左边）。</li>
+<li><strong>右端点单调 → 可二分</strong>：排序后右端点数组递增，才能用二分快速定位前驱。</li>
+<li><strong>贪心直觉</strong>：右端点越小越靠前，越早结束，给后面留更多空间。</li>
+</ol>
+<h4 id="关键陷阱：原始下标绑定"><a href="#关键陷阱：原始下标绑定" class="headerlink" title="关键陷阱：原始下标绑定"></a>关键陷阱：原始下标绑定</h4><p>排序会打乱原始下标，但题目要求返回<strong>原始位置</strong>的字典序最小集合。所以排序时必须把原始下标带着一起排：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">n</span> <span class="operator">=</span> intervals.size();</span><br><span class="line"><span class="type">int</span>[][] arr = <span class="keyword">new</span> <span class="title class_">int</span>[n][<span class="number">4</span>];</span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">    arr[i][<span class="number">0</span>] = intervals.get(i).get(<span class="number">0</span>); <span class="comment">// l</span></span><br><span class="line">    arr[i][<span class="number">1</span>] = intervals.get(i).get(<span class="number">1</span>); <span class="comment">// r</span></span><br><span class="line">    arr[i][<span class="number">2</span>] = intervals.get(i).get(<span class="number">2</span>); <span class="comment">// weight</span></span><br><span class="line">    arr[i][<span class="number">3</span>] = i;                        <span class="comment">// originalIdx</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 按右端点升序排序</span></span><br><span class="line">Arrays.sort(arr, (a, b) -&gt; Integer.compare(a[<span class="number">1</span>], b[<span class="number">1</span>]));</span><br></pre></td></tr></table></figure>
 
-<p>最后再将一维下标 <code>newIndex</code> 映射回二维坐标：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">row = newIndex / n   // 行：商</span><br><span class="line">col = newIndex % n   // 列：余数</span><br></pre></td></tr></table></figure>
+<p>以示例 1 为例，排序前后对照：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">原始:  [[1,3,2], [4,5,2], [1,5,5], [6,9,3], [6,7,1], [8,9,1]]</span><br><span class="line">       idx=0     idx=1     idx=2     idx=3     idx=4     idx=5</span><br><span class="line"></span><br><span class="line">排序后 (按 r):</span><br><span class="line">       [1,3,2,0] [4,5,2,1] [1,5,5,2] [6,7,1,4] [6,9,3,3] [8,9,1,5]</span><br><span class="line">       r=3       r=5       r=5       r=7       r=9       r=9</span><br></pre></td></tr></table></figure>
 
-<h3 id="举例"><a href="#举例" class="headerlink" title="举例"></a>举例</h3><p>以 <code>grid = [[1,2,3],[4,5,6],[7,8,9]]</code>，<code>k = 1</code> 为例：</p>
-<p>一维展开：<code>[1, 2, 3, 4, 5, 6, 7, 8, 9]</code></p>
-<p>迁移 1 次后：<code>[9, 1, 2, 3, 4, 5, 6, 7, 8]</code></p>
-<p>还原为二维：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">[[9, 1, 2],</span><br><span class="line"> [3, 4, 5],</span><br><span class="line"> [6, 7, 8]]</span><br></pre></td></tr></table></figure>
-
-<h3 id="复杂度分析"><a href="#复杂度分析" class="headerlink" title="复杂度分析"></a>复杂度分析</h3><ul>
-<li><strong>时间复杂度</strong>：<code>O(m × n)</code>，遍历每个元素一次。</li>
-<li><strong>空间复杂度</strong>：<code>O(1)</code>（不计返回结果所需的空间）。</li>
+<p>排序后右端点单调递增 <code>[3, 5, 5, 7, 9, 9]</code>，这为后续二分查找打下了基础。</p>
+<hr>
+<h3 id="二、数组：数据的载体"><a href="#二、数组：数据的载体" class="headerlink" title="二、数组：数据的载体"></a>二、数组：数据的载体</h3><p>数组在这道题中扮演多重角色：</p>
+<table>
+<thead>
+<tr>
+<th>数组</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>intervals</code></td>
+<td>输入数据，存储原始区间 <code>[l, r, weight]</code></td>
+</tr>
+<tr>
+<td><code>arr</code></td>
+<td>绑定了原始下标 <code>[l, r, weight, originalIdx]</code> 的排序后数组</td>
+</tr>
+<tr>
+<td><code>rightEnds</code></td>
+<td>从 <code>arr</code> 提取的纯右端点数组，用于二分查找</td>
+</tr>
+<tr>
+<td><code>State[][] dp</code></td>
+<td>动态规划状态表，存储每个状态的权重和索引集合</td>
+</tr>
+</tbody></table>
+<h4 id="二维数组-vs-滚动数组"><a href="#二维数组-vs-滚动数组" class="headerlink" title="二维数组 vs 滚动数组"></a>二维数组 vs 滚动数组</h4><p>观察状态转移：<code>dp[i][k]</code> 依赖 <code>dp[i-1][k]</code>（不选）和 <code>dp[j+1][k-1]</code>（选，其中 <code>j+1</code> 可能远小于 <code>i</code>）。因为 <code>j+1</code> 可以是 0，<strong>不能直接用滚动数组覆盖前面的状态</strong>，需要完整的二维数组。但 <code>k</code> 维度只有 5（0~4），实际空间 <code>O(n × 5) = O(n)</code>。</p>
+<hr>
+<h3 id="三、动态规划：核心状态与转移"><a href="#三、动态规划：核心状态与转移" class="headerlink" title="三、动态规划：核心状态与转移"></a>三、动态规划：核心状态与转移</h3><h4 id="为什么是动态规划？"><a href="#为什么是动态规划？" class="headerlink" title="为什么是动态规划？"></a>为什么是动态规划？</h4><p>这是经典的<strong>区间调度问题（Interval Scheduling）</strong>的变种：选互不重叠的区间让总权重最大。与经典问题的区别在于：</p>
+<ul>
+<li><strong>最多选 4 个</strong>（k ≤ 4）</li>
+<li>返回<strong>字典序最小</strong>的方案</li>
 </ul>
-<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> List&lt;List&lt;Integer&gt;&gt; <span class="title function_">shiftGrid</span><span class="params">(<span class="type">int</span>[][] grid, <span class="type">int</span> k)</span> &#123;</span><br><span class="line">        <span class="type">int</span> <span class="variable">m</span> <span class="operator">=</span> grid.length, n = grid[<span class="number">0</span>].length;</span><br><span class="line">        <span class="type">int</span> <span class="variable">total</span> <span class="operator">=</span> m * n;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 初始化结果二维列表</span></span><br><span class="line">        List&lt;List&lt;Integer&gt;&gt; ans = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; m; i++) &#123;</span><br><span class="line">            List&lt;Integer&gt; row = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">            <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> <span class="number">0</span>; j &lt; n; j++) &#123;</span><br><span class="line">                row.add(<span class="number">0</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            ans.add(row);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 遍历原网格每个元素，计算迁移后的位置并填入</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; m; i++) &#123;</span><br><span class="line">            <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> <span class="number">0</span>; j &lt; n; j++) &#123;</span><br><span class="line">                <span class="comment">// 一维展开后迁移 k 步的新下标</span></span><br><span class="line">                <span class="type">int</span> <span class="variable">index</span> <span class="operator">=</span> (i * n + j + k) % total;</span><br><span class="line">                <span class="comment">// 还原为二维坐标</span></span><br><span class="line">                <span class="type">int</span> <span class="variable">row</span> <span class="operator">=</span> index / n;</span><br><span class="line">                <span class="type">int</span> <span class="variable">col</span> <span class="operator">=</span> index % n;</span><br><span class="line">                ans.get(row).set(col, grid[i][j]);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="状态定义"><a href="#状态定义" class="headerlink" title="状态定义"></a>状态定义</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">dp[i][k] = 考虑排序后的前 i 个区间（arr[0] ~ arr[i-1]），</span><br><span class="line">           从中恰好选 k 个互不重叠的区间时，</span><br><span class="line">           能获得的最大权重值 + 对应的原始下标集合</span><br></pre></td></tr></table></figure>
 
+<p>其中：</p>
+<ul>
+<li><code>i ∈ [0, n]</code>：处理到第 i 个区间</li>
+<li><code>k ∈ [0, 4]</code>：选了多少个区间（最多 4 个）</li>
+</ul>
+<h4 id="状态转移"><a href="#状态转移" class="headerlink" title="状态转移"></a>状态转移</h4><p>对于排序后的第 <code>i</code> 个区间（即 <code>arr[i-1]</code>），有两种选择：</p>
+<p><strong>方案 1：不选第 i 个区间</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">dp[i][k] = dp[i-1][k]</span><br></pre></td></tr></table></figure>
+
+<p><strong>方案 2：选第 i 个区间（记为 A &#x3D; arr[i-1]）</strong></p>
+<p>先在 A 左边找到<strong>最后一个与 A 不重叠</strong>的区间位置 <code>j</code>（用二分查找），然后从 <code>dp[j+1][k-1]</code> 转移过来：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">dp[i][k] = dp[j+1][k-1].weight + A.weight     （前提是 dp[j+1][k-1] 有效）</span><br><span class="line">dp[i][k].indices = dp[j+1][k-1].indices + [A.originalIdx]</span><br></pre></td></tr></table></figure>
+
+<h4 id="转移决策图"><a href="#转移决策图" class="headerlink" title="转移决策图"></a>转移决策图</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">考虑第 i 个区间 A = arr[i-1]:</span><br><span class="line">┌──────────────────────────────────────────────────┐</span><br><span class="line">│                                                  │</span><br><span class="line">│  方案1: 不选 A                                    │</span><br><span class="line">│    dp[i][k] = dp[i-1][k]                         │</span><br><span class="line">│                                                  │</span><br><span class="line">│  方案2: 选 A (需要 k &gt;= 1 且存在有效前驱)          │</span><br><span class="line">│    pos = upperBound(rightEnds, A.left)            │</span><br><span class="line">│    j = pos - 1  ← 最后一个右端点 &lt; A.left 的位置  │</span><br><span class="line">│    dp[i][k] = dp[j+1][k-1] + &#123;A.weight, A.idx&#125;   │</span><br><span class="line">│                                                  │</span><br><span class="line">│  取 maxWeight 更大的方案                           │</span><br><span class="line">│  若 maxWeight 相同 → 选 indices 字典序更小的方案    │</span><br><span class="line">│                                                  │</span><br><span class="line">└──────────────────────────────────────────────────┘</span><br></pre></td></tr></table></figure>
+
+<h4 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">dp[0][0] = &#123;weight=0, indices=[]&#125;     ← 选 0 个区间，有效</span><br><span class="line">dp[0][k] = &#123;weight=-1, indices=[]&#125;    ← k &gt; 0 时前 0 个区间选不出来，无效</span><br><span class="line"></span><br><span class="line">dp[i][0] = &#123;weight=0, indices=[]&#125;     ← 对所有 i，选 0 个都是有效的</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h3 id="四、二分查找：快速定位前驱"><a href="#四、二分查找：快速定位前驱" class="headerlink" title="四、二分查找：快速定位前驱"></a>四、二分查找：快速定位前驱</h3><h4 id="解决什么问题？"><a href="#解决什么问题？" class="headerlink" title="解决什么问题？"></a>解决什么问题？</h4><p>在状态转移的「选 A」分支中，需要找到：</p>
+<blockquote>
+<p>所有在 A 左边、且与 A 不重叠的区间中，<strong>最靠右</strong>的那个的位置</p>
+</blockquote>
+<p>如果用线性查找，每次 O(n)，总复杂度 O(n²)。但因为 <code>rightEnds[]</code> 已经排序，可以用二分。</p>
+<h4 id="核心逻辑"><a href="#核心逻辑" class="headerlink" title="核心逻辑"></a>核心逻辑</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span>[] rightEnds = &#123;<span class="number">3</span>, <span class="number">5</span>, <span class="number">5</span>, <span class="number">7</span>, <span class="number">9</span>, <span class="number">9</span>&#125;;  <span class="comment">// 排序后的右端点数组</span></span><br><span class="line"><span class="type">int</span> <span class="variable">L</span> <span class="operator">=</span> <span class="number">6</span>;                              <span class="comment">// 当前区间的左端点</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// upperBound: 在 rightEnds 中找第一个 &gt;= L 的位置</span></span><br><span class="line"><span class="comment">// rightEnds 中值为 7 的那个位置（下标 3）是第一个 &gt;= 6 的</span></span><br><span class="line"><span class="type">int</span> <span class="variable">pos</span> <span class="operator">=</span> upperBound(rightEnds, L);  <span class="comment">// 返回 3</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// pos - 1 就是最后一个 &lt; L 的位置</span></span><br><span class="line"><span class="comment">// rightEnds[2] = 5 &lt; 6 ✓，rightEnds[3] = 7 &gt;= 6</span></span><br><span class="line"><span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> pos - <span class="number">1</span>;  <span class="comment">// j = 2</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="完整流程"><a href="#完整流程" class="headerlink" title="完整流程"></a>完整流程</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// upperBound: 在有序数组中找第一个 &gt;= target 的下标</span></span><br><span class="line"><span class="keyword">private</span> <span class="type">int</span> <span class="title function_">upperBound</span><span class="params">(<span class="type">int</span>[] sorted, <span class="type">int</span> target)</span> &#123;</span><br><span class="line">    <span class="type">int</span> <span class="variable">left</span> <span class="operator">=</span> <span class="number">0</span>, right = sorted.length;</span><br><span class="line">    <span class="keyword">while</span> (left &lt; right) &#123;</span><br><span class="line">        <span class="type">int</span> <span class="variable">mid</span> <span class="operator">=</span> left + (right - left) / <span class="number">2</span>;</span><br><span class="line">        <span class="keyword">if</span> (sorted[mid] &gt;= target) &#123;</span><br><span class="line">            right = mid;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            left = mid + <span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> left;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 对于当前区间 A = arr[i-1]，左端点为 l = A[0]</span></span><br><span class="line"><span class="type">int</span> <span class="variable">pos</span> <span class="operator">=</span> upperBound(rightEnds, l);</span><br><span class="line"><span class="type">int</span> <span class="variable">prevIdx</span> <span class="operator">=</span> pos - <span class="number">1</span>;  <span class="comment">// 最后一个右端点 &lt; l 的区间位置</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// prevIdx + 1 表示前 prevIdx+1 个区间（arr[0] ~ arr[prevIdx]）</span></span><br><span class="line"><span class="comment">// 从 dp[prevIdx + 1][k - 1] 转移过来</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="为什么用-l-而不是"><a href="#为什么用-l-而不是" class="headerlink" title="为什么用 &lt; l 而不是 &lt;= l？"></a>为什么用 <code>&lt; l</code> 而不是 <code>&lt;= l</code>？</h4><p>题目明确定义：<strong>区间 <code>[a, b]</code> 包含端点，两个区间共享端点也算重叠</strong>。所以：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[l1, r1] 和 [l2, r2] 不重叠 ⟺ r1 &lt; l2（严格小于）</span><br></pre></td></tr></table></figure>
+
+<p>不能写成 <code>r1 &lt;= l2</code>，否则共享端点的两个区间（如 <code>[1, 3]</code> 和 <code>[3, 5]</code>）会被误判为不重叠。</p>
+<h4 id="复杂度影响"><a href="#复杂度影响" class="headerlink" title="复杂度影响"></a>复杂度影响</h4><table>
+<thead>
+<tr>
+<th>方式</th>
+<th>每次查询</th>
+<th>总复杂度</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>线性扫描</td>
+<td>O(n)</td>
+<td>O(n²)</td>
+</tr>
+<tr>
+<td>二分查找</td>
+<td>O(log n)</td>
+<td>O(n log n)</td>
+</tr>
+</tbody></table>
+<hr>
+<h3 id="五、字典序维护：最容易被忽略的难点"><a href="#五、字典序维护：最容易被忽略的难点" class="headerlink" title="五、字典序维护：最容易被忽略的难点"></a>五、字典序维护：最容易被忽略的难点</h3><p>题目不仅要求<strong>权重最大</strong>，还要求<strong>原始位置字典序最小</strong>。这是这道题区别于经典区间调度 DP 的关键。</p>
+<h4 id="为什么必须贯穿-DP-过程？"><a href="#为什么必须贯穿-DP-过程？" class="headerlink" title="为什么必须贯穿 DP 过程？"></a>为什么必须贯穿 DP 过程？</h4><p>如果只在最后比较，中间状态可能已经丢失了字典序更优但权重暂时相同的方案。必须在<strong>每次状态转移时</strong>就比较字典序。</p>
+<h4 id="State-类设计"><a href="#State-类设计" class="headerlink" title="State 类设计"></a>State 类设计</h4><p>把权重和索引集合打包在一起：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">State</span> &#123;</span><br><span class="line">    <span class="type">long</span> weight;           <span class="comment">// 最大权重（用 long 防溢出）</span></span><br><span class="line">    List&lt;Integer&gt; indices; <span class="comment">// 原始下标语</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">static</span> State <span class="title function_">better</span><span class="params">(State a, State b)</span> &#123;</span><br><span class="line">        <span class="comment">// 先比权重</span></span><br><span class="line">        <span class="keyword">if</span> (a.weight != b.weight) &#123;</span><br><span class="line">            <span class="keyword">return</span> a.weight &gt; b.weight ? a : b;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">// 权重相同，比原始下标字典序</span></span><br><span class="line">        <span class="keyword">return</span> isLexSmaller(a.indices, b.indices) ? a : b;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="字典序比较规则"><a href="#字典序比较规则" class="headerlink" title="字典序比较规则"></a>字典序比较规则</h4><p>和字符串类似：逐位比较，第一个不同的位置决定大小；短的数组字典序更小。</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">private</span> <span class="type">boolean</span> <span class="title function_">isLexSmaller</span><span class="params">(List&lt;Integer&gt; a, List&lt;Integer&gt; b)</span> &#123;</span><br><span class="line">    <span class="type">int</span> <span class="variable">minLen</span> <span class="operator">=</span> Math.min(a.size(), b.size());</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; minLen; i++) &#123;</span><br><span class="line">        <span class="keyword">if</span> (!a.get(i).equals(b.get(i))) &#123;</span><br><span class="line">            <span class="keyword">return</span> a.get(i) &lt; b.get(i);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> a.size() &lt; b.size();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>举例：<code>[1, 5]</code> 比 <code>[2, 3]</code> 字典序小（第一位 1 &lt; 2）。</p>
+<h4 id="为什么权重用-long？"><a href="#为什么权重用-long？" class="headerlink" title="为什么权重用 long？"></a>为什么权重用 long？</h4><p><code>weight_i</code> 最大 10^9，最多选 4 个，总和可达 4 × 10^9 ≈ 40 亿，超过 <code>int</code> 范围（约 ±21 亿），必须用 <code>long</code>。</p>
+<hr>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.*;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span>[] maximumWeight(List&lt;List&lt;Integer&gt;&gt; intervals) &#123;</span><br><span class="line">        <span class="type">int</span> <span class="variable">n</span> <span class="operator">=</span> intervals.size();</span><br><span class="line"></span><br><span class="line">        <span class="comment">// ① 数组：绑定原始下标</span></span><br><span class="line">        <span class="type">int</span>[][] arr = <span class="keyword">new</span> <span class="title class_">int</span>[n][<span class="number">4</span>];</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">            arr[i][<span class="number">0</span>] = intervals.get(i).get(<span class="number">0</span>); <span class="comment">// l</span></span><br><span class="line">            arr[i][<span class="number">1</span>] = intervals.get(i).get(<span class="number">1</span>); <span class="comment">// r</span></span><br><span class="line">            arr[i][<span class="number">2</span>] = intervals.get(i).get(<span class="number">2</span>); <span class="comment">// weight</span></span><br><span class="line">            arr[i][<span class="number">3</span>] = i;                        <span class="comment">// originalIdx</span></span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// ② 排序：按右端点升序</span></span><br><span class="line">        Arrays.sort(arr, (a, b) -&gt; Integer.compare(a[<span class="number">1</span>], b[<span class="number">1</span>]));</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 提取右端点数组，用于二分查找</span></span><br><span class="line">        <span class="type">int</span>[] rightEnds = <span class="keyword">new</span> <span class="title class_">int</span>[n];</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">            rightEnds[i] = arr[i][<span class="number">1</span>];</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// ③ 动态规划</span></span><br><span class="line">        <span class="comment">// dp[i][k] = 前 i 个区间中选 k 个的最优状态</span></span><br><span class="line">        State[][] dp = <span class="keyword">new</span> <span class="title class_">State</span>[n + <span class="number">1</span>][<span class="number">5</span>];</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 初始化：选 0 个区间，权重 0，索引空</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt;= n; i++) &#123;</span><br><span class="line">            dp[i][<span class="number">0</span>] = <span class="keyword">new</span> <span class="title class_">State</span>(<span class="number">0</span>, <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;());</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">// k &gt; 0 时，初始为无效状态（权重 -1，因为 weight &gt;= 1）</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">k</span> <span class="operator">=</span> <span class="number">1</span>; k &lt;= <span class="number">4</span>; k++) &#123;</span><br><span class="line">            dp[<span class="number">0</span>][k] = <span class="keyword">new</span> <span class="title class_">State</span>(-<span class="number">1</span>, <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;());</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">1</span>; i &lt;= n; i++) &#123;</span><br><span class="line">            <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">k</span> <span class="operator">=</span> <span class="number">1</span>; k &lt;= <span class="number">4</span>; k++) &#123;</span><br><span class="line">                <span class="comment">// 方案1：不选第 i 个区间</span></span><br><span class="line">                <span class="type">State</span> <span class="variable">skip</span> <span class="operator">=</span> dp[i - <span class="number">1</span>][k];</span><br><span class="line"></span><br><span class="line">                <span class="comment">// 方案2：选第 i 个区间（arr[i-1]）</span></span><br><span class="line">                <span class="type">State</span> <span class="variable">take</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">State</span>(-<span class="number">1</span>, <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;());</span><br><span class="line">                <span class="type">int</span> <span class="variable">l</span> <span class="operator">=</span> arr[i - <span class="number">1</span>][<span class="number">0</span>];</span><br><span class="line">                <span class="type">int</span> <span class="variable">weight</span> <span class="operator">=</span> arr[i - <span class="number">1</span>][<span class="number">2</span>];</span><br><span class="line">                <span class="type">int</span> <span class="variable">origIdx</span> <span class="operator">=</span> arr[i - <span class="number">1</span>][<span class="number">3</span>];</span><br><span class="line"></span><br><span class="line">                <span class="comment">// ④ 二分查找：找第一个右端点 &gt;= l 的位置</span></span><br><span class="line">                <span class="type">int</span> <span class="variable">pos</span> <span class="operator">=</span> upperBound(rightEnds, l);</span><br><span class="line">                <span class="comment">// 最后一个右端点 &lt; l 的位置</span></span><br><span class="line">                <span class="type">int</span> <span class="variable">prevIdx</span> <span class="operator">=</span> pos - <span class="number">1</span>;</span><br><span class="line">                <span class="comment">// 前 prevIdx+1 个区间，选 k-1 个</span></span><br><span class="line">                <span class="type">State</span> <span class="variable">prevState</span> <span class="operator">=</span> dp[prevIdx + <span class="number">1</span>][k - <span class="number">1</span>];</span><br><span class="line">                <span class="keyword">if</span> (prevState.weight &gt;= <span class="number">0</span>) &#123;</span><br><span class="line">                    take.weight = prevState.weight + weight;</span><br><span class="line">                    take.indices = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;(prevState.indices);</span><br><span class="line">                    take.indices.add(origIdx);</span><br><span class="line">                &#125;</span><br><span class="line"></span><br><span class="line">                dp[i][k] = State.better(skip, take);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 遍历 dp[n][1] ~ dp[n][4]，找权重最大、字典序最小的</span></span><br><span class="line">        <span class="type">State</span> <span class="variable">ans</span> <span class="operator">=</span> dp[n][<span class="number">1</span>];</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">k</span> <span class="operator">=</span> <span class="number">2</span>; k &lt;= <span class="number">4</span>; k++) &#123;</span><br><span class="line">            ans = State.better(ans, dp[n][k]);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 按原始位置升序排序后返回</span></span><br><span class="line">        Collections.sort(ans.indices);</span><br><span class="line">        <span class="type">int</span>[] result = <span class="keyword">new</span> <span class="title class_">int</span>[ans.indices.size()];</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; result.length; i++) &#123;</span><br><span class="line">            result[i] = ans.indices.get(i);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> result;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="type">int</span> <span class="title function_">upperBound</span><span class="params">(<span class="type">int</span>[] sorted, <span class="type">int</span> target)</span> &#123;</span><br><span class="line">        <span class="type">int</span> <span class="variable">left</span> <span class="operator">=</span> <span class="number">0</span>, right = sorted.length;</span><br><span class="line">        <span class="keyword">while</span> (left &lt; right) &#123;</span><br><span class="line">            <span class="type">int</span> <span class="variable">mid</span> <span class="operator">=</span> left + (right - left) / <span class="number">2</span>;</span><br><span class="line">            <span class="keyword">if</span> (sorted[mid] &gt;= target) &#123;</span><br><span class="line">                right = mid;</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                left = mid + <span class="number">1</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> left;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">static</span> <span class="keyword">class</span> <span class="title class_">State</span> &#123;</span><br><span class="line">        <span class="type">long</span> weight;</span><br><span class="line">        List&lt;Integer&gt; indices;</span><br><span class="line"></span><br><span class="line">        State(<span class="type">long</span> weight, List&lt;Integer&gt; indices) &#123;</span><br><span class="line">            <span class="built_in">this</span>.weight = weight;</span><br><span class="line">            <span class="built_in">this</span>.indices = indices;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">static</span> State <span class="title function_">better</span><span class="params">(State a, State b)</span> &#123;</span><br><span class="line">            <span class="keyword">if</span> (a.weight != b.weight) &#123;</span><br><span class="line">                <span class="keyword">return</span> a.weight &gt; b.weight ? a : b;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">return</span> isLexSmaller(a.indices, b.indices) ? a : b;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">static</span> <span class="type">boolean</span> <span class="title function_">isLexSmaller</span><span class="params">(List&lt;Integer&gt; a, List&lt;Integer&gt; b)</span> &#123;</span><br><span class="line">            <span class="type">int</span> <span class="variable">minLen</span> <span class="operator">=</span> Math.min(a.size(), b.size());</span><br><span class="line">            <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; minLen; i++) &#123;</span><br><span class="line">                <span class="keyword">if</span> (!a.get(i).equals(b.get(i))) &#123;</span><br><span class="line">                    <span class="keyword">return</span> a.get(i) &lt; b.get(i);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">return</span> a.size() &lt; b.size();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="复杂度分析"><a href="#复杂度分析" class="headerlink" title="复杂度分析"></a>复杂度分析</h2><ul>
+<li><strong>时间复杂度</strong>：<code>O(n log n)</code> — 排序 O(n log n)，动态规划 O(n × 5) 次状态转移，每次二分 O(log n)。</li>
+<li><strong>空间复杂度</strong>：<code>O(n)</code> — dp 数组 O(n × 5)，右端点数组 O(n)。</li>
+</ul>
 <h2 id="关键点"><a href="#关键点" class="headerlink" title="关键点"></a>关键点</h2><ol>
-<li><strong>下标映射</strong>：<code>(i, j) → i × n + j</code>，这是二维数组一维化的核心公式。</li>
-<li><strong>取模运算</strong>：<code>% total</code> 处理了循环移动，当 <code>k</code> 大于总元素数时自动取余。</li>
-<li><strong>取余与取模的区别</strong>：Java 中 <code>%</code> 对正数运算即为取余，由于 <code>index</code> 和 <code>k</code> 均为非负数，直接使用 <code>%</code> 即可。</li>
+<li><strong>按右端点排序</strong>：区间问题的经典套路，简化冲突判断并为二分铺路。</li>
+<li><strong>原始下标绑定</strong>：排序时必须保留原始位置，因为最终答案需要返回原始下标，且字典序比较基于原始下标。</li>
+<li><strong>k ≤ 4 的常数优化</strong>：因为最多选 4 个，dp 第二维只有 5 个状态（0~4），空间复杂度 O(n)。</li>
+<li><strong>共享端点算重叠</strong>：判断不重叠用 <code>r1 &lt; l2</code>（严格小于），不能用 <code>r1 &lt;= l2</code>。</li>
+<li><strong>字典序维护要贯穿始终</strong>：不仅最后比，每次状态转移时就比较，否则中间过程会丢失更优方案。</li>
+<li><strong>权重用 long</strong>：<code>weight_i</code> 最大 10^9，4 个总和达 40 亿，超过 int 范围（约 21 亿）。</li>
+<li><strong>prevIdx &#x3D; -1 边界处理</strong>：当所有区间右端点都 &gt;&#x3D; 当前区间左端点时，<code>pos = 0</code>，<code>prevIdx = -1</code>，<code>prevIdx + 1 = 0</code>，<code>dp[0][0]</code> 的 weight&#x3D;0 可以直接加上当前 weight，选 1 个区间自动成立。</li>
 </ol>
 <h2 id="相关题目"><a href="#相关题目" class="headerlink" title="相关题目"></a>相关题目</h2><ul>
-<li><a href="https://leetcode.cn/problems/rotate-array/">189. 轮转数组</a> — 一维数组的轮转，本题是二维版本。</li>
-<li><a href="https://leetcode.cn/problems/rotate-image/">48. 旋转图像</a> — 二维矩阵的原地旋转。</li>
+<li><strong>区间调度类</strong>：<ul>
+<li><a href="https://leetcode.cn/problems/non-overlapping-intervals/">435. 无重叠区间</a> — 经典贪心，按右端点排序后选最多不重叠区间。</li>
+<li><a href="https://leetcode.cn/problems/minimum-number-of-arrows-to-burst-balloons/">452. 用最少数量的箭引爆气球</a> — 区间覆盖，等价于最多选多少不重叠区间。</li>
+<li><a href="https://leetcode.cn/problems/maximum-length-of-pair-chain/">646. 最长数对链</a> — 按右端点排序 + DP。</li>
+<li><a href="https://leetcode.cn/problems/maximum-profit-in-job-scheduling/">1235. 规划兼职工作</a> — <strong>和本题核心算法完全相同</strong>（排序 + DP + 二分），但没有最多选 4 个的限制，也不需要字典序。</li>
+</ul>
+</li>
 </ul>
 ]]></content>
       <categories>
@@ -766,8 +925,9 @@
         <tag>LeetCode</tag>
         <tag>数组</tag>
         <tag>每日一题</tag>
-        <tag>矩阵</tag>
-        <tag>模拟</tag>
+        <tag>动态规划</tag>
+        <tag>二分查找</tag>
+        <tag>排序</tag>
       </tags>
   </entry>
   <entry>
@@ -925,8 +1085,8 @@
         <tag>数组</tag>
         <tag>每日一题</tag>
         <tag>字符串</tag>
-        <tag>线段树</tag>
         <tag>二分查找</tag>
+        <tag>线段树</tag>
       </tags>
   </entry>
   <entry>
@@ -1127,29 +1287,9 @@
       </categories>
       <tags>
         <tag>LeetCode</tag>
-        <tag>数学</tag>
         <tag>每日一题</tag>
         <tag>位运算</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>小花获胜的奶茶</title>
-    <url>//xiaohua_winning_tea/</url>
-    <content><![CDATA[<h1 id="小花获胜的奶茶"><a href="#小花获胜的奶茶" class="headerlink" title="小花获胜的奶茶"></a>小花获胜的奶茶</h1><h2 id="题目内容"><a href="#题目内容" class="headerlink" title="题目内容"></a>题目内容</h2><p>小菊和小花是好朋友，他们玩一个数字游戏。小菊在纸上写了一排数组，小花需要从中选择连续k个数字，使得这k个数字的和最大。小花正确找到最大的值就是获胜，小菊则提供1杯奶茶。</p>
-<h2 id="输入描述"><a href="#输入描述" class="headerlink" title="输入描述"></a>输入描述</h2><ul>
-<li>一排数字</li>
-<li>连续数字的个数k</li>
-</ul>
-<h2 id="输出描述"><a href="#输出描述" class="headerlink" title="输出描述"></a>输出描述</h2><p>最大k个数字和</p>
-<h2 id="样例1"><a href="#样例1" class="headerlink" title="样例1"></a>样例1</h2><p><strong>输入</strong><br>1,3,8,6,4,10 3</p>
-<p><strong>输出</strong><br>20</p>
-]]></content>
-      <categories>
-        <category>算法题解</category>
-      </categories>
-      <tags>
-        <tag>滑动窗口</tag>
-        <tag>华为OD</tag>
+        <tag>数学</tag>
       </tags>
   </entry>
   <entry>
@@ -1333,8 +1473,888 @@
       <tags>
         <tag>LeetCode</tag>
         <tag>数组</tag>
-        <tag>数学</tag>
         <tag>每日一题</tag>
+        <tag>数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>小花获胜的奶茶</title>
+    <url>//xiaohua_winning_tea/</url>
+    <content><![CDATA[<h1 id="小花获胜的奶茶"><a href="#小花获胜的奶茶" class="headerlink" title="小花获胜的奶茶"></a>小花获胜的奶茶</h1><h2 id="题目内容"><a href="#题目内容" class="headerlink" title="题目内容"></a>题目内容</h2><p>小菊和小花是好朋友，他们玩一个数字游戏。小菊在纸上写了一排数组，小花需要从中选择连续k个数字，使得这k个数字的和最大。小花正确找到最大的值就是获胜，小菊则提供1杯奶茶。</p>
+<h2 id="输入描述"><a href="#输入描述" class="headerlink" title="输入描述"></a>输入描述</h2><ul>
+<li>一排数字</li>
+<li>连续数字的个数k</li>
+</ul>
+<h2 id="输出描述"><a href="#输出描述" class="headerlink" title="输出描述"></a>输出描述</h2><p>最大k个数字和</p>
+<h2 id="样例1"><a href="#样例1" class="headerlink" title="样例1"></a>样例1</h2><p><strong>输入</strong><br>1,3,8,6,4,10 3</p>
+<p><strong>输出</strong><br>20</p>
+]]></content>
+      <categories>
+        <category>算法题解</category>
+      </categories>
+      <tags>
+        <tag>滑动窗口</tag>
+        <tag>华为OD</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>算法之旅</title>
+    <url>//algorithm_journey/</url>
+    <content><![CDATA[<blockquote>
+<p>本文档的学习路线、讲次划分和内容编排，<strong>完全基于左程云老师（程序员左程云）的「算法和数据结构通关课」整理而来</strong>，在此向左老师致以诚挚的感谢。</p>
+<p>👉 左老师的算法和数据结构通关课 <strong>B站、YouTube 同步更新，完全免费</strong>，觉得好帮忙扩散！</p>
+<ul>
+<li>📺 B站：<a href="https://space.bilibili.com/8888480?spm_id_from=333.337.0.0">space.bilibili.com&#x2F;8888480</a></li>
+<li>🎬 YouTube：<a href="https://www.youtube.com/results?search_query=%E7%A8%8B%E5%BA%8F%E5%91%98%E5%B7%A6%E7%A8%8B%E4%BA%91">搜索「程序员左程云」</a></li>
+<li>📂 GitHub：<a href="https://github.com/algorithmzuo">github.com&#x2F;algorithmzuo</a> — 配套代码和资源下载</li>
+</ul>
+</blockquote>
+<hr>
+<blockquote>
+<p>完整的算法学习路线图，共 103 讲。建议按「入门 → 必备 → 扩展」顺序学习。</p>
+<p>🔗 标记的条目表示本站有对应博客文章</p>
+</blockquote>
+<hr>
+<h2 id="学习总览"><a href="#学习总览" class="headerlink" title="学习总览"></a>学习总览</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">【入门篇】001 ~ 018 (18讲)  →  打好数据结构和基础算法地基</span><br><span class="line">     │</span><br><span class="line">     ▼</span><br><span class="line">【必备篇】019 ~ 099 (81讲)  →  覆盖笔试面试 99% 考点</span><br><span class="line">     │</span><br><span class="line">     ▼</span><br><span class="line">【扩展篇】100 ~ 103 (4讲)   →  KMP / AC 自动机 / Manacher 等进阶</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="一、入门篇（001-018）"><a href="#一、入门篇（001-018）" class="headerlink" title="一、入门篇（001 ~ 018）"></a>一、入门篇（001 ~ 018）</h2><blockquote>
+<p>目标：掌握基础数据结构和简单排序，能独立写出链表、二叉树、栈队列的基本操作。</p>
+</blockquote>
+<h3 id="思维开启"><a href="#思维开启" class="headerlink" title="思维开启"></a>思维开启</h3><table>
+<thead>
+<tr>
+<th>编号</th>
+<th>内容</th>
+<th>本站文章</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>001</td>
+<td>学习算法的语言问题以及如何开通 gpt4</td>
+<td></td>
+</tr>
+<tr>
+<td>002</td>
+<td>从社会实验到入门提醒</td>
+<td></td>
+</tr>
+<tr>
+<td>005</td>
+<td>对数据验证的重要手段（对数器雏形）</td>
+<td></td>
+</tr>
+<tr>
+<td>007</td>
+<td>时间复杂度和空间复杂度</td>
+<td></td>
+</tr>
+<tr>
+<td>008</td>
+<td>算法和数据结构简介</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="位运算与进制"><a href="#位运算与进制" class="headerlink" title="位运算与进制"></a>位运算与进制</h3><table>
+<thead>
+<tr>
+<th>编号</th>
+<th>内容</th>
+<th>本站文章</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>003</td>
+<td>二进制和位运算</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="排序与二分"><a href="#排序与二分" class="headerlink" title="排序与二分"></a>排序与二分</h3><table>
+<thead>
+<tr>
+<th>编号</th>
+<th>内容</th>
+<th>本站文章</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>004</td>
+<td>选择、冒泡、插入排序</td>
+<td></td>
+</tr>
+<tr>
+<td>006</td>
+<td>二分搜索</td>
+<td><a href="/2026/07/20/algorithm/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/" title="二分查找">二分查找</a></td>
+</tr>
+</tbody></table>
+<h3 id="链表"><a href="#链表" class="headerlink" title="链表"></a>链表</h3><table>
+<thead>
+<tr>
+<th>编号</th>
+<th>内容</th>
+<th>本站文章</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>009</td>
+<td>单双链表及其反转 - 堆栈诠释</td>
+<td></td>
+</tr>
+<tr>
+<td>010</td>
+<td>链表入门题目 - 合并两个有序链表</td>
+<td><a href="/2026/07/20/algorithm/%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%8E%92%E5%BA%8F%E7%9A%84%E9%93%BE%E8%A1%A8/" title="合并两个排序的链表">合并两个排序的链表</a></td>
+</tr>
+<tr>
+<td>011</td>
+<td>链表入门题目 - 两个链表相加</td>
+<td></td>
+</tr>
+<tr>
+<td>012</td>
+<td>链表入门题目 - 划分链表</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="栈、队列、双端队列"><a href="#栈、队列、双端队列" class="headerlink" title="栈、队列、双端队列"></a>栈、队列、双端队列</h3><table>
+<thead>
+<tr>
+<th>编号</th>
+<th>内容</th>
+<th>本站文章</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>013</td>
+<td>队列和栈 - 链表、数组实现</td>
+<td></td>
+</tr>
+<tr>
+<td>014</td>
+<td>队列和栈入门题目 - 栈和队列相互实现</td>
+<td></td>
+</tr>
+<tr>
+<td>015</td>
+<td>栈的入门题目 - 最小栈</td>
+<td></td>
+</tr>
+<tr>
+<td>016</td>
+<td>双端队列 - 双链表和固定数组实现</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="二叉树入门"><a href="#二叉树入门" class="headerlink" title="二叉树入门"></a>二叉树入门</h3><table>
+<thead>
+<tr>
+<th>编号</th>
+<th>内容</th>
+<th>本站文章</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>017</td>
+<td>二叉树及其三种序的递归实现</td>
+<td><a href="/2026/07/20/algorithm/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86/" title="二叉树的遍历">二叉树的遍历</a></td>
+</tr>
+<tr>
+<td>018</td>
+<td>二叉树遍历的非递归实现和复杂度分析</td>
+<td><a href="/2026/07/20/algorithm/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86/" title="二叉树的遍历">二叉树的遍历</a></td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="二、必备篇（019-099）"><a href="#二、必备篇（019-099）" class="headerlink" title="二、必备篇（019 ~ 099）"></a>二、必备篇（019 ~ 099）</h2><blockquote>
+<p>目标：覆盖算法笔试和面试的核心考点，能独立解决中等及以上难度题目。</p>
+</blockquote>
+<h3 id="02-基础输入输出"><a href="#02-基础输入输出" class="headerlink" title="02 基础输入输出"></a>02 基础输入输出</h3><table>
+<thead>
+<tr>
+<th>编号</th>
+<th>内容</th>
+<th>本站文章</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>019</td>
+<td>算法笔试中处理输入和输出</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="03-递归、排序、分治"><a href="#03-递归、排序、分治" class="headerlink" title="03 递归、排序、分治"></a>03 递归、排序、分治</h3><table>
+<thead>
+<tr>
+<th>编号</th>
+<th>内容</th>
+<th>本站文章</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>020</td>
+<td>递归和 master 公式</td>
+<td></td>
+</tr>
+<tr>
+<td>021</td>
+<td>归并排序</td>
+<td></td>
+</tr>
+<tr>
+<td>022</td>
+<td>归并分治</td>
+<td></td>
+</tr>
+<tr>
+<td>023</td>
+<td>随机快速排序</td>
+<td></td>
+</tr>
+<tr>
+<td>024</td>
+<td>随机选择算法</td>
+<td></td>
+</tr>
+<tr>
+<td>025</td>
+<td>堆结构和堆排序</td>
+<td><a href="/2026/07/20/algorithm/%E5%A0%86%E6%8E%92%E5%BA%8F/" title="堆排序">堆排序</a></td>
+</tr>
+<tr>
+<td>027</td>
+<td>堆结构常见题</td>
+<td></td>
+</tr>
+<tr>
+<td>028</td>
+<td>基数排序</td>
+<td></td>
+</tr>
+<tr>
+<td>029</td>
+<td>重要排序算法的总结</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="04-哈希表与有序表"><a href="#04-哈希表与有序表" class="headerlink" title="04 哈希表与有序表"></a>04 哈希表与有序表</h3><table>
+<thead>
+<tr>
+<th>编号</th>
+<th>内容</th>
+<th>本站文章</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>026</td>
+<td>哈希表、有序表和比较器的用法</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="05-位运算专题"><a href="#05-位运算专题" class="headerlink" title="05 位运算专题"></a>05 位运算专题</h3><table>
+<thead>
+<tr>
+<th>编号</th>
+<th>内容</th>
+<th>本站文章</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>030</td>
+<td>异或运算的骚操作</td>
+<td></td>
+</tr>
+<tr>
+<td>031</td>
+<td>位运算的骚操作</td>
+<td></td>
+</tr>
+<tr>
+<td>032</td>
+<td>位图</td>
+<td></td>
+</tr>
+<tr>
+<td>033</td>
+<td>位运算实现加减乘除</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="06-链表与数据结构设计"><a href="#06-链表与数据结构设计" class="headerlink" title="06 链表与数据结构设计"></a>06 链表与数据结构设计</h3><table>
+<thead>
+<tr>
+<th>编号</th>
+<th>内容</th>
+<th>本站文章</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>034</td>
+<td>链表高频题目和必备技巧</td>
+<td><a href="/2026/07/20/algorithm/%E5%88%A4%E6%96%AD%E9%93%BE%E8%A1%A8%E4%B8%AD%E6%98%AF%E5%90%A6%E6%9C%89%E7%8E%AF/" title="判断链表中是否有环">判断链表中是否有环</a></td>
+</tr>
+<tr>
+<td>035</td>
+<td>数据结构设计高频题</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="07-二叉树进阶"><a href="#07-二叉树进阶" class="headerlink" title="07 二叉树进阶"></a>07 二叉树进阶</h3><table>
+<thead>
+<tr>
+<th>编号</th>
+<th>内容</th>
+<th>本站文章</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>036</td>
+<td>二叉树高频题目 - 上（不含树型 dp）</td>
+<td></td>
+</tr>
+<tr>
+<td>037</td>
+<td>二叉树高频题目 - 下（不含树型 dp）</td>
+<td><a href="/2026/07/20/algorithm/%E4%BA%8C%E5%8F%89%E6%8E%92%E5%BA%8F%E6%A0%91/" title="二叉排序树">二叉排序树</a></td>
+</tr>
+<tr>
+<td>038</td>
+<td>常见经典递归过程解析</td>
+<td></td>
+</tr>
+<tr>
+<td>039</td>
+<td>嵌套类问题的递归解题套路</td>
+<td></td>
+</tr>
+<tr>
+<td>040</td>
+<td>N 皇后问题 - 重点是位运算的版本</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="08-数学基础"><a href="#08-数学基础" class="headerlink" title="08 数学基础"></a>08 数学基础</h3><table>
+<thead>
+<tr>
+<th>编号</th>
+<th>内容</th>
+<th>本站文章</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>041</td>
+<td>最大公约数、同余原理</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="09-打表与猜解法（重要！）"><a href="#09-打表与猜解法（重要！）" class="headerlink" title="09 打表与猜解法（重要！）"></a>09 打表与猜解法（重要！）</h3><table>
+<thead>
+<tr>
+<th>编号</th>
+<th>内容</th>
+<th>本站文章</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>042</td>
+<td>对数器打表找规律的技巧</td>
+<td></td>
+</tr>
+<tr>
+<td>043</td>
+<td>根据数据量猜解法的技巧（天宇第一重要技巧）</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="10-前缀、差分、前缀树"><a href="#10-前缀、差分、前缀树" class="headerlink" title="10 前缀、差分、前缀树"></a>10 前缀、差分、前缀树</h3><table>
+<thead>
+<tr>
+<th>编号</th>
+<th>内容</th>
+<th>本站文章</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>044</td>
+<td>前缀和原理和代码详解</td>
+<td></td>
+</tr>
+<tr>
+<td>045</td>
+<td>前缀树的相关题目</td>
+<td></td>
+</tr>
+<tr>
+<td>046</td>
+<td>构建前缀信息的技巧 - 解决子数组相关问题</td>
+<td></td>
+</tr>
+<tr>
+<td>047</td>
+<td>一维差分与等差数列差分</td>
+<td></td>
+</tr>
+<tr>
+<td>048</td>
+<td>二维前缀和、二维差分、离散化技巧</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="11-窗口与双指针"><a href="#11-窗口与双指针" class="headerlink" title="11 窗口与双指针"></a>11 窗口与双指针</h3><table>
+<thead>
+<tr>
+<th>编号</th>
+<th>内容</th>
+<th>本站文章</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>049</td>
+<td>滑动窗口技巧与相关题目</td>
+<td></td>
+</tr>
+<tr>
+<td>050</td>
+<td>双指针技巧与相关题目</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="12-二分答案法"><a href="#12-二分答案法" class="headerlink" title="12 二分答案法"></a>12 二分答案法</h3><table>
+<thead>
+<tr>
+<th>编号</th>
+<th>内容</th>
+<th>本站文章</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>051</td>
+<td>二分答案法与相关题目</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="13-单调栈-单调队列"><a href="#13-单调栈-单调队列" class="headerlink" title="13 单调栈 &amp; 单调队列"></a>13 单调栈 &amp; 单调队列</h3><table>
+<thead>
+<tr>
+<th>编号</th>
+<th>内容</th>
+<th>本站文章</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>052</td>
+<td>单调栈 - 上</td>
+<td></td>
+</tr>
+<tr>
+<td>053</td>
+<td>单调栈 - 下</td>
+<td></td>
+</tr>
+<tr>
+<td>054</td>
+<td>单调队列 - 上</td>
+<td></td>
+</tr>
+<tr>
+<td>055</td>
+<td>单调队列 - 下</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="14-并查集与洪水填充"><a href="#14-并查集与洪水填充" class="headerlink" title="14 并查集与洪水填充"></a>14 并查集与洪水填充</h3><table>
+<thead>
+<tr>
+<th>编号</th>
+<th>内容</th>
+<th>本站文章</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>056</td>
+<td>并查集 - 上</td>
+<td></td>
+</tr>
+<tr>
+<td>057</td>
+<td>并查集 - 下</td>
+<td></td>
+</tr>
+<tr>
+<td>058</td>
+<td>洪水填充</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="15-图论：拓扑、最短路、生成树"><a href="#15-图论：拓扑、最短路、生成树" class="headerlink" title="15 图论：拓扑、最短路、生成树"></a>15 图论：拓扑、最短路、生成树</h3><table>
+<thead>
+<tr>
+<th>编号</th>
+<th>内容</th>
+<th>本站文章</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>059</td>
+<td>建图、链式前向星、拓扑排序</td>
+<td></td>
+</tr>
+<tr>
+<td>060</td>
+<td>拓扑排序的扩展技巧</td>
+<td></td>
+</tr>
+<tr>
+<td>061</td>
+<td>最小生成树</td>
+<td></td>
+</tr>
+<tr>
+<td>062</td>
+<td>宽度优先遍历及其扩展</td>
+<td></td>
+</tr>
+<tr>
+<td>063</td>
+<td>双向广搜</td>
+<td></td>
+</tr>
+<tr>
+<td>064</td>
+<td>Dijkstra 算法、分层图最短路</td>
+<td></td>
+</tr>
+<tr>
+<td>065</td>
+<td>A 星、Floyd、Bellman-Ford 与 SPFA</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="16-动态规划体系（核心中的核心）"><a href="#16-动态规划体系（核心中的核心）" class="headerlink" title="16 动态规划体系（核心中的核心）"></a>16 动态规划体系（核心中的核心）</h3><table>
+<thead>
+<tr>
+<th>编号</th>
+<th>内容</th>
+<th>本站文章</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>066</td>
+<td>从递归入手 - 一维动态规划</td>
+<td><a href="/2026/07/20/algorithm/%E9%9D%92%E8%9B%99%E8%B7%B3%E5%8F%B0%E9%98%B6%E6%8B%93%E5%B1%95%E9%97%AE%E9%A2%98/" title="青蛙跳台阶拓展问题">青蛙跳台阶拓展问题</a></td>
+</tr>
+<tr>
+<td>067</td>
+<td>从递归入手 - 二维动态规划</td>
+<td></td>
+</tr>
+<tr>
+<td>068</td>
+<td>见识更多二维动态规划题目</td>
+<td></td>
+</tr>
+<tr>
+<td>069</td>
+<td>从递归入手 - 三维动态规划</td>
+<td></td>
+</tr>
+<tr>
+<td>070</td>
+<td>子数组最大累加和问题与扩展 - 上</td>
+<td></td>
+</tr>
+<tr>
+<td>071</td>
+<td>子数组最大累加和问题与扩展 - 下</td>
+<td></td>
+</tr>
+<tr>
+<td>072</td>
+<td>最长递增子序列问题与扩展</td>
+<td></td>
+</tr>
+<tr>
+<td>073</td>
+<td>背包 dp - 01 背包、有依赖的背包</td>
+<td></td>
+</tr>
+<tr>
+<td>074</td>
+<td>背包 dp - 分组背包、完全背包</td>
+<td></td>
+</tr>
+<tr>
+<td>075</td>
+<td>背包 dp - 多重背包、混合背包</td>
+<td></td>
+</tr>
+<tr>
+<td>076</td>
+<td>区间 dp - 上</td>
+<td></td>
+</tr>
+<tr>
+<td>077</td>
+<td>区间 dp - 下</td>
+<td></td>
+</tr>
+<tr>
+<td>078</td>
+<td>树型 dp - 上</td>
+<td></td>
+</tr>
+<tr>
+<td>079</td>
+<td>树型 dp - 下</td>
+<td></td>
+</tr>
+<tr>
+<td>080</td>
+<td>状压 dp - 上</td>
+<td></td>
+</tr>
+<tr>
+<td>081</td>
+<td>状压 dp - 下</td>
+<td></td>
+</tr>
+<tr>
+<td>082</td>
+<td>动态规划中用观察优化枚举的技巧 - 上</td>
+<td></td>
+</tr>
+<tr>
+<td>083</td>
+<td>动态规划中用观察优化枚举的技巧 - 下</td>
+<td></td>
+</tr>
+<tr>
+<td>084</td>
+<td>数位 dp - 上</td>
+<td></td>
+</tr>
+<tr>
+<td>085</td>
+<td>数位 dp - 下</td>
+<td></td>
+</tr>
+<tr>
+<td>086</td>
+<td>动态规划中得到具体决策方案的技巧</td>
+<td></td>
+</tr>
+<tr>
+<td>087</td>
+<td>动态规划中根据数据量猜解法技巧</td>
+<td></td>
+</tr>
+<tr>
+<td>088</td>
+<td>动态规划专题总结与预告</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="17-贪心"><a href="#17-贪心" class="headerlink" title="17 贪心"></a>17 贪心</h3><table>
+<thead>
+<tr>
+<th>编号</th>
+<th>内容</th>
+<th>本站文章</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>089</td>
+<td>贪心经典题目专题 1</td>
+<td></td>
+</tr>
+<tr>
+<td>090</td>
+<td>贪心经典题目专题 2</td>
+<td></td>
+</tr>
+<tr>
+<td>091</td>
+<td>贪心经典题目专题 3</td>
+<td><a href="/2026/07/20/algorithm/%E6%95%B0%E8%BD%B4%E8%A6%86%E7%9B%96/" title="数轴覆盖">数轴覆盖</a></td>
+</tr>
+<tr>
+<td>092</td>
+<td>贪心经典题目专题 4</td>
+<td></td>
+</tr>
+<tr>
+<td>093</td>
+<td>贪心经典题目专题 5</td>
+<td></td>
+</tr>
+<tr>
+<td>094</td>
+<td>贪心经典题目专题 6</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="18-博弈论"><a href="#18-博弈论" class="headerlink" title="18 博弈论"></a>18 博弈论</h3><table>
+<thead>
+<tr>
+<th>编号</th>
+<th>内容</th>
+<th>本站文章</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>095</td>
+<td>博弈类问题必备内容详解 - 上</td>
+<td></td>
+</tr>
+<tr>
+<td>096</td>
+<td>博弈类问题必备内容详解 - 下</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="19-数学进阶"><a href="#19-数学进阶" class="headerlink" title="19 数学进阶"></a>19 数学进阶</h3><table>
+<thead>
+<tr>
+<th>编号</th>
+<th>内容</th>
+<th>本站文章</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>097</td>
+<td>质数判断、质因子分解、质数筛</td>
+<td></td>
+</tr>
+<tr>
+<td>098</td>
+<td>快速幂、矩阵快速幂与两类问题</td>
+<td></td>
+</tr>
+<tr>
+<td>099</td>
+<td>逆元和除法同余、容斥原理</td>
+<td></td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="三、扩展篇（100-103）"><a href="#三、扩展篇（100-103）" class="headerlink" title="三、扩展篇（100 ~ 103）"></a>三、扩展篇（100 ~ 103）</h2><blockquote>
+<p>目标：掌握竞赛级别的字符串匹配算法，能应对高难度题目。</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>编号</th>
+<th>内容</th>
+<th>本站文章</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>100</td>
+<td>KMP 算法原理和代码详解</td>
+<td><a href="/2026/07/20/algorithm/KMP%E7%AE%97%E6%B3%95/" title="KMP算法">KMP算法</a></td>
+</tr>
+<tr>
+<td>101</td>
+<td>KMP 算法相关题目</td>
+<td></td>
+</tr>
+<tr>
+<td>102</td>
+<td>AC 自动机原理、优化、代码详解</td>
+<td></td>
+</tr>
+<tr>
+<td>103</td>
+<td>Manacher 算法、扩展 KMP</td>
+<td></td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="四、复杂度速查"><a href="#四、复杂度速查" class="headerlink" title="四、复杂度速查"></a>四、复杂度速查</h2><table>
+<thead>
+<tr>
+<th>复杂度</th>
+<th>含义</th>
+<th>常见场景</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>O(1)</td>
+<td>常数时间</td>
+<td>数组随机访问、哈希查找</td>
+</tr>
+<tr>
+<td>O(log n)</td>
+<td>对数时间</td>
+<td>二分查找、平衡树操作</td>
+</tr>
+<tr>
+<td>O(n)</td>
+<td>线性时间</td>
+<td>单循环遍历数组、快排 partition</td>
+</tr>
+<tr>
+<td>O(n log n)</td>
+<td>线性对数</td>
+<td>归并排序、快速排序平均</td>
+</tr>
+<tr>
+<td>O(n²)</td>
+<td>平方时间</td>
+<td>双重循环、冒泡排序</td>
+</tr>
+<tr>
+<td>O(2ⁿ)</td>
+<td>指数时间</td>
+<td>递归无优化的斐波那契、子集枚举</td>
+</tr>
+<tr>
+<td>O(n!)</td>
+<td>阶乘</td>
+<td>全排列枚举</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="五、刷题资源"><a href="#五、刷题资源" class="headerlink" title="五、刷题资源"></a>五、刷题资源</h2><table>
+<thead>
+<tr>
+<th>平台</th>
+<th>链接</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>LeetCode（中国）</td>
+<td><a href="https://leetcode.cn/">https://leetcode.cn</a></td>
+<td>最主流的刷题平台</td>
+</tr>
+<tr>
+<td>LeetCode（英文）</td>
+<td><a href="https://leetcode.com/">https://leetcode.com</a></td>
+<td>英文讨论区质量更高</td>
+</tr>
+<tr>
+<td>Codeforces</td>
+<td><a href="https://codeforces.com/">https://codeforces.com</a></td>
+<td>竞赛向，锻炼思维速度</td>
+</tr>
+<tr>
+<td>牛客网</td>
+<td><a href="https://www.nowcoder.com/">https://www.nowcoder.com</a></td>
+<td>校招面经和真题多</td>
+</tr>
+<tr>
+<td>LintCode</td>
+<td><a href="https://www.lintcode.com/">https://www.lintcode.com</a></td>
+<td>适合入门，题目分类清晰</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>算法之旅</category>
+      </categories>
+      <tags>
+        <tag>算法知识</tag>
       </tags>
   </entry>
   <entry>
@@ -1431,9 +2451,27 @@
 ]]></content>
   </entry>
   <entry>
-    <title>全部标签</title>
-    <url>/tags/index.html</url>
-    <content><![CDATA[]]></content>
+    <title>资源索引</title>
+    <url>/resources/index.html</url>
+    <content><![CDATA[<h1 id="资源索引"><a href="#资源索引" class="headerlink" title="资源索引"></a>资源索引</h1><p>这里汇总我的项目、创作内容与各平台入口。</p>
+<h2 id="📻-早安电台｜治愈创作"><a href="#📻-早安电台｜治愈创作" class="headerlink" title="📻 早安电台｜治愈创作"></a>📻 早安电台｜治愈创作</h2><ul>
+<li><a href="%E4%BD%A0%E7%9A%84%E6%8A%96%E9%9F%B3%E5%90%88%E9%9B%86%E9%93%BE%E6%8E%A5">抖音 · 早安电台治愈文案合集</a>：清晨温柔短句，早安系列视频</li>
+</ul>
+<h2 id="💻-技术项目"><a href="#💻-技术项目" class="headerlink" title="💻 技术项目"></a>💻 技术项目</h2><ul>
+<li><a href="%E4%BD%A0%E7%9A%84github%E5%9C%B0%E5%9D%80">GitHub</a>：开源项目、代码仓库</li>
+<li><a href="%E9%A1%B9%E7%9B%AE%E5%9C%B0%E5%9D%80">NexusAgent</a>：AI 相关项目</li>
+</ul>
+<h2 id="🌐-社交与其他平台"><a href="#🌐-社交与其他平台" class="headerlink" title="🌐 社交与其他平台"></a>🌐 社交与其他平台</h2><ul>
+<li><a href="%E9%93%BE%E6%8E%A5">xxx</a>：示例链接</li>
+</ul>
+<h2 id="🔧-工具与素材"><a href="#🔧-工具与素材" class="headerlink" title="🔧 工具与素材"></a>🔧 工具与素材</h2><blockquote>
+<p>个人常用工具、素材站点收藏</p>
+</blockquote>
+<ul>
+<li><a href="https://www.pexels.com/">Pexels</a>：无版权图片素材</li>
+<li><a href="https://pixabay.com/">Pixabay</a>：免费商用图库</li>
+</ul>
+]]></content>
   </entry>
   <entry>
     <title>站点纪事</title>
@@ -1463,26 +2501,8 @@
       </div></div>]]></content>
   </entry>
   <entry>
-    <title>资源索引</title>
-    <url>/resources/index.html</url>
-    <content><![CDATA[<h1 id="资源索引"><a href="#资源索引" class="headerlink" title="资源索引"></a>资源索引</h1><p>这里汇总我的项目、创作内容与各平台入口。</p>
-<h2 id="📻-早安电台｜治愈创作"><a href="#📻-早安电台｜治愈创作" class="headerlink" title="📻 早安电台｜治愈创作"></a>📻 早安电台｜治愈创作</h2><ul>
-<li><a href="%E4%BD%A0%E7%9A%84%E6%8A%96%E9%9F%B3%E5%90%88%E9%9B%86%E9%93%BE%E6%8E%A5">抖音 · 早安电台治愈文案合集</a>：清晨温柔短句，早安系列视频</li>
-</ul>
-<h2 id="💻-技术项目"><a href="#💻-技术项目" class="headerlink" title="💻 技术项目"></a>💻 技术项目</h2><ul>
-<li><a href="%E4%BD%A0%E7%9A%84github%E5%9C%B0%E5%9D%80">GitHub</a>：开源项目、代码仓库</li>
-<li><a href="%E9%A1%B9%E7%9B%AE%E5%9C%B0%E5%9D%80">NexusAgent</a>：AI 相关项目</li>
-</ul>
-<h2 id="🌐-社交与其他平台"><a href="#🌐-社交与其他平台" class="headerlink" title="🌐 社交与其他平台"></a>🌐 社交与其他平台</h2><ul>
-<li><a href="%E9%93%BE%E6%8E%A5">xxx</a>：示例链接</li>
-</ul>
-<h2 id="🔧-工具与素材"><a href="#🔧-工具与素材" class="headerlink" title="🔧 工具与素材"></a>🔧 工具与素材</h2><blockquote>
-<p>个人常用工具、素材站点收藏</p>
-</blockquote>
-<ul>
-<li><a href="https://www.pexels.com/">Pexels</a>：无版权图片素材</li>
-<li><a href="https://pixabay.com/">Pixabay</a>：免费商用图库</li>
-</ul>
-]]></content>
+    <title>全部标签</title>
+    <url>/tags/index.html</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
