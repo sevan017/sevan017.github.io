@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>IO模式</title>
+    <url>/2026/07/20/IO%E6%A8%A1%E5%BC%8F/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>File相关类</title>
     <url>/2026/07/20/File%E7%9B%B8%E5%85%B3%E7%B1%BB/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>IO模式</title>
-    <url>/2026/07/20/IO%E6%A8%A1%E5%BC%8F/</url>
+    <title>Java异常机制</title>
+    <url>/2026/07/20/Java%E5%BC%82%E5%B8%B8%E6%9C%BA%E5%88%B6/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -18,11 +23,6 @@
   <entry>
     <title>Lambda表达式</title>
     <url>/2026/07/20/Lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>Java异常机制</title>
-    <url>/2026/07/20/Java%E5%BC%82%E5%B8%B8%E6%9C%BA%E5%88%B6/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -111,6 +111,11 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
+    <title>二进制</title>
+    <url>/2026/07/20/%E4%BA%8C%E8%BF%9B%E5%88%B6/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>多线程详解</title>
     <url>/2026/07/20/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E8%AF%A6%E8%A7%A3/</url>
     <content><![CDATA[]]></content>
@@ -121,23 +126,8 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>并发编程</title>
-    <url>/2026/07/20/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>二进制</title>
-    <url>/2026/07/20/%E4%BA%8C%E8%BF%9B%E5%88%B6/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>序列化与反序列化</title>
     <url>/2026/07/20/%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%8E%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>泛型</title>
-    <url>/2026/07/20/%E6%B3%9B%E5%9E%8B/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -146,8 +136,13 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>注解与反射</title>
-    <url>/2026/07/20/%E6%B3%A8%E8%A7%A3%E4%B8%8E%E5%8F%8D%E5%B0%84/</url>
+    <title>泛型</title>
+    <url>/2026/07/20/%E6%B3%9B%E5%9E%8B/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>并发编程</title>
+    <url>/2026/07/20/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -156,13 +151,13 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>连续子数组的最大和</title>
-    <url>/2026/07/20/%E8%BF%9E%E7%BB%AD%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C/</url>
+    <title>注解与反射</title>
+    <url>/2026/07/20/%E6%B3%A8%E8%A7%A3%E4%B8%8E%E5%8F%8D%E5%B0%84/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>集合类</title>
-    <url>/2026/07/20/%E9%9B%86%E5%90%88%E7%B1%BB/</url>
+    <title>连续子数组的最大和</title>
+    <url>/2026/07/20/%E8%BF%9E%E7%BB%AD%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -171,88 +166,22 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
+    <title>集合类</title>
+    <url>//java-collection/</url>
+    <content><![CDATA[<h1 id="什么是集合"><a href="#什么是集合" class="headerlink" title="什么是集合"></a>什么是集合</h1><p>集合和数组一样，可以保存一组元素，并且提供了操作元素的方法，使用方便</p>
+<h2 id="java-集合框架种的接口"><a href="#java-集合框架种的接口" class="headerlink" title="java 集合框架种的接口"></a>java 集合框架种的接口</h2><p>java.util.Collection接口是集合框架的基础接口，定义了集合的基本操作，如添加、删除、查询等。<br>collection子接口有List、Set、Queue等，分别对应不同的集合类型。</p>
+]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+        <tag>集合类</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>面向对象</title>
     <url>/2026/07/20/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>KMP算法</title>
-    <url>/2026/07/20/algorithm/KMP%E7%AE%97%E6%B3%95/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>二分查找</title>
-    <url>/2026/07/20/algorithm/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>二叉排序树</title>
-    <url>/2026/07/20/algorithm/%E4%BA%8C%E5%8F%89%E6%8E%92%E5%BA%8F%E6%A0%91/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>二叉树的遍历</title>
-    <url>/2026/07/20/algorithm/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>判断链表中是否有环</title>
-    <url>/2026/07/20/algorithm/%E5%88%A4%E6%96%AD%E9%93%BE%E8%A1%A8%E4%B8%AD%E6%98%AF%E5%90%A6%E6%9C%89%E7%8E%AF/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>合并两个排序的链表</title>
-    <url>/2026/07/20/algorithm/%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%8E%92%E5%BA%8F%E7%9A%84%E9%93%BE%E8%A1%A8/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>合并两个有序数组</title>
-    <url>/2026/07/20/algorithm/%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>堆排序</title>
-    <url>/2026/07/20/algorithm/%E5%A0%86%E6%8E%92%E5%BA%8F/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>平衡二叉树（AVL）</title>
-    <url>/2026/07/20/algorithm/%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91%EF%BC%88AVL%EF%BC%89/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>数组中的重复数字</title>
-    <url>/2026/07/20/algorithm/%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E6%95%B0%E5%AD%97/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>数轴覆盖</title>
-    <url>/2026/07/20/algorithm/%E6%95%B0%E8%BD%B4%E8%A6%86%E7%9B%96/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>旋转矩阵</title>
-    <url>/2026/07/20/algorithm/%E6%97%8B%E8%BD%AC%E7%9F%A9%E9%98%B5/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>旋转词</title>
-    <url>/2026/07/20/algorithm/%E6%97%8B%E8%BD%AC%E8%AF%8D/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>赫夫曼树</title>
-    <url>/2026/07/20/algorithm/%E8%B5%AB%E5%A4%AB%E6%9B%BC%E6%A0%91/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>青蛙跳台阶拓展问题</title>
-    <url>/2026/07/20/algorithm/%E9%9D%92%E8%9B%99%E8%B7%B3%E5%8F%B0%E9%98%B6%E6%8B%93%E5%B1%95%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>顺序（线性）查找</title>
-    <url>/2026/07/20/algorithm/%E9%A1%BA%E5%BA%8F%EF%BC%88%E7%BA%BF%E6%80%A7%EF%BC%89%E6%9F%A5%E6%89%BE/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -532,103 +461,84 @@
       </tags>
   </entry>
   <entry>
-    <title>Mysql</title>
-    <url>/2026/07/20/database/Mysql/</url>
+    <title>KMP算法</title>
+    <url>/2026/07/20/algorithm/KMP%E7%AE%97%E6%B3%95/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>小花获胜的奶茶</title>
-    <url>//xiaohua_winning_tea/</url>
-    <content><![CDATA[<h1 id="小花获胜的奶茶"><a href="#小花获胜的奶茶" class="headerlink" title="小花获胜的奶茶"></a>小花获胜的奶茶</h1><h2 id="题目内容"><a href="#题目内容" class="headerlink" title="题目内容"></a>题目内容</h2><p>小菊和小花是好朋友，他们玩一个数字游戏。小菊在纸上写了一排数组，小花需要从中选择连续k个数字，使得这k个数字的和最大。小花正确找到最大的值就是获胜，小菊则提供1杯奶茶。</p>
-<h2 id="输入描述"><a href="#输入描述" class="headerlink" title="输入描述"></a>输入描述</h2><ul>
-<li>一排数字</li>
-<li>连续数字的个数k</li>
-</ul>
-<h2 id="输出描述"><a href="#输出描述" class="headerlink" title="输出描述"></a>输出描述</h2><p>最大k个数字和</p>
-<h2 id="样例1"><a href="#样例1" class="headerlink" title="样例1"></a>样例1</h2><p><strong>输入</strong><br>1,3,8,6,4,10 3</p>
-<p><strong>输出</strong><br>20</p>
-]]></content>
-      <categories>
-        <category>算法题解</category>
-      </categories>
-      <tags>
-        <tag>华为OD</tag>
-        <tag>滑动窗口</tag>
-      </tags>
+    <title>二叉排序树</title>
+    <url>/2026/07/20/algorithm/%E4%BA%8C%E5%8F%89%E6%8E%92%E5%BA%8F%E6%A0%91/</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>Leetcode-1260-二维网格迁移</title>
-    <url>//shift-2d-grid/</url>
-    <content><![CDATA[<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p><a href="https://leetcode.cn/problems/shift-2d-grid/description/">1260. 二维网格迁移</a></p>
-<p>给你一个 <code>m</code> 行 <code>n</code> 列的二维网格 <code>grid</code> 和一个整数 <code>k</code>。你需要将 <code>grid</code> 迁移 <code>k</code> 次。</p>
-<p>每次「迁移」操作会引发下述活动：</p>
-<ul>
-<li>位于 <code>grid[i][j]</code>（<code>j &lt; n - 1</code>）的元素会移动到 <code>grid[i][j + 1]</code>。</li>
-<li>位于 <code>grid[i][n - 1]</code> 的元素会移动到 <code>grid[i + 1][0]</code>。</li>
-<li>位于 <code>grid[m - 1][n - 1]</code> 的元素会移动到 <code>grid[0][0]</code>。</li>
-</ul>
-<p>请返回 <code>k</code> 次迁移操作后最终得到的 <strong>二维网格</strong>。</p>
-<p><strong>示例 1：</strong></p>
-<p><img src="https://assets.leetcode.com/uploads/2019/11/05/e1.png" alt="示例1"></p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">输入：grid = [[1,2,3],[4,5,6],[7,8,9]], k = 1</span><br><span class="line">输出：[[9,1,2],[3,4,5],[6,7,8]]</span><br></pre></td></tr></table></figure>
-
-<p><strong>示例 2：</strong></p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">输入：grid = [[3,8,1,9],[19,7,2,5],[4,6,11,10],[12,0,21,13]], k = 4</span><br><span class="line">输出：[[12,0,21,13],[3,8,1,9],[19,7,2,5],[4,6,11,10]]</span><br></pre></td></tr></table></figure>
-
-<p><strong>示例 3：</strong></p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">输入：grid = [[1,2,3],[4,5,6],[7,8,9]], k = 9</span><br><span class="line">输出：[[1,2,3],[4,5,6],[7,8,9]]</span><br></pre></td></tr></table></figure>
-
-<p><strong>提示：</strong></p>
-<ul>
-<li><code>m == grid.length</code></li>
-<li><code>n == grid[i].length</code></li>
-<li><code>1 &lt;= m &lt;= 50</code></li>
-<li><code>1 &lt;= n &lt;= 50</code></li>
-<li><code>-1000 &lt;= grid[i][j] &lt;= 1000</code></li>
-<li><code>0 &lt;= k &lt;= 100</code></li>
-</ul>
-<h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><h3 id="一维展开"><a href="#一维展开" class="headerlink" title="一维展开"></a>一维展开</h3><p>核心思路是将二维网格<strong>展开为一维数组</strong>来思考。</p>
-<p>对于一个 <code>m × n</code> 的二维网格，元素 <code>grid[i][j]</code> 在一维中的位置（下标）为：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">index = i × n + j</span><br></pre></td></tr></table></figure>
-
-<p>每次迁移相当于所有元素在一维数组中<strong>向右移动一位</strong>，最后一个元素移动到第一个位置。迁移 <code>k</code> 次后，原来位于一维下标 <code>index</code> 的元素，新位置为：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">newIndex = (index + k) % (m × n)</span><br></pre></td></tr></table></figure>
-
-<p>最后再将一维下标 <code>newIndex</code> 映射回二维坐标：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">row = newIndex / n   // 行：商</span><br><span class="line">col = newIndex % n   // 列：余数</span><br></pre></td></tr></table></figure>
-
-<h3 id="举例"><a href="#举例" class="headerlink" title="举例"></a>举例</h3><p>以 <code>grid = [[1,2,3],[4,5,6],[7,8,9]]</code>，<code>k = 1</code> 为例：</p>
-<p>一维展开：<code>[1, 2, 3, 4, 5, 6, 7, 8, 9]</code></p>
-<p>迁移 1 次后：<code>[9, 1, 2, 3, 4, 5, 6, 7, 8]</code></p>
-<p>还原为二维：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">[[9, 1, 2],</span><br><span class="line"> [3, 4, 5],</span><br><span class="line"> [6, 7, 8]]</span><br></pre></td></tr></table></figure>
-
-<h3 id="复杂度分析"><a href="#复杂度分析" class="headerlink" title="复杂度分析"></a>复杂度分析</h3><ul>
-<li><strong>时间复杂度</strong>：<code>O(m × n)</code>，遍历每个元素一次。</li>
-<li><strong>空间复杂度</strong>：<code>O(1)</code>（不计返回结果所需的空间）。</li>
-</ul>
-<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> List&lt;List&lt;Integer&gt;&gt; <span class="title function_">shiftGrid</span><span class="params">(<span class="type">int</span>[][] grid, <span class="type">int</span> k)</span> &#123;</span><br><span class="line">        <span class="type">int</span> <span class="variable">m</span> <span class="operator">=</span> grid.length, n = grid[<span class="number">0</span>].length;</span><br><span class="line">        <span class="type">int</span> <span class="variable">total</span> <span class="operator">=</span> m * n;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 初始化结果二维列表</span></span><br><span class="line">        List&lt;List&lt;Integer&gt;&gt; ans = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; m; i++) &#123;</span><br><span class="line">            List&lt;Integer&gt; row = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">            <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> <span class="number">0</span>; j &lt; n; j++) &#123;</span><br><span class="line">                row.add(<span class="number">0</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            ans.add(row);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 遍历原网格每个元素，计算迁移后的位置并填入</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; m; i++) &#123;</span><br><span class="line">            <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> <span class="number">0</span>; j &lt; n; j++) &#123;</span><br><span class="line">                <span class="comment">// 一维展开后迁移 k 步的新下标</span></span><br><span class="line">                <span class="type">int</span> <span class="variable">index</span> <span class="operator">=</span> (i * n + j + k) % total;</span><br><span class="line">                <span class="comment">// 还原为二维坐标</span></span><br><span class="line">                <span class="type">int</span> <span class="variable">row</span> <span class="operator">=</span> index / n;</span><br><span class="line">                <span class="type">int</span> <span class="variable">col</span> <span class="operator">=</span> index % n;</span><br><span class="line">                ans.get(row).set(col, grid[i][j]);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="关键点"><a href="#关键点" class="headerlink" title="关键点"></a>关键点</h2><ol>
-<li><strong>下标映射</strong>：<code>(i, j) → i × n + j</code>，这是二维数组一维化的核心公式。</li>
-<li><strong>取模运算</strong>：<code>% total</code> 处理了循环移动，当 <code>k</code> 大于总元素数时自动取余。</li>
-<li><strong>取余与取模的区别</strong>：Java 中 <code>%</code> 对正数运算即为取余，由于 <code>index</code> 和 <code>k</code> 均为非负数，直接使用 <code>%</code> 即可。</li>
-</ol>
-<h2 id="相关题目"><a href="#相关题目" class="headerlink" title="相关题目"></a>相关题目</h2><ul>
-<li><a href="https://leetcode.cn/problems/rotate-array/">189. 轮转数组</a> — 一维数组的轮转，本题是二维版本。</li>
-<li><a href="https://leetcode.cn/problems/rotate-image/">48. 旋转图像</a> — 二维矩阵的原地旋转。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>算法题解</category>
-      </categories>
-      <tags>
-        <tag>LeetCode</tag>
-        <tag>数组</tag>
-        <tag>矩阵</tag>
-        <tag>模拟</tag>
-        <tag>每日一题</tag>
-      </tags>
+    <title>二叉树的遍历</title>
+    <url>/2026/07/20/algorithm/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>判断链表中是否有环</title>
+    <url>/2026/07/20/algorithm/%E5%88%A4%E6%96%AD%E9%93%BE%E8%A1%A8%E4%B8%AD%E6%98%AF%E5%90%A6%E6%9C%89%E7%8E%AF/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>合并两个排序的链表</title>
+    <url>/2026/07/20/algorithm/%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%8E%92%E5%BA%8F%E7%9A%84%E9%93%BE%E8%A1%A8/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>合并两个有序数组</title>
+    <url>/2026/07/20/algorithm/%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>堆排序</title>
+    <url>/2026/07/20/algorithm/%E5%A0%86%E6%8E%92%E5%BA%8F/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>平衡二叉树（AVL）</title>
+    <url>/2026/07/20/algorithm/%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91%EF%BC%88AVL%EF%BC%89/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>数组中的重复数字</title>
+    <url>/2026/07/20/algorithm/%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E6%95%B0%E5%AD%97/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>数轴覆盖</title>
+    <url>/2026/07/20/algorithm/%E6%95%B0%E8%BD%B4%E8%A6%86%E7%9B%96/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>旋转矩阵</title>
+    <url>/2026/07/20/algorithm/%E6%97%8B%E8%BD%AC%E7%9F%A9%E9%98%B5/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>旋转词</title>
+    <url>/2026/07/20/algorithm/%E6%97%8B%E8%BD%AC%E8%AF%8D/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>赫夫曼树</title>
+    <url>/2026/07/20/algorithm/%E8%B5%AB%E5%A4%AB%E6%9B%BC%E6%A0%91/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>青蛙跳台阶拓展问题</title>
+    <url>/2026/07/20/algorithm/%E9%9D%92%E8%9B%99%E8%B7%B3%E5%8F%B0%E9%98%B6%E6%8B%93%E5%B1%95%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>顺序（线性）查找</title>
+    <url>/2026/07/20/algorithm/%E9%A1%BA%E5%BA%8F%EF%BC%88%E7%BA%BF%E6%80%A7%EF%BC%89%E6%9F%A5%E6%89%BE/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Mysql</title>
+    <url>/2026/07/20/database/Mysql/</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>Leetcode-3090-每个字符最多出现两次的最长子字符串</title>
@@ -772,11 +682,85 @@
         <category>算法题解</category>
       </categories>
       <tags>
-        <tag>滑动窗口</tag>
         <tag>LeetCode</tag>
-        <tag>每日一题</tag>
+        <tag>滑动窗口</tag>
         <tag>字符串</tag>
         <tag>哈希表</tag>
+        <tag>每日一题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Leetcode-1260-二维网格迁移</title>
+    <url>//shift-2d-grid/</url>
+    <content><![CDATA[<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p><a href="https://leetcode.cn/problems/shift-2d-grid/description/">1260. 二维网格迁移</a></p>
+<p>给你一个 <code>m</code> 行 <code>n</code> 列的二维网格 <code>grid</code> 和一个整数 <code>k</code>。你需要将 <code>grid</code> 迁移 <code>k</code> 次。</p>
+<p>每次「迁移」操作会引发下述活动：</p>
+<ul>
+<li>位于 <code>grid[i][j]</code>（<code>j &lt; n - 1</code>）的元素会移动到 <code>grid[i][j + 1]</code>。</li>
+<li>位于 <code>grid[i][n - 1]</code> 的元素会移动到 <code>grid[i + 1][0]</code>。</li>
+<li>位于 <code>grid[m - 1][n - 1]</code> 的元素会移动到 <code>grid[0][0]</code>。</li>
+</ul>
+<p>请返回 <code>k</code> 次迁移操作后最终得到的 <strong>二维网格</strong>。</p>
+<p><strong>示例 1：</strong></p>
+<p><img src="https://assets.leetcode.com/uploads/2019/11/05/e1.png" alt="示例1"></p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">输入：grid = [[1,2,3],[4,5,6],[7,8,9]], k = 1</span><br><span class="line">输出：[[9,1,2],[3,4,5],[6,7,8]]</span><br></pre></td></tr></table></figure>
+
+<p><strong>示例 2：</strong></p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">输入：grid = [[3,8,1,9],[19,7,2,5],[4,6,11,10],[12,0,21,13]], k = 4</span><br><span class="line">输出：[[12,0,21,13],[3,8,1,9],[19,7,2,5],[4,6,11,10]]</span><br></pre></td></tr></table></figure>
+
+<p><strong>示例 3：</strong></p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">输入：grid = [[1,2,3],[4,5,6],[7,8,9]], k = 9</span><br><span class="line">输出：[[1,2,3],[4,5,6],[7,8,9]]</span><br></pre></td></tr></table></figure>
+
+<p><strong>提示：</strong></p>
+<ul>
+<li><code>m == grid.length</code></li>
+<li><code>n == grid[i].length</code></li>
+<li><code>1 &lt;= m &lt;= 50</code></li>
+<li><code>1 &lt;= n &lt;= 50</code></li>
+<li><code>-1000 &lt;= grid[i][j] &lt;= 1000</code></li>
+<li><code>0 &lt;= k &lt;= 100</code></li>
+</ul>
+<h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><h3 id="一维展开"><a href="#一维展开" class="headerlink" title="一维展开"></a>一维展开</h3><p>核心思路是将二维网格<strong>展开为一维数组</strong>来思考。</p>
+<p>对于一个 <code>m × n</code> 的二维网格，元素 <code>grid[i][j]</code> 在一维中的位置（下标）为：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">index = i × n + j</span><br></pre></td></tr></table></figure>
+
+<p>每次迁移相当于所有元素在一维数组中<strong>向右移动一位</strong>，最后一个元素移动到第一个位置。迁移 <code>k</code> 次后，原来位于一维下标 <code>index</code> 的元素，新位置为：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">newIndex = (index + k) % (m × n)</span><br></pre></td></tr></table></figure>
+
+<p>最后再将一维下标 <code>newIndex</code> 映射回二维坐标：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">row = newIndex / n   // 行：商</span><br><span class="line">col = newIndex % n   // 列：余数</span><br></pre></td></tr></table></figure>
+
+<h3 id="举例"><a href="#举例" class="headerlink" title="举例"></a>举例</h3><p>以 <code>grid = [[1,2,3],[4,5,6],[7,8,9]]</code>，<code>k = 1</code> 为例：</p>
+<p>一维展开：<code>[1, 2, 3, 4, 5, 6, 7, 8, 9]</code></p>
+<p>迁移 1 次后：<code>[9, 1, 2, 3, 4, 5, 6, 7, 8]</code></p>
+<p>还原为二维：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">[[9, 1, 2],</span><br><span class="line"> [3, 4, 5],</span><br><span class="line"> [6, 7, 8]]</span><br></pre></td></tr></table></figure>
+
+<h3 id="复杂度分析"><a href="#复杂度分析" class="headerlink" title="复杂度分析"></a>复杂度分析</h3><ul>
+<li><strong>时间复杂度</strong>：<code>O(m × n)</code>，遍历每个元素一次。</li>
+<li><strong>空间复杂度</strong>：<code>O(1)</code>（不计返回结果所需的空间）。</li>
+</ul>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> List&lt;List&lt;Integer&gt;&gt; <span class="title function_">shiftGrid</span><span class="params">(<span class="type">int</span>[][] grid, <span class="type">int</span> k)</span> &#123;</span><br><span class="line">        <span class="type">int</span> <span class="variable">m</span> <span class="operator">=</span> grid.length, n = grid[<span class="number">0</span>].length;</span><br><span class="line">        <span class="type">int</span> <span class="variable">total</span> <span class="operator">=</span> m * n;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 初始化结果二维列表</span></span><br><span class="line">        List&lt;List&lt;Integer&gt;&gt; ans = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; m; i++) &#123;</span><br><span class="line">            List&lt;Integer&gt; row = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">            <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> <span class="number">0</span>; j &lt; n; j++) &#123;</span><br><span class="line">                row.add(<span class="number">0</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            ans.add(row);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 遍历原网格每个元素，计算迁移后的位置并填入</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; m; i++) &#123;</span><br><span class="line">            <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> <span class="number">0</span>; j &lt; n; j++) &#123;</span><br><span class="line">                <span class="comment">// 一维展开后迁移 k 步的新下标</span></span><br><span class="line">                <span class="type">int</span> <span class="variable">index</span> <span class="operator">=</span> (i * n + j + k) % total;</span><br><span class="line">                <span class="comment">// 还原为二维坐标</span></span><br><span class="line">                <span class="type">int</span> <span class="variable">row</span> <span class="operator">=</span> index / n;</span><br><span class="line">                <span class="type">int</span> <span class="variable">col</span> <span class="operator">=</span> index % n;</span><br><span class="line">                ans.get(row).set(col, grid[i][j]);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="关键点"><a href="#关键点" class="headerlink" title="关键点"></a>关键点</h2><ol>
+<li><strong>下标映射</strong>：<code>(i, j) → i × n + j</code>，这是二维数组一维化的核心公式。</li>
+<li><strong>取模运算</strong>：<code>% total</code> 处理了循环移动，当 <code>k</code> 大于总元素数时自动取余。</li>
+<li><strong>取余与取模的区别</strong>：Java 中 <code>%</code> 对正数运算即为取余，由于 <code>index</code> 和 <code>k</code> 均为非负数，直接使用 <code>%</code> 即可。</li>
+</ol>
+<h2 id="相关题目"><a href="#相关题目" class="headerlink" title="相关题目"></a>相关题目</h2><ul>
+<li><a href="https://leetcode.cn/problems/rotate-array/">189. 轮转数组</a> — 一维数组的轮转，本题是二维版本。</li>
+<li><a href="https://leetcode.cn/problems/rotate-image/">48. 旋转图像</a> — 二维矩阵的原地旋转。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>算法题解</category>
+      </categories>
+      <tags>
+        <tag>LeetCode</tag>
+        <tag>每日一题</tag>
+        <tag>数组</tag>
+        <tag>矩阵</tag>
+        <tag>模拟</tag>
       </tags>
   </entry>
   <entry>
@@ -943,8 +927,8 @@
       </categories>
       <tags>
         <tag>LeetCode</tag>
-        <tag>数组</tag>
         <tag>每日一题</tag>
+        <tag>数组</tag>
         <tag>动态规划</tag>
         <tag>二分查找</tag>
         <tag>排序</tag>
@@ -1087,8 +1071,8 @@
       </categories>
       <tags>
         <tag>LeetCode</tag>
-        <tag>每日一题</tag>
         <tag>字符串</tag>
+        <tag>每日一题</tag>
         <tag>贪心</tag>
         <tag>枚举</tag>
       </tags>
@@ -1102,9 +1086,9 @@
       </categories>
       <tags>
         <tag>LeetCode</tag>
-        <tag>数组</tag>
-        <tag>每日一题</tag>
         <tag>字符串</tag>
+        <tag>每日一题</tag>
+        <tag>数组</tag>
         <tag>二分查找</tag>
         <tag>线段树</tag>
       </tags>
@@ -1492,9 +1476,398 @@
       </categories>
       <tags>
         <tag>LeetCode</tag>
-        <tag>数组</tag>
         <tag>每日一题</tag>
+        <tag>数组</tag>
         <tag>数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>小花获胜的奶茶</title>
+    <url>//xiaohua_winning_tea/</url>
+    <content><![CDATA[<h1 id="小花获胜的奶茶"><a href="#小花获胜的奶茶" class="headerlink" title="小花获胜的奶茶"></a>小花获胜的奶茶</h1><h2 id="题目内容"><a href="#题目内容" class="headerlink" title="题目内容"></a>题目内容</h2><p>小菊和小花是好朋友，他们玩一个数字游戏。小菊在纸上写了一排数组，小花需要从中选择连续k个数字，使得这k个数字的和最大。小花正确找到最大的值就是获胜，小菊则提供1杯奶茶。</p>
+<h2 id="输入描述"><a href="#输入描述" class="headerlink" title="输入描述"></a>输入描述</h2><ul>
+<li>一排数字</li>
+<li>连续数字的个数k</li>
+</ul>
+<h2 id="输出描述"><a href="#输出描述" class="headerlink" title="输出描述"></a>输出描述</h2><p>最大k个数字和</p>
+<h2 id="样例1"><a href="#样例1" class="headerlink" title="样例1"></a>样例1</h2><p><strong>输入</strong><br>1,3,8,6,4,10 3</p>
+<p><strong>输出</strong><br>20</p>
+]]></content>
+      <categories>
+        <category>算法题解</category>
+      </categories>
+      <tags>
+        <tag>滑动窗口</tag>
+        <tag>华为OD</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>二分答案法</title>
+    <url>//algorithm_journey/binary-search-answer/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>算法之旅</category>
+      </categories>
+      <tags>
+        <tag>算法知识</tag>
+        <tag>二分搜索</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>二分搜索入门</title>
+    <url>//algorithm_journey/binary-search/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>算法之旅</category>
+      </categories>
+      <tags>
+        <tag>算法知识</tag>
+        <tag>二分搜索</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>排序算法</title>
+    <url>//algorithm_journey/sort/</url>
+    <content><![CDATA[<h1 id="排序算法总结"><a href="#排序算法总结" class="headerlink" title="排序算法总结"></a>排序算法总结</h1><h2 id="一、概念回顾"><a href="#一、概念回顾" class="headerlink" title="一、概念回顾"></a>一、概念回顾</h2><h3 id="稳定性"><a href="#稳定性" class="headerlink" title="稳定性"></a>稳定性</h3><p>排序算法的稳定性是指：<strong>同样大小的元素在排序之后不会改变原始的相对次序</strong>。</p>
+<ul>
+<li>稳定性对基础类型对象来说毫无意义</li>
+<li>稳定性对非基础类型对象有意义，可以保留之前的相对次序</li>
+</ul>
+<hr>
+<h1 id="1-比较排序（基于元素两两比较，时间复杂度下界-O-n-log-n-）"><a href="#1-比较排序（基于元素两两比较，时间复杂度下界-O-n-log-n-）" class="headerlink" title="1. 比较排序（基于元素两两比较，时间复杂度下界 O(n log n)）"></a>1. 比较排序（基于元素两两比较，时间复杂度下界 O(n log n)）</h1><h2 id="1-冒泡排序"><a href="#1-冒泡排序" class="headerlink" title="1. 冒泡排序"></a>1. 冒泡排序</h2><ul>
+<li><strong>核心思想</strong>：重复遍历数组，依次比较相邻元素，若顺序错误则交换。每一轮把当前未排序部分的最大值”冒泡”到末尾。</li>
+<li><strong>稳定性</strong>：稳定</li>
+</ul>
+<h2 id="2-选择排序"><a href="#2-选择排序" class="headerlink" title="2. 选择排序"></a>2. 选择排序</h2><ul>
+<li><strong>核心思想</strong>：将数组分为已排序和未排序两部分。每一轮从未排序部分中选出最小元素，与未排序部分的首元素交换位置。</li>
+<li><strong>稳定性</strong>：不稳定</li>
+</ul>
+<h2 id="3-插入排序"><a href="#3-插入排序" class="headerlink" title="3. 插入排序"></a>3. 插入排序</h2><ul>
+<li><strong>核心思想</strong>：将数组分为已排序和未排序两部分。每一轮将未排序部分的第一个元素，插入到已排序部分的正确位置。</li>
+<li><strong>稳定性</strong>：稳定</li>
+</ul>
+<h2 id="4-希尔排序"><a href="#4-希尔排序" class="headerlink" title="4. 希尔排序"></a>4. 希尔排序</h2><ul>
+<li><strong>核心思想</strong>：插入排序的改进版。先将数组按间隔（gap）分组，对每组分别进行插入排序；逐步缩小间隔，最终间隔为 1 时完成全局插入排序。</li>
+<li><strong>稳定性</strong>：不稳定</li>
+</ul>
+<h2 id="5-归并排序"><a href="#5-归并排序" class="headerlink" title="5. 归并排序"></a>5. 归并排序</h2><ul>
+<li><strong>核心思想</strong>：分治思想。将数组递归地对半拆分，直到每个子数组只有一个元素；再将两个有序子数组合并成一个更大的有序数组。</li>
+<li><strong>稳定性</strong>：稳定</li>
+</ul>
+<h2 id="6-快速排序"><a href="#6-快速排序" class="headerlink" title="6. 快速排序"></a>6. 快速排序</h2><ul>
+<li><strong>核心思想</strong>：分治思想。选取一个基准（pivot）元素，将数组划分为小于基准、等于基准、大于基准三部分；对左右两部分递归执行相同操作。</li>
+<li><strong>稳定性</strong>：不稳定</li>
+</ul>
+<h2 id="7-堆排序"><a href="#7-堆排序" class="headerlink" title="7. 堆排序"></a>7. 堆排序</h2><ul>
+<li><strong>核心思想</strong>：利用完全二叉堆结构。先将数组构建成最大堆，然后不断将堆顶（最大值）与末尾元素交换，缩小堆的范围并重新调整为最大堆。</li>
+<li><strong>稳定性</strong>：不稳定</li>
+</ul>
+<hr>
+<h1 id="2-非比较排序（不做两两比较，时间复杂度可突破-O-n-log-n-）"><a href="#2-非比较排序（不做两两比较，时间复杂度可突破-O-n-log-n-）" class="headerlink" title="2. 非比较排序（不做两两比较，时间复杂度可突破 O(n log n)）"></a>2. 非比较排序（不做两两比较，时间复杂度可突破 O(n log n)）</h1><h2 id="1-计数排序"><a href="#1-计数排序" class="headerlink" title="1. 计数排序"></a>1. 计数排序</h2><ul>
+<li><strong>核心思想</strong>：遍历数组统计每个元素出现的次数，利用数组下标（天然有序性）直接算出每个元素在结果数组中的位置。</li>
+<li><strong>适用前提</strong>：元素是整数且取值范围在可接受范围内</li>
+<li><strong>稳定性</strong>：稳定</li>
+</ul>
+<h2 id="2-桶排序"><a href="#2-桶排序" class="headerlink" title="2. 桶排序"></a>2. 桶排序</h2><ul>
+<li><strong>核心思想</strong>：将数组元素按值的范围分配到若干个”桶”中；对每个桶内部分别排序（可使用任意排序算法）；最后依次将各桶的元素取出拼接。</li>
+<li><strong>稳定性</strong>：取决于桶内排序算法，通常稳定</li>
+</ul>
+<h2 id="3-基数排序"><a href="#3-基数排序" class="headerlink" title="3. 基数排序"></a>3. 基数排序</h2><ul>
+<li><strong>核心思想</strong>：多轮按”位”排序。从低位到高位（或高位到低位），每一轮基于当前位的值将元素分配到 0~9 的桶中，再依次取出形成新序列；重复直至所有位处理完毕。</li>
+<li><strong>稳定性</strong>：稳定（要求每一轮使用稳定的桶内分配方式）</li>
+</ul>
+<hr>
+<h1 id="3-常见排序算法对比总结"><a href="#3-常见排序算法对比总结" class="headerlink" title="3. 常见排序算法对比总结"></a>3. 常见排序算法对比总结</h1><table>
+<thead>
+<tr>
+<th>排序算法</th>
+<th>平均时间复杂度</th>
+<th>最坏时间复杂度</th>
+<th>空间复杂度</th>
+<th>稳定性</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>冒泡排序</td>
+<td>O(n²)</td>
+<td>O(n²)</td>
+<td>O(1)</td>
+<td>稳定</td>
+</tr>
+<tr>
+<td>选择排序</td>
+<td>O(n²)</td>
+<td>O(n²)</td>
+<td>O(1)</td>
+<td>不稳定</td>
+</tr>
+<tr>
+<td>插入排序</td>
+<td>O(n²)</td>
+<td>O(n²)</td>
+<td>O(1)</td>
+<td>稳定</td>
+</tr>
+<tr>
+<td>希尔排序</td>
+<td>O(n^1.3)</td>
+<td>O(n²)</td>
+<td>O(1)</td>
+<td>不稳定</td>
+</tr>
+<tr>
+<td>归并排序</td>
+<td>O(n log n)</td>
+<td>O(n log n)</td>
+<td>O(n)</td>
+<td>稳定</td>
+</tr>
+<tr>
+<td>快速排序</td>
+<td>O(n log n)</td>
+<td>O(n²)</td>
+<td>O(log n)</td>
+<td>不稳定</td>
+</tr>
+<tr>
+<td>堆排序</td>
+<td>O(n log n)</td>
+<td>O(n log n)</td>
+<td>O(1)</td>
+<td>不稳定</td>
+</tr>
+<tr>
+<td>计数排序</td>
+<td>O(n + k)</td>
+<td>O(n + k)</td>
+<td>O(n + k)</td>
+<td>稳定</td>
+</tr>
+<tr>
+<td>桶排序</td>
+<td>O(n + k)</td>
+<td>O(n²)</td>
+<td>O(n + k)</td>
+<td>视情况</td>
+</tr>
+<tr>
+<td>基数排序</td>
+<td>O(d × (n + k))</td>
+<td>O(d × (n + k))</td>
+<td>O(n + k)</td>
+<td>稳定</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>注：n 为元素数量，k 为取值范围大小，d 为最大位数</p>
+</blockquote>
+<hr>
+<h1 id="4-Java-中常见集合的排序方式"><a href="#4-Java-中常见集合的排序方式" class="headerlink" title="4. Java 中常见集合的排序方式"></a>4. Java 中常见集合的排序方式</h1><h2 id="默认排序方向"><a href="#默认排序方向" class="headerlink" title="默认排序方向"></a>默认排序方向</h2><ul>
+<li><strong>所有内置排序方法默认都是升序</strong>（从小到大）</li>
+<li>降序可通过 <code>Comparator.reverseOrder()</code> 或自定义比较器实现</li>
+<li>基本类型数组没有直接降序方法，需转为包装类型数组或手动反转</li>
+</ul>
+<h2 id="数组排序-Arrays-sort"><a href="#数组排序-Arrays-sort" class="headerlink" title="数组排序 Arrays.sort()"></a>数组排序 <code>Arrays.sort()</code></h2><ul>
+<li><strong>基本类型数组（int[]、long[] 等）</strong>：底层使用 <code>DualPivotQuicksort</code>（双轴快速排序），<strong>不稳定</strong>，默认升序</li>
+<li><strong>对象数组（Integer[]、String[] 等）</strong>：底层使用 <code>TimSort</code>（归并排序 + 插入排序的混合算法），<strong>稳定</strong>，默认升序</li>
+<li>可传入 <code>Comparator</code> 自定义排序规则</li>
+</ul>
+<h2 id="List-排序-Collections-sort-list-sort"><a href="#List-排序-Collections-sort-list-sort" class="headerlink" title="List 排序 Collections.sort() &#x2F; list.sort()"></a>List 排序 <code>Collections.sort()</code> &#x2F; <code>list.sort()</code></h2><ul>
+<li><code>Collections.sort(list)</code>：本质调用 <code>list.sort(null)</code>，默认升序</li>
+<li><code>list.sort(comparator)</code>（Java 8+）：底层将 List 转为数组后调用 <code>Arrays.sort()</code>，即 <strong>TimSort</strong>，<strong>稳定</strong></li>
+<li>可传入 <code>Comparator</code> 自定义排序规则</li>
+</ul>
+<h2 id="Stream-排序-stream-sorted-（Java-8-）"><a href="#Stream-排序-stream-sorted-（Java-8-）" class="headerlink" title="Stream 排序 stream.sorted()（Java 8+）"></a>Stream 排序 <code>stream.sorted()</code>（Java 8+）</h2><ul>
+<li><code>stream.sorted()</code>：按元素自然顺序（升序）排序（元素需实现 <code>Comparable</code>）</li>
+<li><code>stream.sorted(comparator)</code>：传入 <code>Comparator</code> 自定义排序规则</li>
+<li>底层仍是 TimSort，<strong>稳定</strong></li>
+<li>排序后需通过 <code>collect()</code> 收集为新集合，不影响原集合</li>
+</ul>
+<h2 id="自动有序集合"><a href="#自动有序集合" class="headerlink" title="自动有序集合"></a>自动有序集合</h2><table>
+<thead>
+<tr>
+<th>集合类</th>
+<th>底层结构</th>
+<th>默认排序方向</th>
+<th>排序方式</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>TreeSet</code></td>
+<td>红黑树</td>
+<td>升序</td>
+<td>元素实现 <code>Comparable</code> 或构造时传入 <code>Comparator</code></td>
+</tr>
+<tr>
+<td><code>TreeMap</code></td>
+<td>红黑树</td>
+<td>升序</td>
+<td>Key 实现 <code>Comparable</code> 或构造时传入 <code>Comparator</code></td>
+</tr>
+<tr>
+<td><code>PriorityQueue</code></td>
+<td>二叉堆</td>
+<td>升序（小顶堆）</td>
+<td>默认自然顺序，可传入 <code>Comparator</code></td>
+</tr>
+</tbody></table>
+<ul>
+<li>插入元素时自动维护有序性，无需额外调用排序方法</li>
+</ul>
+<h2 id="Comparable-vs-Comparator"><a href="#Comparable-vs-Comparator" class="headerlink" title="Comparable vs Comparator"></a>Comparable vs Comparator</h2><table>
+<thead>
+<tr>
+<th>对比项</th>
+<th>Comparable</th>
+<th>Comparator</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>所属包</td>
+<td><code>java.lang</code></td>
+<td><code>java.util</code></td>
+</tr>
+<tr>
+<td>方法</td>
+<td><code>compareTo(T o)</code></td>
+<td><code>compare(T o1, T o2)</code></td>
+</tr>
+<tr>
+<td>使用方式</td>
+<td>元素内部实现（自然排序）</td>
+<td>外部传入（定制排序）</td>
+</tr>
+<tr>
+<td>排序调用</td>
+<td><code>Collections.sort(list)</code> &#x2F; <code>list.sort(null)</code></td>
+<td><code>list.sort(comparator)</code></td>
+</tr>
+<tr>
+<td>能否多种排序</td>
+<td>只能有一种（类内部定义）</td>
+<td>可以有多种（外部灵活传入）</td>
+</tr>
+</tbody></table>
+<h2 id="Comparator-构造方式"><a href="#Comparator-构造方式" class="headerlink" title="Comparator 构造方式"></a>Comparator 构造方式</h2><p>以下以 <code>Person(name, age)</code> 类为例，按年龄升序排序：</p>
+<p><strong>方式一：匿名内部类（Java 7 及以前）</strong></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">list.sort(<span class="keyword">new</span> <span class="title class_">Comparator</span>&lt;Person&gt;() &#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span> <span class="title function_">compare</span><span class="params">(Person o1, Person o2)</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> o1.age - o2.age;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+<p><strong>方式二：Lambda 表达式（Java 8+）</strong></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">list.sort((o1, o2) -&gt; o1.age - o2.age);</span><br></pre></td></tr></table></figure>
+
+<p><strong>方式三：方法引用（Java 8+，需类有对应方法）</strong></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">list.sort(Person::compareByAge);</span><br></pre></td></tr></table></figure>
+
+<p><strong>方式四：Comparator 静态工厂方法（Java 8+，推荐）</strong></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">list.sort(Comparator.comparingInt(p -&gt; p.age));           <span class="comment">// 按 age 升序</span></span><br><span class="line">list.sort(Comparator.comparingInt((Person p) -&gt; p.age).reversed()); <span class="comment">// 按 age 降序</span></span><br><span class="line">list.sort(Comparator.comparing((Person p) -&gt; p.name)      <span class="comment">// 先按 name 升序</span></span><br><span class="line">                     .thenComparingInt(p -&gt; p.age));      <span class="comment">// 再按 age 升序</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>降序排序的三种写法</strong></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">list.sort(Comparator.reverseOrder());          <span class="comment">// 方式一：reverseOrder()</span></span><br><span class="line">list.sort(Comparator.naturalOrder().reversed()); <span class="comment">// 方式二：naturalOrder().reversed()</span></span><br><span class="line">list.sort((o1, o2) -&gt; o2.age - o1.age);        <span class="comment">// 方式三：交换 o1 o2 位置</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="关键设计总结"><a href="#关键设计总结" class="headerlink" title="关键设计总结"></a>关键设计总结</h2><table>
+<thead>
+<tr>
+<th>场景</th>
+<th>使用算法</th>
+<th>稳定性</th>
+<th>默认方向</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>Arrays.sort(基本类型[])</code></td>
+<td>DualPivotQuicksort</td>
+<td>不稳定</td>
+<td>升序</td>
+</tr>
+<tr>
+<td><code>Arrays.sort(对象[])</code> &#x2F; <code>List.sort()</code></td>
+<td>TimSort</td>
+<td>稳定</td>
+<td>升序</td>
+</tr>
+<tr>
+<td><code>Stream.sorted()</code></td>
+<td>TimSort</td>
+<td>稳定</td>
+<td>升序</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>为什么基本类型和对象类型用不同算法？</strong><br>基本类型不需要稳定性（值相等无意义），双轴快排平均性能更优、空间复杂度 O(1)。<br>对象类型需要稳定性（保留相等元素的相对顺序），且 TimSort 在部分有序场景下性能更优。</p>
+</blockquote>
+<hr>
+<h1 id="5-算法题中何时使用集合排序？"><a href="#5-算法题中何时使用集合排序？" class="headerlink" title="5. 算法题中何时使用集合排序？"></a>5. 算法题中何时使用集合排序？</h1><h2 id="一句话原则"><a href="#一句话原则" class="headerlink" title="一句话原则"></a>一句话原则</h2><p><strong>当排序能让问题的约束条件变得简单时，先排序！</strong> 排序是算法题中性价比最高的预处理手段之一，一次 O(n log n) 的排序，可能换来后续 O(n) 就能解决核心问题。</p>
+<hr>
+<h2 id="✅-应该使用排序的典型场景"><a href="#✅-应该使用排序的典型场景" class="headerlink" title="✅ 应该使用排序的典型场景"></a>✅ 应该使用排序的典型场景</h2><h3 id="1-去重问题"><a href="#1-去重问题" class="headerlink" title="1. 去重问题"></a>1. 去重问题</h3><p>排序后相同元素相邻，通过 <code>nums[i] != nums[i-1]</code> 即可跳过重复，避免了 Set 的额外空间开销。</p>
+<blockquote>
+<p>典型题：LeetCode 31.下一个排列、LeetCode 217.存在重复元素</p>
+</blockquote>
+<h3 id="2-双指针-滑动窗口前提"><a href="#2-双指针-滑动窗口前提" class="headerlink" title="2. 双指针 &#x2F; 滑动窗口前提"></a>2. 双指针 &#x2F; 滑动窗口前提</h3><p>双指针法的核心前提就是<strong>数组有序</strong>，否则指针移动没有方向依据。排序 + 双指针是解决”找两数&#x2F;三数组合”类问题的黄金组合。</p>
+<blockquote>
+<p>典型题：LeetCode 15.三数之和、LeetCode 11.盛最多水的容器、LeetCode 16.最接近的三数之和</p>
+</blockquote>
+<h3 id="3-区间问题"><a href="#3-区间问题" class="headerlink" title="3. 区间问题"></a>3. 区间问题</h3><p>按左端点或右端点排序后，区间关系变得有规律，只需一次遍历即可完成合并、插入或判断重叠。</p>
+<blockquote>
+<p>典型题：LeetCode 56.合并区间、LeetCode 57.插入区间、LeetCode 435.无重叠区间</p>
+</blockquote>
+<h3 id="4-分组-聚合处理"><a href="#4-分组-聚合处理" class="headerlink" title="4. 分组 &#x2F; 聚合处理"></a>4. 分组 &#x2F; 聚合处理</h3><p>排序后相同或相似的元素聚集在一起，可以一边遍历一边统计或处理，不需要额外的 HashMap。</p>
+<blockquote>
+<p>典型题：LeetCode 49.字母异位词分组、LeetCode 128.最长连续序列</p>
+</blockquote>
+<h3 id="5-找中位数"><a href="#5-找中位数" class="headerlink" title="5. 找中位数"></a>5. 找中位数</h3><p>排序后直接通过下标访问即可。但如果只需要 Top-K 不需要全排序，<strong>优先用堆</strong>（O(n log k)）更优。</p>
+<blockquote>
+<p>典型题：LeetCode 4.寻找两个正序数组的中位数</p>
+</blockquote>
+<h3 id="6-贪心策略前置"><a href="#6-贪心策略前置" class="headerlink" title="6. 贪心策略前置"></a>6. 贪心策略前置</h3><p>很多贪心算法需要先排序才能确定”贪心顺序”——按什么顺序处理局部最优。</p>
+<blockquote>
+<p>典型题：LeetCode 455.分发饼干、LeetCode 435.无重叠区间、LeetCode 1005.K次取反后最大化的数组和</p>
+</blockquote>
+<hr>
+<h2 id="❌-不应该全排序的场景"><a href="#❌-不应该全排序的场景" class="headerlink" title="❌ 不应该全排序的场景"></a>❌ 不应该全排序的场景</h2><table>
+<thead>
+<tr>
+<th>场景</th>
+<th>原因</th>
+<th>更优方案</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>只需要 Top-K 而不需要全排序</td>
+<td>全排序 O(n log n) 做了无用功</td>
+<td>堆（优先队列），O(n log k)</td>
+</tr>
+<tr>
+<td>要求 O(n) 线性时间</td>
+<td>排序下界 O(n log n) 不满足</td>
+<td>计数排序、桶排序、快速选择</td>
+</tr>
+<tr>
+<td>流式数据（数据量极大）</td>
+<td>无法一次性全部加载到内存</td>
+<td>外部排序 &#x2F; 堆维护 Top-K</td>
+</tr>
+<tr>
+<td>两数之和（返回下标）</td>
+<td>排序会打乱原始下标</td>
+<td>HashMap 空间换时间，O(n)</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="Java-算法题实战技巧"><a href="#Java-算法题实战技巧" class="headerlink" title="Java 算法题实战技巧"></a>Java 算法题实战技巧</h2><h3 id="int-降序排序"><a href="#int-降序排序" class="headerlink" title="int[] 降序排序"></a>int[] 降序排序</h3><p>基本类型数组没有直接降序方法，常见做法：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 方式一：转为 Integer[]（会装箱，大数据量有性能损耗）</span></span><br><span class="line">Integer[] arr = Arrays.stream(nums).boxed().toArray(Integer[]::<span class="keyword">new</span>);</span><br><span class="line">Arrays.sort(arr, Collections.reverseOrder());</span><br><span class="line"></span><br><span class="line"><span class="comment">// 方式二：升序排完手动反转（推荐，原地修改）</span></span><br><span class="line">Arrays.sort(nums);</span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>, j = nums.length - <span class="number">1</span>; i &lt; j; i++, j--) &#123;</span><br><span class="line">    <span class="type">int</span> <span class="variable">t</span> <span class="operator">=</span> nums[i]; nums[i] = nums[j]; nums[j] = t;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="对-List-排序"><a href="#对-List-排序" class="headerlink" title="对 List 排序"></a>对 List<Integer> 排序</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">Collections.sort(list);                           <span class="comment">// 升序</span></span><br><span class="line">Collections.sort(list, Collections.reverseOrder()); <span class="comment">// 降序</span></span><br><span class="line">list.sort(Comparator.reverseOrder());              <span class="comment">// Java 8+ 写法</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="自定义对象排序"><a href="#自定义对象排序" class="headerlink" title="自定义对象排序"></a>自定义对象排序</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 按身高升序，身高相同按体重降序（LeetCode 406.根据身高重建队列）</span></span><br><span class="line">people.sort((a, b) -&gt; a[<span class="number">0</span>] == b[<span class="number">0</span>] ? b[<span class="number">1</span>] - a[<span class="number">1</span>] : a[<span class="number">0</span>] - b[<span class="number">0</span>]);</span><br></pre></td></tr></table></figure>
+
+<h3 id="Comparator-中避免整数溢出"><a href="#Comparator-中避免整数溢出" class="headerlink" title="Comparator 中避免整数溢出"></a>Comparator 中避免整数溢出</h3><p>直接用 <code>a - b</code> 比较可能导致 int 溢出（如 Integer.MAX_VALUE - (-1)），推荐：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 安全写法一：用 Integer.compare</span></span><br><span class="line">list.sort((a, b) -&gt; Integer.compare(a.age, b.age));</span><br><span class="line"></span><br><span class="line"><span class="comment">// 安全写法二：用 Comparator 静态工厂（推荐）</span></span><br><span class="line">list.sort(Comparator.comparingInt(p -&gt; p.age));</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>算法之旅</category>
+      </categories>
+      <tags>
+        <tag>排序</tag>
+        <tag>算法知识</tag>
       </tags>
   </entry>
   <entry>
@@ -1580,12 +1953,12 @@
 <tbody><tr>
 <td>004</td>
 <td>选择、冒泡、插入排序</td>
-<td></td>
+<td><a href="/algorithm_journey/sort/" title="排序算法">排序算法</a></td>
 </tr>
 <tr>
 <td>006</td>
 <td>二分搜索</td>
-<td><a href="/2026/07/20/algorithm/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/" title="二分查找">二分查找</a></td>
+<td><a href="/algorithm_journey/binary-search/" title="二分搜索入门">二分搜索入门</a></td>
 </tr>
 </tbody></table>
 <h3 id="链表"><a href="#链表" class="headerlink" title="链表"></a>链表</h3><table>
@@ -1930,7 +2303,7 @@
 <tbody><tr>
 <td>051</td>
 <td>二分答案法与相关题目</td>
-<td></td>
+<td><a href="/algorithm_journey/binary-search-answer/" title="二分答案法">二分答案法</a></td>
 </tr>
 </tbody></table>
 <h3 id="13-单调栈-单调队列"><a href="#13-单调栈-单调队列" class="headerlink" title="13 单调栈 &amp; 单调队列"></a>13 单调栈 &amp; 单调队列</h3><table>
@@ -2451,11 +2824,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>全部标签</title>
-    <url>/tags/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>资源索引</title>
     <url>/resources/index.html</url>
     <content><![CDATA[<h1 id="资源索引"><a href="#资源索引" class="headerlink" title="资源索引"></a>资源索引</h1><p>这里汇总我的项目、创作内容与各平台入口。</p>
@@ -2477,6 +2845,11 @@
 <li><a href="https://pixabay.com/">Pixabay</a>：免费商用图库</li>
 </ul>
 ]]></content>
+  </entry>
+  <entry>
+    <title>全部标签</title>
+    <url>/tags/index.html</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>站点纪事</title>
